@@ -10,7 +10,6 @@ import * as Constants from '../components/Constants';
 
 export class about extends Component {
     componentDidMount() {
-        // document.getElementById("nav").classList.add("bg-rainbow");
         window.scrollTo(0, 0);
       }
     render() {
@@ -49,7 +48,7 @@ export class about extends Component {
                         <Row>
                             <Col xl={12} className="bg-smoke align-left min-100 p-5">
                                 <h6 className="text-uppercase">Frameworks + Animation</h6>
-                                <h1 className="page_title font-weight-bold ">I create websites & applications with React, Next.js, and Angular. I love web animation and use GSAP, AOS, Scroll Magic, Rellax.js, React-reveal, Framer, SWUP and more to create elegant user experiences.</h1>
+                                <h1 className="page_title font-weight-bold ">I create single page applications with React, Next.js, and Angular. I also love web animation and use GSAP, AOS, Scroll Magic, Rellax.js, React-reveal, Framer, SWUP and more to create elegant user experiences.</h1>
                                 <div className="display-3 font-weight-light">↓</div>
                             </Col>
                         </Row>
