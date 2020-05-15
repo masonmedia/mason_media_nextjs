@@ -35,9 +35,12 @@ p {
     font-weight: 900;
     letter-spacing: -3px;
     text-decoration: none;
-    text-transform: lowercase;
     line-height: 100%;
     margin-top: 0;
+}
+
+#projects .page_title {
+    text-transform: lowercase;
 }
 
 .section_title {

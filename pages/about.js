@@ -56,7 +56,7 @@ export class about extends Component {
                         <Row>
                             <Col xl={12} className="bg-turq text-light align-left min-100 p-5">
                                 <h6 className="text-uppercase">Graphic + UI + UX Design</h6>
-                                <h1 className="page_title font-weight-bold">I design unique imagery for websites, social media, and print using Photoshop, Canva, Crello, Lunapic and other tools. I make logos, posters, invitations, and source the perfect project-specific photos.</h1>
+                                <h1 className="page_title font-weight-bold">I design UIs + imagery for websites, social media, and print using Photoshop, Canva, Crello, Lunapic and other tools. I make logos, posters, invitations, and source the perfect project-specific photos.</h1>
                                 <div className="display-3 font-weight-light">↓</div>
                             </Col>
                         </Row>

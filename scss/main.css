@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800;900&display=swap");
 .min-100 {
   min-height: 100vh;
 }
@@ -63,6 +64,56 @@
 
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar {
+  transition: all .3s ease-in-out;
+}
+
+.navbar-brand > img {
+  width: 130px;
+}
+
+.icon-bar {
+  width: 22px;
+  height: 2px;
+  background-color: #000;
+  display: block;
+  transition: all 0.3s;
+  margin-top: 4px;
+}
+
+.navbar-light .navbar-toggler,
+.navbar-toggler {
+  color: black;
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
 }
 
 .align-left {
@@ -134,12 +185,13 @@
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: Helvetica Neue, 'Montserrat', Futura, Arial, sans-serif;
-  font-family: 'Montserrat', Helvetica Neue, Futura, Arial, sans-serif;
+  font-family: 'Inter', 'Montserrat', Futura, Arial, sans-serif;
 }
 
 p {
   font-size: 20px;
   line-height: 110%;
+  font-weight: 400;
 }
 
 .site-title {
@@ -160,11 +212,15 @@ p {
 
 .page_title {
   font-size: 10vmin;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: -3px;
   text-decoration: none;
   line-height: 100%;
   margin-top: 0;
+}
+
+#projects .page_title {
+  text-transform: lowercase;
 }
 
 .section_title {
@@ -311,10 +367,6 @@ img {
   filter: drop-shadow(3px 3px 12px rgba(0, 0, 0, 0.5));
 }
 
-.btn {
-  border-radius: 20px !important;
-}
-
 .arrow-btn {
   color: #fff;
   transition: all .3s ease-in-out;
@@ -324,6 +376,16 @@ img {
   background: #fff;
   box-shadow: 0 0 15px #000;
   color: #000;
+}
+
+footer,
+footer ul li {
+  color: #fff;
+}
+
+footer h3 {
+  font-weight: 900;
+  margin-bottom: 0;
 }
 
 html,
@@ -347,19 +409,6 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.fade-in {
-  animation: fadeIn 1s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 main {
   width: 100%;
   overflow-x: hidden;
@@ -372,5 +421,6 @@ a {
 
 a:hover {
   color: inherit;
+  cursor: pointer;
   text-decoration: none !important;
 }
