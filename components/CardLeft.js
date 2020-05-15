@@ -15,7 +15,7 @@ export class CardLeft extends Component {
                         <h6 className="small text-uppercase">
                             {this.props.microTitle}
                         </h6>
-                        <h2 className="h1 font-weight-bold text-uppercase m-0 p-0">
+                        <h2 className="page_title m-0 p-0">
                             <span>{this.props.cardTitle1}</span>
                             <span className="d-table">{this.props.cardTitle2}</span>
                         </h2>
@@ -24,7 +24,7 @@ export class CardLeft extends Component {
                             <h6 className="font-weight-light">
                                 {this.props.cardSubTitle}
                             </h6>
-                            <Card.Text>
+                            <Card.Text className="font-weight-bold">
                                 {this.props.cardText}
                             </Card.Text>
                         </blockquote>
