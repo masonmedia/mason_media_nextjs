@@ -48,7 +48,7 @@ export class about extends Component {
                         <Row>
                             <Col xl={12} className="bg-smoke align-left min-100 p-5">
                                 <h6 className="text-uppercase">Frameworks + Animation</h6>
-                                <h1 className="page_title font-weight-bold ">I create single page applications with React, Next.js, and Angular. I also love web animation and use GSAP, AOS, Scroll Magic, Rellax.js, React-reveal, Framer, SWUP and more to create elegant user experiences.</h1>
+                                <h1 className="page_title font-weight-bold ">I also create single page applications with React, Next.js, and Angular. I love web animation and use GSAP, AOS, Scroll Magic, Rellax.js, React-reveal, Framer, SWUP and more to create elegant user experiences.</h1>
                                 <div className="display-3 font-weight-light">↓</div>
                             </Col>
                         </Row>
@@ -56,15 +56,15 @@ export class about extends Component {
                         <Row>
                             <Col xl={12} className="bg-turq text-light align-left min-100 p-5">
                                 <h6 className="text-uppercase">Graphic + UI + UX Design</h6>
-                                <h1 className="page_title font-weight-bold">I use Photoshop, Canva, Crello, Lunapic and other tools to design for web, social media, and print. I make logos, posters, invitations, and source the perfect project-specific photos.</h1>
+                                <h1 className="page_title font-weight-bold">I design unique imagery for websites, social media, and print using Photoshop, Canva, Crello, Lunapic and other tools. I make logos, posters, invitations, and source the perfect project-specific photos.</h1>
                                 <div className="display-3 font-weight-light">↓</div>
                             </Col>
                         </Row>
 
                         <Row>
                             <Col xl={12} className="bg-red text-light align-left min-100 p-5">
-                                <h6 className="text-uppercase">Copy Writing + Editing</h6>
-                                <h1 className="page_title font-weight-bold">I write and edit copy for a wide variety of contexts. I specialize in web consumption, UX copywriting, SEO, and parsing text for web presentation.</h1>
+                                <h6 className="text-uppercase">Copywriting + Editing</h6>
+                                <h1 className="page_title font-weight-bold">I write and edit copy for a wide variety of contexts. I strive for fast moving, easy-to-read content with humour and originality, while specializing in UX, SEO, and editing for web presentation.</h1>
                                 <div className="display-3 font-weight-light">↓</div>
                             </Col>
                         </Row>
