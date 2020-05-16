@@ -43,7 +43,7 @@ export class warrenyen extends Component {
                             <h6 className="display-1 font-weight-bold mb-0 mt-4">01.</h6>
                             <h1 className="page_title">Warren Yen</h1>
                             <p className="py-2">A website build for UX/UI Designer Warren Yen, this project required the development of a UI and layout provided by the client. I was free to choose tech stack and went with HTML5, PHP for reusable header/footer components, CSS3/SASS, the SWUP library for ajax page transitions, AOS (animate on scroll) for scroll animations, and Parcel as an application bundler. 
-                            The client also requested he be able to update and customize the site himself, which informed my approach to architecture: I made all main page sections and elements into reuseable, easily customizeable components.</p>
+                            The client also requested he be able to update and customize the site himself, which informed my approach to architecture: I made all pages, sections, and elements into reuseable, easily customizeable components.</p>
                         </Col>
                         <Col xl={6} className="p-3 bg-turq">
                             <img className="drop-shadow" src={wy_thumb} />
@@ -75,7 +75,7 @@ export class warrenyen extends Component {
                             </a>
                             <p className="">*I do not maintain this site.</p>
                             {/* pagination */}
-                            <div className="d-flex mt-2">
+                            <div className="d-flex mt-3">
                                 <Link href="/projects" scroll={false}>
                                     <a><Button 
                                     className="mr-2"
