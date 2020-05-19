@@ -14,8 +14,10 @@ export function Menu(props) {
         expanded={expanded} 
         expand="lg" 
         fixed="top" 
-        variant="light"
-        className="bg-smoke border-bottom">
+        variant={props.variant}
+        bg={props.bg}
+        className={props.navClass}>
+        {/* className="bg-smoke border-bottom" */}
             <Link href="/" scroll={false}>
                 <a className="navbar-brand" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>
                     <span className="font-weight-bold">Mason</span>Media

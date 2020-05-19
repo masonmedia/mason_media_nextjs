@@ -33,14 +33,8 @@ export class warrenyen extends Component {
                 <Container fluid className="bg-smoke">
                     <Row>
                         <Col xl={6} className="align-left min-100 p-5">
-                            {/* pagination */}
-                            {/* <div className="d-flex mt-4">
-                                <Link href="/projects" scroll={false}>
-                                    <a><span className="h1 font-weight-light mr-3 mb-0 text-muted">←</span></a>
-                                </Link>
-                                <span className="h1 font-weight-light mb-0 text-muted">→</span>
-                            </div> */}
-                            <h6 className="display-1 font-weight-bold mb-0 mt-4">01.</h6>
+                            <h6 className="project_number display-1 font-weight-bold mb-0 mt-4">01.</h6>
+                            <h6 className="absolute z-0 left display-1 font-weight-bold" style={{fontSize: '80vw', opacity: '0.05'}}>W</h6>
                             <h1 className="page_title">Warren Yen</h1>
                             <p className="py-2">A website build for UX/UI Designer Warren Yen, this project required the development of a UI and layout provided by the client. I was free to choose tech stack and went with HTML5, PHP for reusable header/footer components, CSS3/SASS, the SWUP library for ajax page transitions, AOS (animate on scroll) for scroll animations, and Parcel as an application bundler. 
                             The client also requested he be able to update and customize the site himself, which informed my approach to architecture: I made all pages, sections, and elements into reuseable, easily customizeable components.</p>
@@ -81,7 +75,7 @@ export class warrenyen extends Component {
                                     className="mr-2"
                                     variant="outline-dark">Previous</Button></a>
                                 </Link>
-                                <Link href="/projects/jaxx" scroll={false}>
+                                <Link href="/projects/at" scroll={false}>
                                     <a><Button 
                                     variant="dark">Next</Button></a>
                                 </Link>

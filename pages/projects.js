@@ -10,8 +10,12 @@ import CardRight from '../components/CardRight';
 import Menu from '../components/Menu';
 import * as Constants from '../components/Constants';
 import Footer from '../components/Footer';
+import astro from '../images/coding_icon.png';
+// import icon from '../images/innovation_isometric.svg';
+import icon from '../images/parachute_isometric.svg';
+import tv from '../images/construction_site_isometric.svg';
 import wy_thumb from '../images/wy_macbookgold.png';
-import at_thumb from '../images/at_laptop.png';
+import at_thumb from '../images/at/at_laptop.png';
 import jaxx_thumb from '../images/jaxx_laptop.png';
 import dc_thumb from '../images/dc_laptop.png';
 import n2_thumb from '../images/n2_laptop.png';
@@ -21,7 +25,6 @@ import bhs_thumb from '../images/bhs_laptop.png';
 
 export class projects extends Component {
   componentDidMount() {
-    document.getElementById("nav").classList.add("bg-rainbow");
     window.scrollTo(0, 0);
   }
     render() {
@@ -34,9 +37,29 @@ export class projects extends Component {
             <Head>
                 <title>Andrew Mason | Projects</title>
             </Head>
-            <Menu variant="dark" />
+            <Menu bg="rainbow" variant="dark" />
             <Container id="projects" fluid className="bg-smoke pb-4">
-              <Row className="">
+            <Row className="bg-rainbow">
+              <Col className="align-center min-100 p-5">
+                <motion.div variants={Constants.textVariants}>
+                  <img 
+                  style={{borderRadius: '20%', width: '250px', height: '250px'}}
+                  // style={{width: '250px', height: '250px', clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)'
+                  // }}
+                  className="drop-shadow bg-pink p-2" 
+                  src={icon} />
+                  <h1 className="page_title text-light drop-shadow mt-2">
+                    projects
+                  </h1>
+                  </motion.div>
+                  <motion.div variants={Constants.backVariants}>
+                    <h5 className="small text-light text-uppercase">
+                    Check out some of my work below.</h5>
+                  </motion.div>
+              </Col>
+            </Row>
+
+              {/* <Row className="">
                 <Col className="align-left min-100 p-5 ">
                   <motion.div variants={Constants.textVariants}>
                     <h1 className="site-title rainbow-text-2">
@@ -47,9 +70,10 @@ export class projects extends Component {
                       <h2 className="site-subtitle">Check out the projects below for more info.</h2>
                     </motion.div>
                 </Col>
-              </Row>
+              </Row> */}
 
               <CardLeft 
+              rowClass="mt-4"
               col2Class="p-5"
               cardImgSrc={wy_thumb}
               microTitle="UX/UI/GRAPHIC DESIGNER"
@@ -57,6 +81,7 @@ export class projects extends Component {
               cardTitle2="Yen"
               cardSubTitle="HTML5, CSS3/SASS, PHP, Javascript, UX, Parcel Bundler"
               cardText="Portfolio website build for Toronto Designer Warren Yen."
+              href="/projects/warrenyen"
               >
                 <Link href="/projects/warrenyen" scroll={false}>
                   <a>
@@ -74,7 +99,7 @@ export class projects extends Component {
               cardSubTitle="HTML5, CSS3/SASS, PHP, Javascript, UI/UX/Graphic design"
               cardText="Website for Guelph/KW healthcare services provider Advance Therapy."
               >
-                <Link href="/advance" scroll={false}>
+                <Link href="/projects/at" scroll={false}>
                   <a>
                     <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
                   </a>

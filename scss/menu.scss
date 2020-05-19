@@ -2,18 +2,14 @@
     // color: lightgrey;
     font-weight: bold;
 }
-.navbar-dark .navbar-brand {
-    color: lightgrey;
-}
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,.9);
+  color: rgba(255,255,255,0.9) !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,.9);
+    color: rgba(0,0,0,1);
 }
-
 
 // navigation/menu
 
@@ -53,8 +49,13 @@
     margin-top: 4px
   }
 
+  .navbar-toggler {
+    border: none;
+    background: transparent !important;
+  }
 
 .navbar-light .navbar-toggler,
+.navbar-dark .navbar-toggler,
 .navbar-toggler {
     color: rgba(0,0,0,1);
     border: none;

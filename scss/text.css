@@ -40,6 +40,24 @@ p {
   text-transform: lowercase;
 }
 
+#projects h2 {
+  line-height: 90%;
+  margin-bottom: 20px;
+}
+
+.project_number {
+  letter-spacing: -11px;
+}
+
+.project_letter {
+  font-size: 80vw;
+  opacity: 0.05;
+}
+
+#project_detail .page_title {
+  text-transform: lowercase;
+}
+
 .section_title {
   letter-spacing: -2px;
   font-weight: 100;
@@ -50,11 +68,6 @@ p {
 
 .text-shadow {
   text-shadow: 5px 5px 5px #000;
-}
-
-#projects h2 {
-  line-height: 90%;
-  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
