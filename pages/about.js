@@ -7,6 +7,8 @@ import Col from 'react-bootstrap/Col';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 import * as Constants from '../components/Constants';
+import about_icon from '../images/music_isometric.svg';
+// import about_icon from '../images/innovation_isometric.svg';
 
 export class about extends Component {
     componentDidMount() {
@@ -36,6 +38,24 @@ export class about extends Component {
                             </motion.div>
                         </Col>
                     </Row> */}
+
+            <Row className="bg-rainbow">
+              <Col className="align-center min-100 p-5">
+                <motion.div variants={Constants.textVariants}>
+                  <img 
+                  style={{borderRadius: '20%', width: '250px', height: '250px'}}
+                  className="drop-shadow bg-pink p-2" 
+                  src={about_icon} />
+                  <h1 className="page_title text-light drop-shadow mt-2">
+                    about me
+                  </h1>
+                  </motion.div>
+                  <motion.div variants={Constants.backVariants}>
+                    <h5 className="small text-light text-uppercase">
+                    Check out some of my work below.</h5>
+                  </motion.div>
+              </Col>
+            </Row>
 
                     <Row className="bg-smoke">
                         <Col xl={12} className="align-left min-100 p-5">
