@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
 import ProjectItem from '../components/ProjectItem';
 import Menu from '../components/Menu';
 import * as Constants from '../components/Constants';
@@ -24,7 +23,6 @@ import emo from '../images/em_card_dark.jpg';
 import aimee from '../images/aimee_card.jpg';
 import bhs from '../images/bhs_lights.jpg';
 import wiwp from '../images/wiwp_flyer_dark.jpg';
-
 
 export class projects extends Component {
   componentDidMount() {
@@ -214,11 +212,9 @@ export class projects extends Component {
               cardSubTitle="Graphic Design, Logo creation, packaging design"
               cardText="Toronto coffee roaster Wake 'n Bake required a logo, color scheme, and packaging mockups for their new coffee company. The design focused on an 80s-inspired palette of neon primaries which offer a bright, exciting feel, while hinting at established brands such as David's Tea, rock band The Strokes, Google, Microsoft, and NBC."
               >
-                <Link href="/projects/yvr" scroll={false}>
-                  <a>
-                    <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
-                  </a>
-                </Link>
+                <a href="https://www.behance.net/gallery/93333999/Wake-n-Bake-Coffee-Co" target="_blank">
+                  <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
+                </a>
               </ProjectItem>
 
               <ProjectItem
@@ -226,31 +222,44 @@ export class projects extends Component {
               cardImgSrc={bhs}
               imgClass="p-0 my-4 circle"
               microTitle="Design: Toronto Funk Band"
-              cardTitle1="Big Horn Sheep"
-              cardSubTitle="Web development, Graphic Design, Logo creation, poster design"
+              cardTitle1="Big Horn"
+              cardTitle2="Sheep"
+              cardSubTitle="Graphic Design, Logo creation, poster design"
               cardText="Big Horn Sheep is an instrumental trio blending jazz, funk, EDM, and pop-rock styles. The band required a logo, website graphics, concert posters, album cover art, and social media content. The resulting designs incorporate an atari-influenced, 8-bit video game theme with bold neon colors, a styled ram's head logo, and variations on the theme for social media content."
               >
-                <Link href="/projects/yvr" scroll={false}>
-                  <a>
-                    <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
-                  </a>
-                </Link>
+                <a href="https://www.behance.net/gallery/93333317/Big-Horn-Sheep" target="_blank">
+                  <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
+                </a>
               </ProjectItem>
 
               <ProjectItem
               col2Class="p-5"
               cardImgSrc={emo}
               imgClass="p-0 my-4 circle"
-              microTitle="Design: EMO Video Production"
-              cardTitle1="EMO Productions"
+              microTitle="Design: Ed Mortenson"
+              cardTitle1="EMO"
+              cardTitle2="Productions"
               cardSubTitle="Graphic Design, Business cards"
               cardText="Toronto drummer and music instructor Ed Mortenson required business card designs for his performing, teaching, and video production services, as well as for his side hustle driving for Uber. He requested a design that combined equal parts brooding edgy rock, with the clean, trustworthy lines of a professional business."
               >
-                <Link href="/projects/yvr" scroll={false}>
-                  <a>
-                    <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
-                  </a>
-                </Link>
+                <a href="https://www.behance.net/gallery/93333651/Ed-Mortenson-Business-Card-Design" target="_blank">
+                  <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
+                </a>
+              </ProjectItem>
+              
+              <ProjectItem
+              col2Class="p-5"
+              cardImgSrc={aimee}
+              imgClass="p-0 my-4 circle"
+              microTitle="Design: Toronto Jazz Vocalist"
+              cardTitle1="Aimee"
+              cardTitle2="Claxton"
+              cardSubTitle="Graphic Design, Business cards, Concert posters"
+              cardText="Toronto vocalist, bandleader, and music instructor Aimee Claxton is talented composer and performer who required a number of designs for her performing and teaching businesses. Designs included business cards, poster + social media designs for her live concerts, as well handbills to market her teaching studio."
+              >
+                <a href="https://www.behance.net/gallery/93330057/Aimee-Claxton-Business-Cards-Concert-Posters" target="_blank">
+                  <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
+                </a>
               </ProjectItem>
 
             </Container>
