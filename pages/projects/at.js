@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
-// import Head from 'next/head';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Head from 'next/head';
+import Menu from '../../components/Menu';
 import { motion } from 'framer-motion';
 import * as Constants from '../../components/Constants';
 import Footer from '../../components/footer';
@@ -12,7 +9,6 @@ import at_2 from '../../images/at/at_iphones_black.png';
 import at_3 from '../../images/at/at_iphone.jpg';
 import ProjectDetail from '../../components/ProjectDetail';
 import ProjectLinks from '../../components/ProjectLinks';
-import ProjectPagination from '../../components/ProjectPagination';
 
 export class at extends Component {
     componentDidMount() {
@@ -25,7 +21,7 @@ export class at extends Component {
             animate="enter" 
             exit="exit"
             variants={Constants.imageVariants}>
-            
+            <Menu bg="pink" variant="light" />
             <ProjectDetail 
             metaTitle="Andrew Mason | Advance Therapy"
             projectNumber="02."
@@ -43,21 +39,16 @@ export class at extends Component {
             imgClass3="d-none"
             imgClass4="d-none"
             projectImg5={at_3}
-            // pagination
-            githubUrl="https://github.com/masonmedia/advance-therapy-2.0"
-            behanceUrl="https://www.behance.net/gallery/94105429/Advance-Therapy"
-            siteUrl="http://atherapy.ca"
-            prevHref="/projects/jaxx"
-            nextHref="/projects/warrenyen"
-             />
-                {/* <ProjectLinks 
+              >
+                <ProjectLinks 
+                projectTitle="Advance Therapy"
                 githubUrl="https://github.com/masonmedia/advance-therapy-2.0"
                 behanceUrl="https://www.behance.net/gallery/94105429/Advance-Therapy"
                 siteUrl="http://atherapy.ca"
                 prevHref="/projects/jaxx"
                 nextHref="/projects/warrenyen"
-                /> */}
-            {/* </ProjectDetail> */}
+                />
+             </ProjectDetail>
             <Footer />
         </motion.div>
         )

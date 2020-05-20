@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Menu from './Menu';
 
 export class Footer extends Component {
     constructor(props) {
@@ -14,7 +12,6 @@ export class Footer extends Component {
     render() {         
         return (
             <footer>
-                <Menu variant="dark" />
                 <Container fluid className="p-0">
                     <Row className="bg-primary p-0">
                         <Col xl={3} md={6} className="align-left-top px-5 pt-5 font-weight-bold">

@@ -4,17 +4,16 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Menu from '../components/Menu';
-import ProjectLinks from './ProjectLinks';
+
+// this is the individual project detail page template
 
 export class ProjectDetail extends Component {
-
 render() {
     return (
         <div>
             <Head>
                 <title>{this.props.metaTitle}</title>
             </Head>
-            <Menu />
             <Container id="project_detail" fluid className="bg-smoke">
                 <Row>
                     <Col xl={6} className="align-left min-100 p-5">
@@ -40,7 +39,7 @@ render() {
                         <img src={this.props.projectImg2} />
                     </Col>
 
-                    {/* desc column 2 if applicable */}
+                    {/* description column 2 if applicable */}
                     <Col xl={6} className={`${this.props.projectDescCol} align-left min-100 p-5`}>
                         <h6 className="text-uppercase">
                             {this.props.projecSubTitle2}
@@ -66,15 +65,7 @@ render() {
                     </Col>
                 </Row>
                 {/* Project Links component */}
-                {/* {this.props.children} */}
-                <ProjectLinks 
-                linkTitle={this.props.linkTitle}
-                githubUrl={this.props.githubUrl}
-                behanceUrl={this.props.behanceUrl}
-                siteUrl={this.props.siteUrl}
-                prevHref={this.props.prevHref}
-                nextHref={this.props.nextHref}
-                />
+                {this.props.children}
             </Container>
         </div>
         );

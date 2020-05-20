@@ -3,8 +3,11 @@ import Link from 'next/link';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
+import LinkComponent from '../components/LinkComponent';
 
-export class CardLeft extends Component {
+// component for individual project item cards on projects page
+
+export class ProjectItem extends Component {
     render() {
         return (
             <Row className={`${this.props.rowClass} text-light mx-3 mt-3 shadow`}>
@@ -31,6 +34,13 @@ export class CardLeft extends Component {
                         </blockquote>
                         {/* button/link */}
                         {this.props.children}
+                        {/* <LinkComponent 
+                        linkHref={this.props.linkHref}
+                        linkText={this.props.linkText}
+                        />
+                        <Link href={this.props.href}>
+                            <a>{this.props.linkText}</a>
+                        </Link> */}
                     </Card.Body>
                 </Col>
             </Row>
@@ -39,4 +49,4 @@ export class CardLeft extends Component {
     }
 }
 
-export default CardLeft;
+export default ProjectItem;
