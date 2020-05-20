@@ -8,8 +8,8 @@ export class CardLeft extends Component {
     render() {
         return (
             <Row className={`${this.props.rowClass} text-light mx-3 mt-3 shadow`}>
-                <Col lg={5} className="bg-red p-0">
-                    <Card.Img className="rounded-0 drop-shadow" src={this.props.cardImgSrc} />
+                <Col lg={5} className="align-center bg-red p-0">
+                    <img className={`${this.props.imgClass} border-0 drop-shadow`} src={this.props.cardImgSrc} />
                 </Col>
                 <Col lg={7} className="align-left p-0">
                     <Card.Body className="align-left bg-rainbow p-5 w-100">

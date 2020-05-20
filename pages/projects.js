@@ -5,15 +5,12 @@ import { motion } from 'framer-motion';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import CardLeft from '../components/CardLeft';
-import CardRight from '../components/CardRight';
+import Card from 'react-bootstrap/Card';
+import ProjectItem from '../components/ProjectItem';
 import Menu from '../components/Menu';
 import * as Constants from '../components/Constants';
 import Footer from '../components/Footer';
-import astro from '../images/coding_icon.png';
-// import icon from '../images/innovation_isometric.svg';
 import icon from '../images/parachute_isometric.svg';
-import tv from '../images/construction_site_isometric.svg';
 import wy_thumb from '../images/wy_macbookgold.png';
 import at_thumb from '../images/at/at_laptop.png';
 import jaxx_thumb from '../images/jaxx_laptop.png';
@@ -22,6 +19,12 @@ import n2_thumb from '../images/n2_laptop.png';
 import sfs_thumb from '../images/sfs_laptop.png';
 import copetin_thumb from '../images/copetin_laptop.png';
 import bhs_thumb from '../images/bhs_laptop.png';
+import wake from '../images/wakenbake_yellow.jpg';
+import emo from '../images/em_card_dark.jpg';
+import aimee from '../images/aimee_card.jpg';
+import bhs from '../images/bhs_lights.jpg';
+import wiwp from '../images/wiwp_flyer_dark.jpg';
+
 
 export class projects extends Component {
   componentDidMount() {
@@ -44,8 +47,6 @@ export class projects extends Component {
                 <motion.div variants={Constants.textVariants}>
                   <img 
                   style={{borderRadius: '20%', width: '250px', height: '250px'}}
-                  // style={{width: '250px', height: '250px', clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)'
-                  // }}
                   className="drop-shadow bg-pink p-2" 
                   src={icon} />
                   <h1 className="page_title text-light drop-shadow mt-2">
@@ -72,7 +73,7 @@ export class projects extends Component {
                 </Col>
               </Row> */}
 
-              <CardLeft 
+              <ProjectItem 
               rowClass="mt-4"
               col2Class="p-5"
               cardImgSrc={wy_thumb}
@@ -88,25 +89,9 @@ export class projects extends Component {
                     <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
                   </a>
                 </Link>
-              </CardLeft>
+              </ProjectItem>
 
-              <CardRight 
-              col2Class="p-5"
-              cardImgSrc={at_thumb}
-              microTitle="Healthcare Services"
-              cardTitle1="Advance"
-              cardTitle2="Therapy"
-              cardSubTitle="HTML5, CSS3/SASS, PHP, Javascript, UI/UX/Graphic design"
-              cardText="Website for Guelph/KW healthcare services provider Advance Therapy."
-              >
-                <Link href="/projects/at" scroll={false}>
-                  <a>
-                    <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
-                  </a>
-                </Link>
-              </CardRight>
-
-               <CardLeft 
+               <ProjectItem 
               col2Class="p-5"
               cardImgSrc={jaxx_thumb}
               microTitle="Cryptocurrency App"
@@ -120,9 +105,9 @@ export class projects extends Component {
                     <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
                   </a>
                 </Link>
-              </CardLeft>
+              </ProjectItem>
 
-              <CardRight 
+              <ProjectItem 
               col2Class="p-5"
               cardImgSrc={dc_thumb}
               microTitle="Blockchain Startup"
@@ -136,9 +121,25 @@ export class projects extends Component {
                     <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
                   </a>
                 </Link>
-              </CardRight>
+              </ProjectItem>
 
-              <CardLeft 
+              <ProjectItem 
+              col2Class="p-5"
+              cardImgSrc={at_thumb}
+              microTitle="Healthcare Services"
+              cardTitle1="Advance"
+              cardTitle2="Therapy"
+              cardSubTitle="HTML5, CSS3/SASS, PHP, Javascript, UI/UX/Graphic design"
+              cardText="Website for Guelph/KW healthcare services provider Advance Therapy."
+              >
+                <Link href="/projects/at" scroll={false}>
+                  <a>
+                    <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
+                  </a>
+                </Link>
+              </ProjectItem>
+
+              <ProjectItem 
               col2Class="p-5"
               cardImgSrc={n2_thumb}
               microTitle="Speech Therapy Services"
@@ -152,9 +153,9 @@ export class projects extends Component {
                     <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
                   </a>
                 </Link>
-              </CardLeft>
+              </ProjectItem>
 
-              <CardRight 
+              <ProjectItem
               col2Class="p-5"
               cardImgSrc={sfs_thumb}
               microTitle="Jazz Funk Band"
@@ -168,9 +169,9 @@ export class projects extends Component {
                     <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
                   </a>
                 </Link>
-              </CardRight>
+                </ProjectItem>
 
-              <CardLeft 
+              <ProjectItem 
               col2Class="p-5"
               cardImgSrc={bhs_thumb}
               microTitle="Electrofunk Band"
@@ -184,9 +185,9 @@ export class projects extends Component {
                     <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
                   </a>
                 </Link>
-              </CardLeft>
+              </ProjectItem>
 
-              <CardRight 
+              <ProjectItem
               col2Class="p-5"
               cardImgSrc={copetin_thumb}
               microTitle="Toronto Restaurant"
@@ -200,7 +201,58 @@ export class projects extends Component {
                     <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
                   </a>
                 </Link>
-              </CardRight>
+              </ProjectItem>
+
+              {/* graphic design */}
+              
+              <ProjectItem
+              col2Class="p-5"
+              cardImgSrc={wake}
+              imgClass="p-0 my-4 circle"
+              microTitle="Design: Toronto Coffee Company"
+              cardTitle1="Wake 'n Bake"
+              cardSubTitle="Graphic Design, Logo creation, packaging design"
+              cardText="Toronto coffee roaster Wake 'n Bake required a logo, color scheme, and packaging mockups for their new coffee company. The design focused on an 80s-inspired palette of neon primaries which offer a bright, exciting feel, while hinting at established brands such as David's Tea, rock band The Strokes, Google, Microsoft, and NBC."
+              >
+                <Link href="/projects/yvr" scroll={false}>
+                  <a>
+                    <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
+                  </a>
+                </Link>
+              </ProjectItem>
+
+              <ProjectItem
+              col2Class="p-5"
+              cardImgSrc={bhs}
+              imgClass="p-0 my-4 circle"
+              microTitle="Design: Toronto Funk Band"
+              cardTitle1="Big Horn Sheep"
+              cardSubTitle="Web development, Graphic Design, Logo creation, poster design"
+              cardText="Big Horn Sheep is an instrumental trio blending jazz, funk, EDM, and pop-rock styles. The band required a logo, website graphics, concert posters, album cover art, and social media content. The resulting designs incorporate an atari-influenced, 8-bit video game theme with bold neon colors, a styled ram's head logo, and variations on the theme for social media content."
+              >
+                <Link href="/projects/yvr" scroll={false}>
+                  <a>
+                    <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
+                  </a>
+                </Link>
+              </ProjectItem>
+
+              <ProjectItem
+              col2Class="p-5"
+              cardImgSrc={emo}
+              imgClass="p-0 my-4 circle"
+              microTitle="Design: EMO Video Production"
+              cardTitle1="EMO Productions"
+              cardSubTitle="Graphic Design, Business cards"
+              cardText="Toronto drummer and music instructor Ed Mortenson required business card designs for his performing, teaching, and video production services, as well as for his side hustle driving for Uber. He requested a design that combined equal parts brooding edgy rock, with the clean, trustworthy lines of a professional business."
+              >
+                <Link href="/projects/yvr" scroll={false}>
+                  <a>
+                    <div className="arrow-btn h3 mt-2 px-3 pb-2 border">⟶</div>
+                  </a>
+                </Link>
+              </ProjectItem>
+
             </Container>
             <Footer />
         </motion.div>

@@ -63,6 +63,7 @@ export class Footer extends Component {
                                 <a href="https://github.com/masonmedia" target="_blank"><li>Github</li></a>
                                 <a href="https://www.behance.net/andrewmasonmedia" target="_blank"><li>Behance</li></a>
                                 <a href="http://copy.andrewmasonmedia.com/" target="_blank"><li>Writing/Editing</li></a>
+                                <a href="" target="_blank"><li>CV</li></a>
                             </ul>
                         </Col>
                         <Col xl={3} md={6} className="align-left-top px-5 pt-5 font-weight-bold">
