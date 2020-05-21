@@ -21,7 +21,9 @@ import wake from '../images/wakenbake_yellow.jpg';
 import emo from '../images/em_card_dark.jpg';
 import aimee from '../images/aimee_card.jpg';
 import bhs from '../images/bhs_lights.jpg';
-import wiwp from '../images/wiwp_flyer_dark.jpg';
+// import wiwp from '../images/wiwp_flyer_dark.jpg';
+import app from '../images/doodle_tunes.svg';
+
 import LinkComponent from '../components/LinkComponent';
 import ExtLinkComponent from '../components/ExtLinkComponent';
 
@@ -46,8 +48,8 @@ export class projects extends Component {
                 <motion.div variants={Constants.textVariants}>
                   <img 
                   style={{borderRadius: '20%', width: '250px', height: '250px'}}
-                  className="drop-shadow bg-pink p-2" 
-                  src={icon} />
+                  className="drop-shadow bg-pink" 
+                  src={app} />
                   <h1 className="page_title text-light drop-shadow mt-2">
                     projects
                   </h1>

@@ -14,7 +14,7 @@ render() {
             <Head>
                 <title>{this.props.metaTitle}</title>
             </Head>
-            <Container id="project_detail" fluid className="bg-smoke">
+            <Container id={this.props.projectID} fluid className="project_detail bg-smoke p-0">
                 <Row>
                     <Col xl={6} className="align-left min-100 p-5">
                         <h6 className="project_number display-1 font-weight-bold mb-0 mt-4">
@@ -32,11 +32,15 @@ render() {
                     </Col>
 
                     <Col xl={6} className={`${this.props.imgClass1} p-0`}>
-                        <img src={this.props.projectImg1} />
+                        <img 
+                        className={this.props.imgClass1} 
+                        src={this.props.projectImg1} />
                     </Col>
 
                     <Col xl={6} className={`${this.props.imgClass2} p-0`}>
-                        <img src={this.props.projectImg2} />
+                        <img 
+                        className={this.props.imgClass2} 
+                        src={this.props.projectImg2} />
                     </Col>
 
                     {/* description column 2 if applicable */}
@@ -53,15 +57,21 @@ render() {
                     </Col>
 
                     <Col xl={6} className={`${this.props.imgClass3} p-0`}>
-                        <img src={this.props.projectImg3} />
+                        <img 
+                        className={this.props.imgClass3} 
+                        src={this.props.projectImg3} />
                     </Col>
 
                     <Col xl={6} className={`${this.props.imgClass4} p-0`}>
-                        <img src={this.props.projectImg4} />
+                        <img 
+                        className={this.props.imgClass4} 
+                        src={this.props.projectImg4} />
                     </Col>
 
                     <Col xl={12} className={`${this.props.imgClass5} p-0`}>
-                        <img src={this.props.projectImg5} />
+                        <img 
+                        className={this.props.imgClass5} 
+                        src={this.props.projectImg5} />
                     </Col>
                 </Row>
                 {/* Project Links component */}

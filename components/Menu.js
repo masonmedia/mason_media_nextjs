@@ -35,18 +35,31 @@ export function Menu(props) {
                     <Link href="/projects" scroll={false}>
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Projects</a>
                     </Link>
+                    {/* <NavDropdown title="Projects" id="collasible-nav-dropdown">
+                        <NavDropdown.Item>
+                            <Link href="/projects/warrenyen" scroll={false}>
+                                <a onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Warren Yen</a>
+                            </Link>
+                        </NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item>
+                            <Link href="/projects/jaxx" scroll={false}>
+                                <a>Jaxx Liberty</a>
+                            </Link>
+                        </NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item>
+                            <Link href="/projects/at" scroll={false}>
+                                <a>Advance Therapy</a>
+                            </Link>
+                        </NavDropdown.Item>
+                        
+                    </NavDropdown> */}
                     <Link href="/therapists" scroll={false}>
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Therapists</a>
                     </Link>
                     <Nav.Link href="mailto:doug@atherapy.ca">Contact
                     </Nav.Link>
-                {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                </NavDropdown> */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

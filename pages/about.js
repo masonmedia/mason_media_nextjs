@@ -8,7 +8,9 @@ import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 import * as Constants from '../components/Constants';
 import about_icon from '../images/music_isometric.svg';
-// import about_icon from '../images/innovation_isometric.svg';
+import icon from '../images/doodle_hi.svg';
+import icon2 from '../images/guy_doodle.svg';
+import icon3 from '../images/guy_doodle_plain.svg';
 
 export class about extends Component {
     componentDidMount() {
@@ -41,17 +43,18 @@ export class about extends Component {
 
             <Row className="bg-rainbow">
               <Col className="align-center min-100 p-5">
+                  {/* <img className="absolute top z-0 w-75" src={icon3} /> */}
                 <motion.div variants={Constants.textVariants}>
                   <img 
                   style={{borderRadius: '20%', width: '250px', height: '250px'}}
-                  className="drop-shadow bg-pink p-2" 
-                  src={about_icon} />
+                  className="drop-shadow bg-pink" 
+                  src={icon2} />
                   <h1 className="page_title text-light drop-shadow mt-2">
                     about me
                   </h1>
                   </motion.div>
                   <motion.div variants={Constants.backVariants}>
-                    <h5 className="small text-light text-uppercase">
+                    <h5 className="small text-light text-uppercase relative">
                     Check out some of my work below.</h5>
                   </motion.div>
               </Col>

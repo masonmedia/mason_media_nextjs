@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Head from 'next/head';
 import Menu from '../../components/Menu';
 import { motion } from 'framer-motion';
 import * as Constants from '../../components/Constants';
@@ -16,11 +15,11 @@ export class at extends Component {
       }
     render() {
         return (
-            <motion.div 
-            initial="exit"
-            animate="enter" 
-            exit="exit"
-            variants={Constants.imageVariants}>
+        <motion.div 
+        initial="exit"
+        animate="enter" 
+        exit="exit"
+        variants={Constants.imageVariants}>
             <Menu bg="pink" variant="light" />
             <ProjectDetail 
             metaTitle="Andrew Mason | Advance Therapy"
