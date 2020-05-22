@@ -25,6 +25,18 @@ p {
     font-style: italic;
     margin-bottom: 0;
 }
+.site-title {
+    // font-size: 21vmin;
+    font-family: 'Inter', sans-serif;
+    font-size: 20vw;
+    font-weight: 900;
+    line-height: 82%;
+    letter-spacing: -15px;
+    padding: 0 20px 0 20px;
+    text-transform: lowercase;
+    font-style: italic;
+    margin-bottom: 0;
+}
 
 .site-subtitle {
     letter-spacing: -3px;

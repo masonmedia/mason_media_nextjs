@@ -9,6 +9,7 @@ import Menu from '../components/Menu';
 import * as Constants from '../components/Constants';
 import Footer from '../components/Footer';
 import icon from '../images/coding_icon.png';
+import icon2 from '../images/construction_site_isometric.svg';
 import wy_thumb from '../images/wy_macbookgold.png';
 import at_thumb from '../images/at/at_laptop.png';
 import jaxx_thumb from '../images/jaxx_laptop.png';
@@ -21,8 +22,9 @@ import wake from '../images/wakenbake_yellow.jpg';
 import emo from '../images/em_card_dark.jpg';
 import aimee from '../images/aimee_card.jpg';
 import bhs from '../images/bhs_lights.jpg';
-// import wiwp from '../images/wiwp_flyer_dark.jpg';
 import app from '../images/doodle_tunes.svg';
+import coffee from '../images/CoffeeDoddle.svg';
+import icecream from '../images/icecream_doodle.svg';
 
 import LinkComponent from '../components/LinkComponent';
 import ExtLinkComponent from '../components/ExtLinkComponent';
@@ -46,11 +48,7 @@ export class projects extends Component {
             <Row className="bg-rainbow">
               <Col className="align-center min-100 p-5">
                 <motion.div variants={Constants.textVariants}>
-                  <img 
-                  style={{borderRadius: '20%', width: '250px', height: '250px'}}
-                  className="drop-shadow bg-pink" 
-                  src={app} />
-                  <h1 className="page_title text-light drop-shadow mt-2">
+                  <h1 className="site-title text-light drop-shadow">
                     projects
                   </h1>
                   </motion.div>

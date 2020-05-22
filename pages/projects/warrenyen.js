@@ -62,8 +62,8 @@ export class warrenyen extends Component {
                         nextHref="/projects/jaxx"
                         />
                     </ProjectDetail>
-            </Container>
-            <Footer />
+                </Container>
+                <Footer />
             </motion.div>
         )
     }

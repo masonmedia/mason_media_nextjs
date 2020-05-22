@@ -28,34 +28,38 @@ export class about extends Component {
                 </Head>
                 <Menu bg="rainbow" variant="dark" />
                 <Container fluid>
-                    {/* <Row className="bg-smoke">
-                        <Col xl={12} className="align-left min-100 p-5 ">
-                        <motion.div variants={Constants.textVariants}>
-                            <h1 className="site-title rainbow-text-2">
-                            About
+                    <Row className="bg-rainbow">
+                        <Col className="align-center min-100 p-5">
+                            <motion.div variants={Constants.textVariants}>
+                            <h1 className="site-title text-light drop-shadow">
+                                about
                             </h1>
                             </motion.div>
                             <motion.div variants={Constants.backVariants}>
-                            <h2 className="site-subtitle">I build websites, design graphics, and write copy.</h2>
+                                <h5 className="small text-light text-uppercase">
+                                Check out some of my work below.</h5>
                             </motion.div>
                         </Col>
-                    </Row> */}
+                    </Row>
+                    
 
             <Row className="bg-rainbow">
               <Col className="align-center min-100 p-5">
-                  {/* <img className="absolute top z-0 w-75" src={icon3} /> */}
                 <motion.div variants={Constants.textVariants}>
-                  <img 
+                  {/* <img 
                   style={{borderRadius: '20%', width: '250px', height: '250px'}}
                   className="drop-shadow bg-pink" 
-                  src={icon2} />
-                  <h1 className="page_title text-light drop-shadow mt-2">
+                  src={about_icon} /> */}
+                  <img 
+                  style={{width: '55vmin'}}
+                  className="drop-shadow" 
+                  src={about_icon} />
+                  <h1 className="page_title text-light drop-shadow">
                     about me
                   </h1>
                   </motion.div>
                   <motion.div variants={Constants.backVariants}>
-                    <h5 className="small text-light text-uppercase relative">
-                    Check out some of my work below.</h5>
+                    <h5 className="small text-light text-uppercase relative">What I do.</h5>
                   </motion.div>
               </Col>
             </Row>

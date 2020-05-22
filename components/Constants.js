@@ -70,6 +70,27 @@ export const textVariants = {
   }
 };
 
+export const menuVariants = {
+  exit: { 
+    y: -100, 
+    opacity: 0, 
+    transition: { 
+      duration: 0.5, 
+      staggerChildren: 0.5,
+      ease: easing 
+        }
+     },
+  enter: {
+    y: 0,
+    opacity: 1,
+    transition: { 
+        delay: 0.1, 
+        duration: 0.5, 
+        ease: easing 
+    }
+  }
+};
+
 export const backVariants = {
     exit: {
       x: 100,
