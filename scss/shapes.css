@@ -3,3 +3,15 @@
   height: 350px;
   border-radius: 100%;
 }
+
+.diamond {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.rotate-left {
+  transform: rotate(45deg);
+}
+
+.rotate-right {
+  transform: rotate(-45deg);
+}

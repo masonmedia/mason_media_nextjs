@@ -107,7 +107,7 @@ export class Home extends Component {
           <Row className="bg-black">
               <Col className="align-center min-100 p-5">
                 <div 
-                className="absolute z-0 bg-black circle"
+                className="absolute z-0 bg-dark circle"
                 style={{width: '700px', height: '700px'}}></div>
                 <div 
                 className="absolute z-0 left bg-primary circle shadow"

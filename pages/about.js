@@ -11,6 +11,7 @@ import about_icon from '../images/music_isometric.svg';
 import icon from '../images/doodle_hi.svg';
 import icon2 from '../images/guy_doodle.svg';
 import icon3 from '../images/guy_doodle_plain.svg';
+import ShapeComponent, { Circle } from '../components/Circle';
 
 export class about extends Component {
     componentDidMount() {
@@ -26,30 +27,60 @@ export class about extends Component {
                 <Head>
                     <title>About Me</title>
                 </Head>
-                <Menu bg="rainbow" variant="dark" />
+                <Menu bg="turq" variant="dark" />
                 <Container fluid>
-                    <Row className="bg-rainbow">
+                    <Row className="bg-yellow">
+                        
                         <Col className="align-center min-100 p-5">
+                        <Circle 
+                        circleClass="bg-turq" 
+                        style={{width: '700px', height: '700px'}}
+                        />
+                        <Circle 
+                        circleClass="bg-pink right" 
+                        style={{width: '600px', height: '600px'}}
+                        />
+                        <Circle 
+                        circleClass="bg-pink right" 
+                        style={{width: '600px', height: '600px'}}
+                        />
+                        <Circle 
+                        circleClass="bg-turq left" 
+                        style={{width: '400px', height: '400px'}}
+                        />
+                        {/* <Circle 
+                        circleClass="bg-turq right bottom" 
+                        style={{width: '450px', height: '450px'}}
+                        /> */}
+                        <Circle 
+                        circleClass="left bottom bg-yellow" 
+                        style={{width: '300px', height: '300px'}}
+                        />
+                        <Circle 
+                        circleClass="bg-pink left top" 
+                        style={{width: '200px', height: '200px'}}
+                        />
+                        <Circle 
+                        circleClass="bg-turq right top" 
+                        style={{width: '150px', height: '150px'}}
+                        />
+
                             <motion.div variants={Constants.textVariants}>
                             <h1 className="site-title text-light drop-shadow">
                                 about
                             </h1>
                             </motion.div>
                             <motion.div variants={Constants.backVariants}>
-                                <h5 className="small text-light text-uppercase">
-                                Check out some of my work below.</h5>
+                                <h5 className="text-uppercase font-weight-bold drop-shadow">
+                                What I do.</h5>
                             </motion.div>
                         </Col>
                     </Row>
                     
 
-            <Row className="bg-rainbow">
+            {/* <Row className="bg-rainbow">
               <Col className="align-center min-100 p-5">
                 <motion.div variants={Constants.textVariants}>
-                  {/* <img 
-                  style={{borderRadius: '20%', width: '250px', height: '250px'}}
-                  className="drop-shadow bg-pink" 
-                  src={about_icon} /> */}
                   <img 
                   style={{width: '55vmin'}}
                   className="drop-shadow" 
@@ -62,7 +93,7 @@ export class about extends Component {
                     <h5 className="small text-light text-uppercase relative">What I do.</h5>
                   </motion.div>
               </Col>
-            </Row>
+            </Row> */}
 
                     <Row className="bg-smoke">
                         <Col xl={12} className="align-left min-100 p-5">
@@ -101,7 +132,7 @@ export class about extends Component {
                     </Row>
 
                     <Row>
-                        <Col xl={12} className="bg-red text-light align-left min-100 p-5">
+                        <Col xl={12} className="bg-pink text-light align-left min-100 p-5">
                             <h6 className="text-uppercase">Copywriting + Editing</h6>
                             <h1 className="page_title font-weight-bold">I write and edit copy for a wide variety of contexts. I strive for fast moving, easy-to-read content with humour and originality, while specializing in UX, SEO, and editing for web presentation.</h1>
                             <div className="display-3 font-weight-light">↓</div>
@@ -109,7 +140,7 @@ export class about extends Component {
                     </Row>
 
                     <Row>
-                        <Col xl={12} className="bg-purple text-light align-left min-100 p-5">
+                        <Col xl={12} className="bg-yellow align-left min-100 p-5">
                             <h6 className="text-uppercase">Tech Stack</h6>
                             <h1 className="page_title font-weight-bold">This website is made with Next.js, React, React-Bootstrap, SASS, and Framer.</h1>
                         </Col>
