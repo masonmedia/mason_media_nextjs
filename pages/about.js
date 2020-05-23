@@ -7,11 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 import * as Constants from '../components/Constants';
-import about_icon from '../images/music_isometric.svg';
-import icon from '../images/doodle_hi.svg';
-import icon2 from '../images/guy_doodle.svg';
-import icon3 from '../images/guy_doodle_plain.svg';
-import ShapeComponent, { Circle } from '../components/Circle';
+import CircleComponent from '../components/CircleComponent';
 
 export class about extends Component {
     componentDidMount() {
@@ -30,40 +26,25 @@ export class about extends Component {
                 <Menu bg="turq" variant="dark" />
                 <Container fluid>
                     <Row className="bg-yellow">
-                        
                         <Col className="align-center min-100 p-5">
-                        <Circle 
-                        circleClass="bg-turq" 
-                        style={{width: '700px', height: '700px'}}
-                        />
-                        <Circle 
-                        circleClass="bg-pink right" 
-                        style={{width: '600px', height: '600px'}}
-                        />
-                        <Circle 
-                        circleClass="bg-pink right" 
-                        style={{width: '600px', height: '600px'}}
-                        />
-                        <Circle 
-                        circleClass="bg-turq left" 
-                        style={{width: '400px', height: '400px'}}
-                        />
-                        {/* <Circle 
-                        circleClass="bg-turq right bottom" 
-                        style={{width: '450px', height: '450px'}}
-                        /> */}
-                        <Circle 
-                        circleClass="left bottom bg-yellow" 
-                        style={{width: '300px', height: '300px'}}
-                        />
-                        <Circle 
-                        circleClass="bg-pink left top" 
-                        style={{width: '200px', height: '200px'}}
-                        />
-                        <Circle 
-                        circleClass="bg-turq right top" 
-                        style={{width: '150px', height: '150px'}}
-                        />
+                            <CircleComponent
+                            circle1="bg-turq right"
+                            circle2="bg-turq" 
+                            circle3="bg-yellow" 
+                            circle4="bg-pink" 
+                            circle5="bg-pink" 
+                            circle6="bg-pink" 
+                            />
+                            {/* <div 
+                            className="absolute z-0 bg-turq right circle shadow"
+                            style={{width: '700px', height: '700px'}}></div>
+                            <div 
+                            className="absolute z-0 left bg-turq circle shadow"
+                            style={{width: '400px', height: '400px'}}></div>
+                            <div className="absolute z-0 left bottom bg-yellow circle shadow" style={{width: '300px', height: '300px'}}></div>
+                            <div className="absolute z-0 right bg-pink circle shadow" style={{width: '450px', height: '450px'}}></div>
+                            <div className="absolute z-0 right top bg-pink circle shadow" style={{width: '150px', height: '150px'}}></div>
+                            <div className="absolute z-0 left top bg-pink circle shadow" style={{width: '200px', height: '200px'}}></div> */}
 
                             <motion.div variants={Constants.textVariants}>
                             <h1 className="site-title text-light drop-shadow">

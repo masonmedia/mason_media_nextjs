@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Menu from '../components/Menu';
 import { motion } from 'framer-motion';
-import astro from '../images/astronaut_isometric.svg'
+import CircleComponent from '../components/CircleComponent';
 
 let easing = "backInOut";
 
@@ -106,7 +106,15 @@ export class Home extends Component {
         <Container fluid>
           <Row className="bg-black">
               <Col className="align-center min-100 p-5">
-                <div 
+                <CircleComponent
+                circle1="bg-lime right"
+                circle2="bg-primary" 
+                circle3="bg-yellow" 
+                circle4="bg-turq" 
+                circle5="bg-red" 
+                circle6="bg-pink" 
+                />
+                {/* <div 
                 className="absolute z-0 bg-dark circle"
                 style={{width: '700px', height: '700px'}}></div>
                 <div 
@@ -115,13 +123,9 @@ export class Home extends Component {
                 <div className="absolute z-0 left bottom bg-yellow circle shadow" style={{width: '300px', height: '300px'}}></div>
                 <div className="absolute z-0 right bg-turq circle shadow" style={{width: '450px', height: '450px'}}></div>
                 <div className="absolute z-0 right top bg-red circle shadow" style={{width: '150px', height: '150px'}}></div>
-                <div className="absolute z-0 left top bg-pink circle shadow" style={{width: '200px', height: '200px'}}></div>
+                <div className="absolute z-0 left top bg-pink circle shadow" style={{width: '200px', height: '200px'}}></div> */}
+
                 <motion.div variants={textVariants}>
-                  {/* <img className="drop-shadow" src={astro} /> */}
-                  {/* <h1 className="page_title text-light drop-shadow">
-                  masonmedia
-                  </h1> */}
-                  
                   <h1 className="site-title text-light drop-shadow m-0"
                   >
                   mason
@@ -135,7 +139,7 @@ export class Home extends Component {
             </Row>
 
 
-          <Row className="bg-rainbow">
+          {/* <Row className="bg-rainbow">
             <Col className="align-center min-100 p-5">
               <motion.div variants={textVariants}>
                 <img className="drop-shadow" src={astro} />
@@ -159,7 +163,7 @@ export class Home extends Component {
                 </h1>
                 </motion.div>
                 <motion.div variants={backVariants}>
-                  {/* <h2 className="site-subtitle text-light">I'm a passionate, multidisciplicary designer, developer, and writer. I specialize in unique visual design, building websites, and UX copywriting. I help build successful brands, and create engaging digital experiences.</h2> */}
+                  <h2 className="site-subtitle text-light">I'm a passionate, multidisciplicary designer, developer, and writer. I specialize in unique visual design, building websites, and UX copywriting. I help build successful brands, and create engaging digital experiences.</h2>
                   <h5 className="small text-light text-uppercase">web design. graphic design. copywriting.</h5>
                 </motion.div>
             </Col>
@@ -176,7 +180,7 @@ export class Home extends Component {
                   <h2 className="site-subtitle">Designer. Developer. Writer.</h2>
                 </motion.div>
             </Col>
-        </Row>
+        </Row> */}
       </Container>
     </motion.div>
   );

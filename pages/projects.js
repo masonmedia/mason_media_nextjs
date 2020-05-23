@@ -8,8 +8,6 @@ import ProjectItem from '../components/ProjectItem';
 import Menu from '../components/Menu';
 import * as Constants from '../components/Constants';
 import Footer from '../components/Footer';
-import icon from '../images/coding_icon.png';
-import icon2 from '../images/construction_site_isometric.svg';
 import wy_thumb from '../images/wy_macbookgold.png';
 import at_thumb from '../images/at/at_laptop.png';
 import jaxx_thumb from '../images/jaxx_laptop.png';
@@ -22,10 +20,7 @@ import wake from '../images/wakenbake_yellow.jpg';
 import emo from '../images/em_card_dark.jpg';
 import aimee from '../images/aimee_card.jpg';
 import bhs from '../images/bhs_lights.jpg';
-import app from '../images/doodle_tunes.svg';
-import coffee from '../images/CoffeeDoddle.svg';
-import icecream from '../images/icecream_doodle.svg';
-
+import CircleComponent from '../components/CircleComponent';
 import LinkComponent from '../components/LinkComponent';
 import ExtLinkComponent from '../components/ExtLinkComponent';
 
@@ -47,6 +42,14 @@ export class projects extends Component {
             <Container id="projects" fluid className="bg-smoke pb-4">
             <Row className="bg-rainbow">
               <Col className="align-center min-100 p-5">
+                <CircleComponent
+                  circle1="bg-turq right"
+                  circle2="bg-turq" 
+                  circle3="bg-yellow" 
+                  circle4="bg-pink" 
+                  circle5="bg-pink" 
+                  circle6="bg-pink" 
+                  />
                 <motion.div variants={Constants.textVariants}>
                   <h1 className="site-title text-light drop-shadow">
                     projects

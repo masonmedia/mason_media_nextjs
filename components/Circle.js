@@ -5,7 +5,7 @@ export class Circle extends Component {
     render() {
         return (
             <div 
-            className={`${this.props.circleClass} circle absolute z-0 shadow`}
+            className={`circle absolute z-0 shadow ${this.props.circleClass}`}
             style={this.props.style}>
             </div>
         );

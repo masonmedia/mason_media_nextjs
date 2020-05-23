@@ -67,6 +67,10 @@
   background: #12c2e9;
 }
 
+.bg-lime {
+  background: limegreen;
+}
+
 .bg-tan-gradient {
   background: #D1913C;
   /* fallback for old browsers */

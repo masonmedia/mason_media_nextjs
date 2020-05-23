@@ -110,27 +110,33 @@ export const backVariants = {
       transition: {
         delay: 0.5,
         duration: 0.5,
-        ease: easing
+        staggerChildren: 0.5,
+        ease: easing,
+        type: "spring", 
+        stiffness: 300, 
+        damping: 200
       }
     }
   };
 
-export const container = {
-  hidden: { 
-    opacity: 0,
-    y: 100
-  },
-  show: {
+
+export const list = {
+  visible: {
     opacity: 1,
-    y: 0,
     transition: {
-      staggerChildren: 0.8
-    }
-  }
+      when: "beforeChildren",
+      staggerChildren: 0.3,
+    },
+  },
+  hidden: {
+    opacity: 0,
+    transition: {
+      when: "afterChildren",
+    },
+  },
 }
 
 export const item = {
   hidden: { opacity: 0 },
   show: { opacity: 1 }
 }
-
