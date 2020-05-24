@@ -4,12 +4,14 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import LinkComponent from '../components/LinkComponent';
+import Slide from 'react-reveal/Slide';
 
 // component for individual project item cards on projects page
 
 export class ProjectItem extends Component {
     render() {
         return (
+        <Slide bottom cascade>
             <Row className={`${this.props.rowClass} text-light mx-3 mt-3 shadow`}>
                 <Col lg={5} className="align-center bg-red p-0">
                     <img className={`${this.props.imgClass} border-0 drop-shadow`} src={this.props.cardImgSrc} />
@@ -44,6 +46,7 @@ export class ProjectItem extends Component {
                     </Card.Body>
                 </Col>
             </Row>
+            </Slide>
             
         )
     }

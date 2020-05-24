@@ -98,7 +98,11 @@ export class Home extends Component {
   }
   render() {
   return (
-    <motion.div initial="exit" animate="enter" exit="exit" variants={imageVariants}>
+    <motion.div 
+    initial="exit" 
+    animate="enter" 
+    exit="exit" 
+    variants={imageVariants}>
         <Head>
               <title>Mason Media | Home</title>
         </Head>

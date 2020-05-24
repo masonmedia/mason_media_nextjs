@@ -42,7 +42,7 @@ export class warrenyen extends Component {
                     imgClass2="bg-red"
                     projecSubTitle2="Warren Yen"
                     projectTitle2="tech stack"
-                    projectDesc2="I was free to choose tech stack for the project and went with HTML5, PHP for reusable header/footer components, CSS3/SASS, the SWUP library for animated AJAX page transitions, AOS library for scroll animations, and Parcel as an application bundler. I added essential SEO meta tags, and also provided tech support to deploy the production site to the client's server."
+                    projectDesc2="I was free to choose tech stack for the project and went with HTML5, PHP for reusable header/footer components, CSS3/SASS, the SWUP library for animated AJAX page transitions, AOS library for scroll animations, and Parcel as an application bundler. I added essential SEO meta tags, and also provided tech support to deploy the production site to the client's server. *I do not maintain this site."
                     projectDescCol="bg-yellow"
                     projectImg3={wy_3}
                     imgClass3="bg-purple"

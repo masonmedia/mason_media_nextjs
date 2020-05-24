@@ -5,7 +5,7 @@ export const aboutVariants = {
         x: -100,
         opacity: 0,
         transition: {
-          duration: 1,
+          duration: 0.5,
           ease: easing
         }
       },
@@ -13,7 +13,7 @@ export const aboutVariants = {
         x: 100,
         opacity: 0,
         transition: {
-          duration: 1,
+          duration: 0.5,
           ease: easing
         }
       },
@@ -42,8 +42,8 @@ export const imageVariants = {
     opacity: 1,
     transition: {
       duration: 0.5,
-      staggerChildren: 0.5,
-      when: "beforeChildren",
+      // staggerChildren: 0.5,
+      // when: "beforeChildren",
       ease: easing
     }
   }
@@ -108,7 +108,6 @@ export const backVariants = {
       x: 0,
       opacity: 1,
       transition: {
-        delay: 0.5,
         duration: 0.5,
         staggerChildren: 0.5,
         ease: easing,

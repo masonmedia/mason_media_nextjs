@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Slide from 'react-reveal/Slide';
-import { motion } from 'framer-motion';
-import * as Constants from '../components/Constants';
 
 export class CircleComponent extends Component {
     render() {
