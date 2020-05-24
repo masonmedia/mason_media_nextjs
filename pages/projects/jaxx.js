@@ -38,9 +38,7 @@ export class jaxx extends Component {
                     projectTitle="Jaxx Liberty"
                     projectDesc="Jaxx Liberty is a cryptocurrency wallet app made by Decentral Inc. In my role as Decentral's lead website designer and developer, I completely redesigned the Jaxx Liberty public facing website, modernized its branding, layout, and color palette, significantly improved SEO and engagement, and created hundreds of image assets. I also redesigned their Wordpress blog and customer support website (Zendesk). In this process, I revitalized the Jaxx brand and helped increase user base and web presence."
                     projectImg1={jaxx_5}
-                    imgClass1="bg-turq"
                     projectImg2={jaxx_2}
-                    imgClass2="bg-red"
                     projecSubTitle2="Jaxx Liberty"
                     projectTitle2="Tech Stack"
                     projectDesc2="I coded the site from scratch using HTML5, PHP, CSS3, SWUP, GSAP for timeline and scroll animations, and included a Zendesk help widget for support functionality and Cookie Consent/GDPR plugin by Insites. I also duplicated the site as a single page application using Angular 7/8, and incorporated market data, blockchain news, Zendesk support FAQ, and Jaxx blog APIs to reproduce the functionality of the Jaxx Liberty mobile app. 
