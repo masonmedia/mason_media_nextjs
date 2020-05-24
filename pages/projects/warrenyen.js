@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
 import Head from 'next/head';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 import Menu from '../../components/Menu';
 import ProjectDetail from '../../components/ProjectDetail';
 import ProjectLinks from '../../components/ProjectLinks';
@@ -36,6 +32,7 @@ export class warrenyen extends Component {
                     <ProjectDetail 
                     metaTitle="Andrew Mason | Warren Yen"
                     projectNumber="01."
+                    numberClass="bg-turq"
                     projectLetter="W"
                     projectTitle="Warren Yen"
                     projectDesc="A website build for Toronto UX/UI Designer Warren Yen, this project required the development of a user interface and layout provided by the client. A central parameter for the project was to build the site in such a way that the client, with moderate coding ability, would be able to update and customize it himself. This posed certain challenges for architecture, which were solved by building all elements, sections, pages, and styles into clear, reuseable components that could be copied and edited as needed."
