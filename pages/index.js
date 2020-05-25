@@ -118,17 +118,6 @@ export class Home extends Component {
                 circle5="bg-red" 
                 circle6="bg-pink" 
                 />
-                {/* <div 
-                className="absolute z-0 bg-dark circle"
-                style={{width: '700px', height: '700px'}}></div>
-                <div 
-                className="absolute z-0 left bg-primary circle shadow"
-                style={{width: '400px', height: '400px'}}></div>
-                <div className="absolute z-0 left bottom bg-yellow circle shadow" style={{width: '300px', height: '300px'}}></div>
-                <div className="absolute z-0 right bg-turq circle shadow" style={{width: '450px', height: '450px'}}></div>
-                <div className="absolute z-0 right top bg-red circle shadow" style={{width: '150px', height: '150px'}}></div>
-                <div className="absolute z-0 left top bg-pink circle shadow" style={{width: '200px', height: '200px'}}></div> */}
-
                 <motion.div variants={textVariants}>
                   <h1 className="site-title text-light drop-shadow m-0"
                   >
@@ -138,27 +127,18 @@ export class Home extends Component {
                   <motion.div variants={backVariants}>
                     <h5 className="relative text-light text-uppercase">
                     web design. graphic design. copywriting.</h5>
+                    {/* <div className="d-flex justify-content-center align-items-center pt-3">
+                      <Button 
+                      variant="success" className="relative bg-orange mr-2 shadow">Read more</Button>
+                      <Button 
+                      variant="primary" 
+                      className="relative shadow">Contact Me</Button>
+                    </div> */}
                   </motion.div>
               </Col>
             </Row>
 
-
-          {/* <Row className="bg-rainbow">
-            <Col className="align-center min-100 p-5">
-              <motion.div variants={textVariants}>
-                <img className="drop-shadow" src={astro} />
-                <h1 className="page_title text-light drop-shadow">
-                  masonmedia
-                </h1>
-                </motion.div>
-                <motion.div variants={backVariants}>
-                  <h5 className="small text-light text-uppercase">
-                  web design. graphic design. copywriting.</h5>
-                </motion.div>
-            </Col>
-          </Row>
-
-          <Row className="bg-black">
+          {/* <Row className="bg-black">
             <Col className="align-center min-100 p-5">
               <motion.div variants={textVariants}>
                 <img className="drop-shadow" src={astro} />

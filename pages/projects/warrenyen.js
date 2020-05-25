@@ -6,10 +6,10 @@ import ProjectLinks from '../../components/ProjectLinks';
 import { motion } from 'framer-motion';
 import * as Constants from '../../components/Constants';
 import Footer from '../../components/footer';
-import wy_thumb from '../../images/wy_macbookgold.png';
-import wy_2 from '../../images/wy_about.png';
-import wy_3 from '../../images/wy_iphone5.png';
-import wy_4 from '../../images/wy_project.png';
+import wy_thumb from '../../images/wy/wy_macbookgold.png';
+import wy_2 from '../../images/wy/wy_about.png';
+import wy_3 from '../../images/wy/wy_iphone5.png';
+import wy_4 from '../../images/wy/wy_project.png';
 
 export class warrenyen extends Component {
     componentDidMount() {
@@ -30,7 +30,7 @@ export class warrenyen extends Component {
                     metaTitle="Warren Yen"
                     projectNumber="01."
                     numberClass="bg-turq"
-                    projectLetter="W"
+                    projectLetter="WY"
                     projectTitle="Warren Yen"
                     projectDesc="A website build for Toronto UX/UI Designer Warren Yen, this project required the development of a user interface and layout provided by the client. A central parameter for the project was to build the site in such a way that the client, with moderate coding ability, would be able to update and customize it himself. This posed certain challenges for architecture, which were solved by building all elements, sections, pages, and styles into clear, reuseable components that could be copied and edited as needed."
                     projectImg1={wy_thumb}

@@ -65,6 +65,7 @@ p {
 .project_letter {
   font-size: 80vw;
   opacity: 0.05;
+  letter-spacing: -95px;
 }
 
 .project_detail .page_title {

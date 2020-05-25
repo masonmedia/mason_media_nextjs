@@ -6,23 +6,23 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProjectItem from '../components/ProjectItem';
 import Menu from '../components/Menu';
-import * as Constants from '../components/Constants';
-import Footer from '../components/Footer';
-import wy_thumb from '../images/wy_macbookgold.png';
-import at_thumb from '../images/at/at_laptop.png';
-import jaxx_thumb from '../images/jaxx_laptop.png';
-import dc_thumb from '../images/dc_laptop.png';
-import n2_thumb from '../images/n2_laptop.png';
-import sfs_thumb from '../images/sfs_laptop.png';
-import copetin_thumb from '../images/copetin_laptop.png';
-import bhs_thumb from '../images/bhs_laptop.png';
-import wake from '../images/wakenbake_yellow.jpg';
-import emo from '../images/em_card_dark.jpg';
-import aimee from '../images/aimee_card.jpg';
-import bhs from '../images/bhs_lights.jpg';
 import CircleComponent from '../components/CircleComponent';
 import LinkComponent from '../components/LinkComponent';
 import ExtLinkComponent from '../components/ExtLinkComponent';
+import * as Constants from '../components/Constants';
+import Footer from '../components/Footer';
+import wy_thumb from '../images/wy/wy_macbookgold.png';
+import at_thumb from '../images/at/at_laptop.png';
+import jaxx_thumb from '../images/jaxx/jaxx_laptop.png';
+import dc_thumb from '../images/decentral/dc_laptop.png';
+import n2_thumb from '../images/n2/n2_laptop.png';
+import sfs_thumb from '../images/sfs/sfs_laptop.png';
+import copetin_thumb from '../images/copetin/copetin_laptop.png';
+import bhs_thumb from '../images/bhs/bhs_laptop.png';
+import wake from '../images/wakenbake_yellow.jpg';
+import emo from '../images/em_card_dark.jpg';
+import aimee from '../images/aimee_card.jpg';
+import bhs from '../images/bhs/bhs_lights.jpg';
 
 export class projects extends Component {
   componentDidMount() {
