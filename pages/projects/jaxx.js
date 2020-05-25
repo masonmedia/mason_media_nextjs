@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Head from 'next/head';
 import Container from 'react-bootstrap/Container';
 import Menu from '../../components/Menu';
 import ProjectDetail from '../../components/ProjectDetail';
@@ -7,7 +6,6 @@ import ProjectLinks from '../../components/ProjectLinks';
 import { motion } from 'framer-motion';
 import * as Constants from '../../components/Constants';
 import Footer from '../../components/footer';
-import jaxx_1 from '../../images/jaxx-iphone.jpg';
 import jaxx_2 from '../../images/jaxx_laptop_coffee.jpg';
 import jaxx_3 from '../../images/jaxx_multi.jpg';
 import jaxx_4 from '../../images/jaxx_ipad.jpg';
@@ -25,13 +23,11 @@ export class jaxx extends Component {
             animate="enter" 
             exit="exit"
             variants={Constants.aboutVariants}>
-                <Head>
-                    <title>Andrew Mason | Jaxx Liberty</title>
-                </Head>
                 <Menu bg="smoke" />
                 <Container fluid className="bg-smoke p-0">
                     <ProjectDetail 
-                    metaTitle="Andrew Mason | Jaxx Liberty"
+                    metaTitle="Jaxx Liberty"
+                    metaD="Website coding, graphic/UI design, SEO and user engagement for Jaxx Liberty, a cryptocurrency app made by Decentral Inc."
                     projectNumber="02."
                     numberClass="bg-orange"
                     projectLetter="J"

@@ -11,7 +11,8 @@ render() {
     return (
         <div>
             <Head>
-                <title>{this.props.metaTitle}</title>
+            <title>Mason Media | {this.props.metaTitle}</title>
+                <meta name="description" content={this.props.metaD} />
             </Head>
             <Container id={this.props.projectID} fluid className="project_detail bg-smoke p-0">
                 <Row>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Head from 'next/head';
 import Container from 'react-bootstrap/Container';
 import Menu from '../../components/Menu';
 import ProjectDetail from '../../components/ProjectDetail';
@@ -11,7 +10,6 @@ import wy_thumb from '../../images/wy_macbookgold.png';
 import wy_2 from '../../images/wy_about.png';
 import wy_3 from '../../images/wy_iphone5.png';
 import wy_4 from '../../images/wy_project.png';
-import wy_5 from '../../images/wy_laptop3.jpg';
 
 export class warrenyen extends Component {
     componentDidMount() {
@@ -24,13 +22,12 @@ export class warrenyen extends Component {
             animate="enter" 
             exit="exit"
             variants={Constants.aboutVariants}>
-                <Head>
-                    <title>Andrew Mason | Warren Yen</title>
-                </Head>
                 <Menu bg="smoke" />
                 <Container fluid className="bg-smoke p-0">
                     <ProjectDetail 
-                    metaTitle="Andrew Mason | Warren Yen"
+                    metaTitle="Warren Yen"
+                    metaD="A website build for Toronto UX/UI Designer Warren Yen."
+                    metaTitle="Warren Yen"
                     projectNumber="01."
                     numberClass="bg-turq"
                     projectLetter="W"
