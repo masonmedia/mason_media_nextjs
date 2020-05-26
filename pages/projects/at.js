@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Menu from '../../components/Menu';
 import { motion } from 'framer-motion';
 import * as Constants from '../../components/Constants';
-import Footer from '../../components/footer';
+import Footer from '../../components/Footer';
 import at_1 from '../../images/at/at_laptop.png';
 import at_2 from '../../images/at/at_iphones_black.png';
 import at_3 from '../../images/at/at_iphone.jpg';

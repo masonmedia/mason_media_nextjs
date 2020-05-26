@@ -5,7 +5,7 @@ import ProjectDetail from '../../components/ProjectDetail';
 import ProjectLinks from '../../components/ProjectLinks';
 import { motion } from 'framer-motion';
 import * as Constants from '../../components/Constants';
-import Footer from '../../components/footer';
+import Footer from '../../components/Footer';
 import dc_1 from '../../images/dc/dc_laptop.png';
 import dc_2 from '../../images/dc/jaxx_imac.jpg';
 import dc_3 from '../../images/dc/decentral_flatiron.jpeg';
@@ -34,6 +34,7 @@ export class decentral extends Component {
                     projectTitle="Decentral Inc."
                     projectDesc="Jaxx Liberty is a cryptocurrency wallet app made by Decentral Inc. In my role as Decentral's lead website designer/developer, I completely redesigned the Jaxx Liberty public facing website, modernized its branding, layout, and color palette, significantly improved SEO and engagement, and created hundreds of image assets. I also redesigned their Wordpress blog and customer support website (Zendesk). In this process, I revitalized the Jaxx brand and helped increase user base and web presence."
                     projectImg1={dc_1}
+                    imgClass1="bg-pink"
                     projectImg2={dc_2}
                     projecSubTitle2="Jaxx Liberty"
                     projectTitle2="Tech Stack"
@@ -42,9 +43,9 @@ export class decentral extends Component {
                     projectDescCol="bg-yellow"
                     projectImg3={dc_3}
                     imgClass3="bg-purple"
-                    projectImg4={dc_4}
+                    projectImg4={dc_5}
                     imgClass4="bg-pink"
-                    projectImg5={dc_5}
+                    projectImg5={dc_4}
                     imgClass5="bg-pink"
                     >
                         <ProjectLinks 
@@ -52,7 +53,7 @@ export class decentral extends Component {
                         githubUrl="https://github.com/masonmedia/jaxx_revolutions_1"
                         behanceUrl="https://www.behance.net/gallery/93329099/Jaxx-Liberty"
                         siteClass="d-none"
-                        prevHref="/projects/warrenyen"
+                        prevHref="/projects/jaxx"
                         nextHref="/projects/decentral"
                         />
                     </ProjectDetail>

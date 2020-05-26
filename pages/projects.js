@@ -14,7 +14,7 @@ import Footer from '../components/Footer';
 import wy_thumb from '../images/wy/wy_macbookgold.png';
 import at_thumb from '../images/at/at_laptop.png';
 import jaxx_thumb from '../images/jaxx/jaxx_laptop.png';
-import dc_thumb from '../images/decentral/dc_laptop.png';
+import dc_thumb from '../images/dc/dc_laptop.png';
 import n2_thumb from '../images/n2/n2_laptop.png';
 import sfs_thumb from '../images/sfs/sfs_laptop.png';
 import copetin_thumb from '../images/copetin/copetin_laptop.png';

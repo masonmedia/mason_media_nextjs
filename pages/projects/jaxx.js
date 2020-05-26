@@ -5,7 +5,7 @@ import ProjectDetail from '../../components/ProjectDetail';
 import ProjectLinks from '../../components/ProjectLinks';
 import { motion } from 'framer-motion';
 import * as Constants from '../../components/Constants';
-import Footer from '../../components/footer';
+import Footer from '../../components/Footer';
 import jaxx_2 from '../../images/jaxx/jaxx_laptop_coffee.jpg';
 import jaxx_3 from '../../images/jaxx/jaxx_multi.jpg';
 import jaxx_4 from '../../images/jaxx/jaxx_ipad.jpg';

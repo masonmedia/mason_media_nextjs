@@ -19,8 +19,8 @@ export function Menu(props) {
         className={props.navClass}>
             <Link href="/" scroll={false}>
                 <a className="navbar-brand" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>
-                    M
-                    <span className="font-weight-bold">2</span>
+                    mason
+                    <span className="font-weight-bold">media</span>
                 </a>
             </Link>
             <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="responsive-navbar-nav">
