@@ -54,7 +54,7 @@ export class decentral extends Component {
                         behanceUrl="https://www.behance.net/gallery/93329099/Jaxx-Liberty"
                         siteClass="d-none"
                         prevHref="/projects/jaxx"
-                        nextHref="/projects/decentral"
+                        nextHref="/projects/at"
                         />
                     </ProjectDetail>
                 </Container>

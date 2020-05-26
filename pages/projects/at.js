@@ -20,15 +20,16 @@ export class at extends Component {
         animate="enter" 
         exit="exit"
         variants={Constants.imageVariants}>
-            <Menu bg="pink" variant="light" />
+            <Menu bg="smoke" variant="light" />
             <ProjectDetail 
             metaTitle="Andrew Mason | Advance Therapy"
-            projectNumber="02."
-            projectLetter="A"
+            projectNumber="04."
+            numberClass="bg-green"
+            projectLetter="AT"
             projectTitle="Advance Therapy"
-            projectDesc="Advance is a Guelph health services company specializing in brain injury rehabilitation. This project required a complete overhaul and redesign of the firm's previous website. Requirements included a simple, intuitive user interface, a low amount of scrolling while still presenting a large amount of content, a specific typeface, and the firm's previous logo."
+            projectDesc="Advance Therapy is a Guelph health services company specializing in brain injury rehabilitation. This project required a complete overhaul and redesign of the firm's previous website. Requirements included a simple, intuitive user interface, a low amount of scrolling while still presenting a large amount of content, a specific typeface, and the firm's previous logo."
             projectImg1={at_1}
-            imgClass1="bg-pink"
+            imgClass1="bg-green"
             projectImg2={at_2}
             imgClass2="bg-turq"
             projecSubTitle2="Advance Therapy"

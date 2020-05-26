@@ -37,7 +37,7 @@ export class jaxx extends Component {
                     projectImg2={jaxx_2}
                     projecSubTitle2="Jaxx Liberty"
                     projectTitle2="Tech Stack"
-                    projectDesc2="I coded the main product website using HTML5, PHP, CSS3, SWUP, GSAP, and included a Zendesk help widget for support functionality and a Cookie Consent/GDPR plugin by Insites. I also duplicated the site as a single page application using Angular 7/8, and incorporated market data, blockchain news, Zendesk support FAQ, and Jaxx blog APIs to reproduce the functionality of the Jaxx Liberty mobile app. 
+                    projectDesc2="I coded the main product website using HTML5, PHP, CSS3, SWUP, GSAP, and included a Zendesk help widget for support functionality and a Cookie Consent/GDPR plugin by Insites. I also duplicated the site as a single page application using Angular 7/8, and incorporated market data, blockchain news, Zendesk support, and Jaxx blog APIs to reproduce the functionality of the Jaxx Liberty mobile app. 
                     *I do not maintain the current jaxx.io website. For confidentiality, the codebase link below is to an earlier version of jaxx.io, still designed and built by me."
                     projectDescCol="bg-yellow"
                     projectImg3={jaxx_6}
