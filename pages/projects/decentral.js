@@ -37,9 +37,10 @@ export class decentral extends Component {
             imgClass5="bg-pink"
             >
                 <ProjectLinks 
-                projectTitle="Jaxx Liberty"
+                projectTitle="Decentral Inc."
                 githubUrl="https://github.com/masonmedia/decentral.ca_swup"
                 behanceUrl="https://www.behance.net/gallery/93329099/Jaxx-Liberty"
+                designCircle="•"
                 siteUrl="https://decentral.ca"
                 prevHref="/projects/jaxx"
                 nextHref="/projects/at"

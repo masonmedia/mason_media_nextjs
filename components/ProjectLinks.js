@@ -8,22 +8,22 @@ export class ProjectLinks extends Component {
     render() {
         return (
             <Row>
-                <Col xl={12} className="align-left min-50 text-primary p-5 my-5">
+                <Col xl={12} className="text-center min-50 p-5 my-5">
                     {/* project links */}
                     <h6 className="text-uppercase text-dark ">
                         {this.props.projectTitle}
                     </h6>
                     <a className={this.props.githubClass} href={this.props.githubUrl} target="_blank">
-                        <h1 className="page_title">code.</h1>
+                        <span className="page_title text-primary mr-2 text-shadow">code • </span>
                     </a>
                     <a className={this.props.behanceClass} href={this.props.behanceUrl} target="_blank">
-                        <h1 className="page_title">designs.</h1>
+                        <span className="page_title mr-2 text-success text-shadow">designs {this.props.designCircle} </span>
                     </a>
                     <a className={this.props.siteClass} href={this.props.siteUrl} target="_blank"> 
-                        <h1 className="page_title">live site.</h1>
+                        <span className="page_title text-danger text-shadow">live site</span>
                     </a>
                     {/* pagination */}
-                    <div className="d-flex mt-3">
+                    <div className="d-flex justify-content-center mt-4">
                         <Link href={this.props.prevHref} scroll={false}>
                             <a><Button 
                             className="mr-2"

@@ -39,6 +39,7 @@ export class warrenyen extends Component {
                 projectTitle="Warren Yen"
                 githubUrl="https://github.com/masonmedia/warren_yen_portfolio"
                 behanceUrl="https://www.behance.net/gallery/97181347/Warren-Yen-Website-Device-Mockups"
+                designCircle="•"
                 siteUrl="https://warrenyen.com"
                 prevHref="/projects"
                 nextHref="/projects/jaxx"
