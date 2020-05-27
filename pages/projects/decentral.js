@@ -20,14 +20,14 @@ export class decentral extends Component {
             numberClass="bg-black text-light"
             projectLetter="DC"
             projectTitle="Decentral Inc."
-            projectDesc="Jaxx Liberty is a cryptocurrency wallet app made by Decentral Inc. In my role as Decentral's lead website designer/developer, I completely redesigned the Jaxx Liberty public facing website, modernized its branding, layout, and color palette, significantly improved SEO and engagement, and created hundreds of image assets. I also redesigned their Wordpress blog and customer support website (Zendesk). In this process, I revitalized the Jaxx brand and helped increase user base and web presence."
+            projectDesc="One of Toronto's earliest blockchain startups, Decentral is the maker of two industry-leading digital wallet apps. In my role as Decentral's lead website designer and developer, I redesigned and rebuilt all the company's customer facing web properties including: the company website, app/product website, the customer support website, and the company and product blogs. I also supported marketing with image design and sourcing, and was a creative voice in the development and editing of new copy across platforms."
             projectImg1={dc_1}
             imgClass1="bg-pink p-2"
             projectImg2={dc_2}
-            projecSubTitle2="Jaxx Liberty"
+            projecSubTitle2="Decentral Inc."
             projectTitle2="Tech Stack"
-            projectDesc2="I coded the main product website using HTML5, PHP, CSS3, SWUP, GSAP, and included a Zendesk help widget for support functionality and a Cookie Consent/GDPR plugin by Insites. I also duplicated the site as a single page application using Angular 7/8, and incorporated market data, blockchain news, Zendesk support FAQ, and Jaxx blog APIs to reproduce the functionality of the Jaxx Liberty mobile app. 
-            *I do not maintain the current jaxx.io website. For confidentiality, the codebase link below is to an earlier version of jaxx.io, still designed and built by me."
+            projectDesc2="I built the Decentral company website to be consistent with Jaxx Liberty (its product site) and used the same basic stack: HTML5, CSS3, PHP, JS, jQuery, GSAP, SWUP, Zendesk help plugin, Cookie Consent plugin. I redesigned the Jaxx support website which used curlybars.js, HTML5, CSS3, JS and jQuery, as well as both the Jaxx and Decentral blogs (Wordpress). All sites include custom images, google gtags for analytics, as well as JSON-LD schema/google structured data for improved SEO and rich-media search results.
+            *I do not maintain any of decentral's websites."
             projectDescCol="bg-yellow"
             projectImg3={dc_3}
             imgClass3="bg-purple"

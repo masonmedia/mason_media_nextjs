@@ -14,7 +14,7 @@ export class ProjectLinks extends Component {
                         {this.props.projectTitle}
                     </h6>
                     <a className={this.props.githubClass} href={this.props.githubUrl} target="_blank">
-                        <span className="page_title text-primary mr-2 text-shadow">code • </span>
+                        <span className="page_title text-primary mr-1 text-shadow">code • </span>
                     </a>
                     <a className={this.props.behanceClass} href={this.props.behanceUrl} target="_blank">
                         <span className="page_title mr-2 text-success text-shadow">designs {this.props.designCircle} </span>
@@ -24,9 +24,14 @@ export class ProjectLinks extends Component {
                     </a>
                     {/* pagination */}
                     <div className="d-flex justify-content-center mt-4">
-                        <Link href={this.props.prevHref} scroll={false}>
+                        {/* <Link href="/projects" scroll={false}>
                             <a><Button 
                             className="mr-2"
+                            variant="outline-dark">Projects</Button></a>
+                        </Link> */}
+                        <Link href={this.props.prevHref} scroll={false}>
+                            <a><Button 
+                            className={`${this.props.prevClass} mr-2`}
                             variant="outline-dark">Previous</Button></a>
                         </Link>
                         <Link href={this.props.nextHref} scroll={false}>
