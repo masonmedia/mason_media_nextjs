@@ -1,19 +1,28 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
+import { motion } from 'framer-motion';
+import Menu from '../components/Menu';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Footer from '../components/Footer';
+import * as Constants from '../components/Constants';
 
 // this is the individual project detail page template
 
 export class ProjectDetail extends Component {
 render() {
     return (
-        <div>
+        <motion.div 
+            initial="initial"
+            animate="enter" 
+            exit="exit"
+            variants={Constants.aboutVariants}>
             <Head>
             <title>Mason Media | {this.props.metaTitle}</title>
                 <meta name="description" content={this.props.metaD} />
             </Head>
+            <Menu bg="smoke" />
             <Container id={this.props.projectID} fluid className="project_detail bg-smoke p-0">
                 <Row>
                     <Col xl={6} className="align-left min-100 p-5">
@@ -77,7 +86,8 @@ render() {
                 {/* Project Links component */}
                 {this.props.children}
             </Container>
-        </div>
+            <Footer />
+        </motion.div>
         );
     }
 }

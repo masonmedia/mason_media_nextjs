@@ -59,6 +59,9 @@ export function Menu(props) {
                     <Link href="/therapists" scroll={false}>
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Therapists</a>
                     </Link>
+                    <Link href="/blog" scroll={false}>
+                        <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Blog</a>
+                    </Link>
                     <Nav.Link href="mailto:doug@atherapy.ca">Contact
                     </Nav.Link>
                 </Nav>
