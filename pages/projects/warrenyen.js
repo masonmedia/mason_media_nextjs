@@ -22,7 +22,7 @@ export class warrenyen extends Component {
             projectTitle="Warren Yen"
             projectDesc="A website build for Toronto UX/UI Designer Warren Yen, this project required the development of a user interface and layout provided by the client. A central parameter for the project was to build the site in such a way that the client, with moderate coding ability, would be able to update and customize it himself. This posed certain challenges for architecture, which were solved by building all elements, sections, pages, and styles into clear, reuseable components that could be copied and edited as needed."
             projectImg1={wy_thumb}
-            imgClass1="bg-turq"
+            imgClass1="bg-turq p-2"
             projectImg2={wy_2}
             imgClass2="bg-red"
             projecSubTitle2="Warren Yen"
