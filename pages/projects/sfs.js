@@ -20,14 +20,14 @@ export class sfs extends Component {
             numberClass="bg-black text-light"
             projectLetter="sfs"
             projectTitle="Surefire Sweat"
-            projectDesc="Toronto world-jazz band Surefire Sweat required a website, UI, and graphic design workup for booking, promotion, fan engagement and marketing. Requirements included the incorporation of an existing logo and photography, color palette development, typography, and media including audio, video, photos, press kit, a concert dates calendar, and contact and social media links. The design solution consisted of a one-page magazine style layout to showcase the band's bold imagery, and features animated dropdown sections that reveal band audio tracks, video, downloadable image gallery, and an electronic press kit."
+            projectDesc="Toronto world-jazz band Surefire Sweat required a website, UI, and graphic design workup for booking, promotion, fan engagement and marketing. Requirements included the incorporation of an existing logo and photography, color palette development, typography, and media presentation including audio, video, photos, press kit, a concert dates calendar, and social media links. The design solution consisted of a one-page magazine style layout to showcase the band's bold imagery, and features animated dropdown sections that reveal band audio tracks, video, downloadable image gallery, and an electronic press kit."
             projectImg1={sfs_1}
             // imgClass1="bg-black"
             projectImg2={sfs_5}
             imgClass2="bg-rainbow p-2"
             projecSubTitle2="Decentral Inc."
             projectTitle2="Tech Stack"
-            projectDesc2="The site was coded from scratch using HTML5, CSS3, Bootstrap 4, jQuery and Javascript, and included UI/UX design, copy editing, color palette development, a hosting/editing tutorial, and ongoing tech support. Other features include a calendar plugin by Timely allowing the client to add and edit concert dates, a smooth anchor scroll menu, and bold social media integration.
+            projectDesc2="The site was coded from scratch using HTML5, CSS3, Bootstrap 4, jQuery and Javascript, and included UI/UX design, copy editing, color palette development, and hosting/editing support. Other features include a calendar plugin by Timely allowing the client to add and edit concert dates, a smooth anchor scroll menu, and bold social media integration.
             *I do not maintain this website."
             projectDescCol="bg-black text-light"
             projectImg3={sfs_3}
