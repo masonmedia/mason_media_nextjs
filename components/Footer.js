@@ -12,7 +12,7 @@ export class Footer extends Component {
     render() {         
         return (
             <footer>
-                <Container fluid className="p-0">
+                <Container fluid className="p-0 relative">
                     <Row className="bg-primary p-0">
                         <Col xl={3} md={6} className="align-left-top px-5 pt-5 font-weight-bold">
                             <div className="display-4 font-weight-bold mb-0">↘</div>

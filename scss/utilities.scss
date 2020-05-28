@@ -40,6 +40,11 @@
     left: 0;
 }
 
+.center {
+    left: 50%; 
+    transform: translate(-50%, 0);
+}
+
 // z-index
 
 .z--1 {

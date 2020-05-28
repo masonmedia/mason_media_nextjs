@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 import Menu from '../components/Menu';
+import MegaMenu from '../components/MegaMenu';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -23,6 +24,7 @@ render() {
                 <meta name="description" content={this.props.metaD} />
             </Head>
             <Menu bg="smoke" />
+            {/* <MegaMenu /> */}
             <Container id={this.props.projectID} fluid className="project_detail bg-smoke p-0">
                 <Row>
                     <Col xl={6} className="align-left min-100 p-5">

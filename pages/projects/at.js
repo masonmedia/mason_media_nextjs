@@ -37,7 +37,7 @@ export class at extends Component {
                 designCircle="•"
                 siteUrl="http://atherapy.ca"
                 prevHref="/projects/jaxx"
-                nextHref="/projects/warrenyen"
+                nextHref="/projects/n2"
                 />
              </ProjectDetail>
         )

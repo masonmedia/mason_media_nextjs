@@ -18,18 +18,16 @@ export class n2 extends Component {
             numberClass="bg-turq"
             projectLetter="N2"
             projectTitle="N2 Speech Therapy"
-            projectDesc="Advance Therapy's public facing website required a complete overhaul and redesign. Requirements included a simple, intuitive user interface, a low amount of scrolling while still presenting a large amount of content, a specific typeface, and the firm's existing logo/color palette. I went with a simple one-page layout centering on jQuery clickable dropdown panels which revealed text for each subsection, with futher features including flexbox construction, a side-canvas menu, smooth anchor scrolling, and image sourcing."
-            projectImg1={n2_1}
-            // imgClass1="bg-green"
+            projectDesc="N2 Speech Therapy is a Toronto Speech-Language Pathology services provider offering a broad range of one-on-one treatment options. N2 required a complete brand design including website, logo, custom imagery, photo sourcing, and copywriting. Requirements included a bold, professional layout, clean presentation of company information, and a blog for updatable content and SEO."
+            projectImg1={n2_3}
             projectImg2={n2_4}
-            // imgClass2="bg-turq"
-            projecSubTitle2="Advance Therapy"
+            projecSubTitle2="N2 Speech Therapy"
             projectTitle2="tech stack"
-            projectDesc2="I redesigned the site again recently to modernize and expant the layout as well as add new content. Having worked with React on numerous recent projects I was tired of the tooling and setup, so built a similar component-based architecture using PHP. The site employs reusable HTML components with PHP variables that allow for SPA-style data binding customization. The site also uses SWUP, SASS, Bootstrap, AOS, Undraw illustations, and an expanded gradient color palette. Advance also required UX copywriting and editing."
-            projectDescCol="bg-yellow"
+            projectDesc2="With the client's blog and updatable content needs, I went with a Wordpress CMS. Starting with a stock template, customizations were developed including custom banner images, unique color palette, addition of font awesome icons and custom bullets, sub-page header and footer images, custom logo design, and SEO and social media integration. Other features include parallaxing background images, scroll animations, and custom UX copywriting and content creation."
+            projectDescCol="bg-black text-light"
             imgClass3="d-none"
             imgClass4="d-none"
-            projectImg5={n2_3}
+            projectImg5={n2_1}
               >
                 <ProjectLinks 
                 projectTitle="N2 Speech Therapy"
@@ -38,7 +36,7 @@ export class n2 extends Component {
                 designCircle="•"
                 siteUrl="http://www.n2speechtherapy.com/"
                 prevHref="/projects/at"
-                nextHref="/projects/warrenyen"
+                nextHref="/projects/n2"
                 />
              </ProjectDetail>
         )

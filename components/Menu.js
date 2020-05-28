@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 export function Menu(props) {
 
@@ -37,6 +38,7 @@ export function Menu(props) {
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Projects</a>
                     </Link>
                     {/* <NavDropdown title="Projects" id="collasible-nav-dropdown">
+                        <Dropdown.Header>Dropdown header</Dropdown.Header>
                         <NavDropdown.Item>
                             <Link href="/projects/warrenyen" scroll={false}>
                                 <a onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Warren Yen</a>
@@ -54,7 +56,6 @@ export function Menu(props) {
                                 <a>Advance Therapy</a>
                             </Link>
                         </NavDropdown.Item>
-                        
                     </NavDropdown> */}
                     <Link href="/therapists" scroll={false}>
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Therapists</a>
