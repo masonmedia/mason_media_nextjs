@@ -36,7 +36,7 @@ export class n2 extends Component {
                 designCircle="•"
                 siteUrl="http://www.n2speechtherapy.com/"
                 prevHref="/projects/at"
-                nextHref="/projects/n2"
+                nextHref="/projects/sfs"
                 />
              </ProjectDetail>
         )

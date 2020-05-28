@@ -23,7 +23,7 @@ export class ProjectLinks extends Component {
                 style={{width: '400px', height: '400px'}} 
                 />
                 <Circle 
-                circleClass="bg-black center"
+                circleClass="bg-yellow center"
                 style={{width: '700px', height: '700px'}} 
                 />
                 <Circle 
