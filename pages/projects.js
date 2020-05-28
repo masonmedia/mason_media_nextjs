@@ -152,8 +152,8 @@ export class projects extends Component {
               microTitle="Jazz Funk Band"
               cardTitle1="Surefire"
               cardTitle2="Sweat"
-              cardSubTitle="HTML5, CSS3, Javascript/jQuery, UI/UX/Graphic design"
-              cardText="Company website for Toronto blockchain software company Decentral Inc."
+              cardSubTitle="HTML5, CSS3, Javascript/jQuery, UI/UX/Graphic design, Copy editing"
+              cardText="Website for Toronto world-jazz band Surefire Sweat."
               >
                 <LinkComponent 
                 linkHref="/projects/sfs"
