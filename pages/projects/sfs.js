@@ -40,7 +40,7 @@ export class sfs extends Component {
                 designCircle="•"
                 siteUrl="http://surefiresweat.com/"
                 prevHref="/projects/bhs"
-                // nextHref="/projects/bhs"
+                nextHref="/projects/copetin"
                 />
             </ProjectDetail>
         )
