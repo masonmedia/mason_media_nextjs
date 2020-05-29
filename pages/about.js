@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 import Container from 'react-bootstrap/Container';
@@ -8,6 +9,7 @@ import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 import * as Constants from '../components/Constants';
 import CircleComponent from '../components/CircleComponent';
+import Button from 'react-bootstrap/Button';
 
 export class about extends Component {
     componentDidMount() {
@@ -124,6 +126,13 @@ export class about extends Component {
                         <Col xl={12} className="bg-yellow align-left min-100 p-5">
                             <h6 className="text-uppercase">Tech Stack</h6>
                             <h1 className="page_title font-weight-bold">This website is made with Next.js, React, React-Bootstrap, SASS, and Framer.</h1>
+                            <Link href="/projects" scroll={false}>
+                                <a>
+                                    <Button variant="outline-dark mt-2">
+                                        Projects
+                                    </Button>
+                                </a>
+                            </Link>
                         </Col>
                     </Row>
                     <Footer />

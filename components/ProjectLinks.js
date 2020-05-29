@@ -8,7 +8,7 @@ import Circle from '../components/Circle';
 export class ProjectLinks extends Component {
     render() {
         return (
-            <Row>
+            <Row className="texture-geometric">
                 
                 {/* <Circle 
                 circleClass="bg-lime left"
@@ -40,13 +40,13 @@ export class ProjectLinks extends Component {
                         {this.props.projectTitle}
                     </h6>
                     <a className={this.props.githubClass} href={this.props.githubUrl} target="_blank">
-                        <span className="page_title text-primary mr-1">code • </span>
+                        <span className="page_title font-weight-light mr-1">code • </span>
                     </a>
                     <a className={this.props.behanceClass} href={this.props.behanceUrl} target="_blank">
-                        <span className="page_title mr-2 text-success">designs {this.props.designCircle} </span>
+                        <span className="page_title font-weight-light mr-1">designs {this.props.designCircle} </span>
                     </a>
                     <a className={this.props.siteClass} href={this.props.siteUrl} target="_blank"> 
-                        <span className="page_title text-danger">live site</span>
+                        <span className="page_title font-weight-light">live site</span>
                     </a>
                     {/* pagination */}
                     <div className="d-flex justify-content-center mt-4">
