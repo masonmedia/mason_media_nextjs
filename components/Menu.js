@@ -57,8 +57,8 @@ export function Menu(props) {
                             </Link>
                         </NavDropdown.Item>
                     </NavDropdown> */}
-                    <Link href="/therapists" scroll={false}>
-                        <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Therapists</a>
+                    <Link href="/writing" scroll={false}>
+                        <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Writing</a>
                     </Link>
                     <Link href="/blog" scroll={false}>
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Blog</a>
