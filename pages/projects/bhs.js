@@ -6,7 +6,6 @@ import bhs_2 from '../../images/bhs/bhs_logo_green.jpg';
 import bhs_3 from '../../images/bhs/bhs_street_billboard-1.jpg';
 import bhs_4 from '../../images/bhs/bhs_lights.jpg';
 import bhs_5 from '../../images/bhs/bhs_iphones.jpg';
-// import bhs_5 from '../../images/bhs/bhs_tvs.jpg';
 
 export class bhs extends Component {
     componentDidMount() {
@@ -21,8 +20,8 @@ export class bhs extends Component {
             numberClass="bg-success text-light"
             projectLetter="bhs"
             projectTitle="Big Horn Sheep"
-            projectDesc="Toronto world-jazz band Surefire Sweat required a website, UI, and graphic design workup for booking, promotion, fan engagement and marketing. Requirements included the incorporation of an existing logo and photography, color palette development, typography, and media presentation including audio, video, photos, press kit, a concert dates calendar, and social media links. The design solution consisted of a one-page magazine style layout to showcase the band's bold imagery, and features animated dropdown sections that reveal band audio tracks, video, downloadable image gallery, and an electronic press kit."
-            projectImg1={bhs_1}
+            projectDesc="A website for Toronto instrumental trio Big Horn Sheep, this project required bold imagery and graphic design, unique typography, showcasing of band audio tracks and images, as well as performance dates and contact information. The design solution consisted of a Single Page Application using AngularJS and Bootstrap 4. It features animated page transitions, embedded soundcloud audio tracks, a pinterest-style image lightbox gallery, Bootstrap modals to showcase performance dates and band posters (also Mason Media design), with unique banner images and branding. The site was also an exercise in Atomic CSS, with an effort to limit styles to native Bootstrap 4 classes."
+            projectImg1={bhs_2}
             projectImg2={bhs_3}
             projecSubTitle2="Big Horn Sheep"
             projectTitle2="Tech Stack"
@@ -30,7 +29,7 @@ export class bhs extends Component {
             *I do not maintain this website."
             projectDescCol="bg-black text-light"
             projectImg3={bhs_5}
-            projectImg4={bhs_2}
+            projectImg4={bhs_1}
             projectImg5={bhs_4}
             >
                 <ProjectLinks 
