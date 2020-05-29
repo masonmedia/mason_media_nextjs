@@ -20,13 +20,12 @@ export class bhs extends Component {
             numberClass="bg-success text-light"
             projectLetter="bhs"
             projectTitle="Big Horn Sheep"
-            projectDesc="A website for Toronto instrumental trio Big Horn Sheep, this project required bold imagery and graphic design, unique typography, showcasing of band audio tracks and images, as well as performance dates and contact information. The design solution consisted of a Single Page Application using AngularJS and Bootstrap 4. It features animated page transitions, embedded soundcloud audio tracks, a pinterest-style image lightbox gallery, Bootstrap modals to showcase performance dates and band posters (also Mason Media design), with unique banner images and branding. The site was also an exercise in Atomic CSS, with an effort to limit styles to native Bootstrap 4 classes."
+            projectDesc="A website for Toronto instrumental trio Big Horn Sheep, this project required UI/UX/graphic design, branding, photo sourcing, showcasing of band audio tracks, photos, and posters, as well as performance dates and contact information. The design solution consisted of a single page application using Angular and Bootstrap 4. It features animated page transitions, embedded soundcloud audio tracks, a pinterest-style lightbox photo gallery, and unique typography."
             projectImg1={bhs_2}
             projectImg2={bhs_3}
             projecSubTitle2="Big Horn Sheep"
             projectTitle2="Tech Stack"
-            projectDesc2="The site was coded from scratch using HTML5, CSS3, Bootstrap 4, jQuery and Javascript, and included UI/UX design, copy editing, color palette development, and hosting/editing support. Other features include a calendar plugin by Timely allowing the client to add and edit concert dates, a smooth anchor scroll menu, and bold social media integration.
-            *I do not maintain this website."
+            projectDesc2="The site is built with Angular, HTML5, CSS3, Javascript, and Bootstrap 4. It also required UX/UI design, copywriting, and a Facebook band page design. Other site features include modals to showcase performance dates and band posters (Mason Media design), with unique banner images and branding. The site was also an exercise in Atomic CSS, with an effort to limit styles to native Bootstrap 4 classes."
             projectDescCol="bg-black text-light"
             projectImg3={bhs_5}
             projectImg4={bhs_1}
