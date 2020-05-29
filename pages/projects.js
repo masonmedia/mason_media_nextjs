@@ -146,20 +146,6 @@ export class projects extends Component {
                 />
               </ProjectItem>
 
-              <ProjectItem
-              col2Class="p-5"
-              cardImgSrc={sfs_thumb}
-              microTitle="Jazz Funk Band"
-              cardTitle1="Surefire"
-              cardTitle2="Sweat"
-              cardSubTitle="HTML5, CSS3, Javascript/jQuery, UI/UX/Graphic design, Copy editing"
-              cardText="Website for Toronto world-jazz band Surefire Sweat."
-              >
-                <LinkComponent 
-                linkHref="/projects/sfs"
-                />
-                </ProjectItem>
-
               <ProjectItem 
               col2Class="p-5"
               cardImgSrc={bhs_thumb}
@@ -173,6 +159,20 @@ export class projects extends Component {
                 linkHref="/projects/bhs"
                 />
               </ProjectItem>
+
+              <ProjectItem
+              col2Class="p-5"
+              cardImgSrc={sfs_thumb}
+              microTitle="Jazz Funk Band"
+              cardTitle1="Surefire"
+              cardTitle2="Sweat"
+              cardSubTitle="HTML5, CSS3, Javascript/jQuery, UI/UX/Graphic design, Copy editing"
+              cardText="Website for Toronto world-jazz band Surefire Sweat."
+              >
+                <LinkComponent 
+                linkHref="/projects/sfs"
+                />
+              </ProjectItem>              
 
               <ProjectItem
               col2Class="p-5"
