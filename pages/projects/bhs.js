@@ -20,12 +20,12 @@ export class bhs extends Component {
             numberClass="bg-success text-light"
             projectLetter="bhs"
             projectTitle="Big Horn Sheep"
-            projectDesc="A website for Toronto instrumental trio Big Horn Sheep, this project required UI/UX/graphic design, branding, photo sourcing, showcasing of band audio tracks, photos, and posters, as well as performance dates and contact information. The design solution consisted of a single page application using Angular and Bootstrap 4. It features animated page transitions, embedded soundcloud audio tracks, a pinterest-style lightbox photo gallery, and unique typography."
+            projectDesc="A website for Toronto instrumental trio Big Horn Sheep, this project required UI/UX design, logo and graphic design, branding, photo sourcing, showcasing of band audio tracks, photos, and posters, as well as performance dates and contact information. The design solution consisted of a single page application using Angular and Bootstrap 4 featuring soundcloud audio tracks, a pinterest-style photo gallery, and unique typography. The project also required the creation of Vimeo and Soundcloud pages to host band video and audio content."
             projectImg1={bhs_2}
             projectImg2={bhs_3}
             projecSubTitle2="Big Horn Sheep"
             projectTitle2="Tech Stack"
-            projectDesc2="The site is built with Angular, HTML5, CSS3, Javascript, and Bootstrap 4. It also required UX/UI design, copywriting, and a Facebook band page design. Other site features include modals to showcase performance dates and band posters (Mason Media design), with unique banner images and branding. The site was also an exercise in Atomic CSS, with an effort to limit styles to native Bootstrap 4 classes."
+            projectDesc2="The site is built with Angular, HTML5, CSS3, Javascript, and Bootstrap 4. It also required copy/content writing and a Facebook band page design. Other site features include stylized vintage polaroid photo gallery modals and a showcase of performance dates with corresponding concert posters (also Mason Media design). The site was also an exercise in Atomic CSS, with an effort to limit styles to native Bootstrap 4 classes."
             projectDescCol="bg-black text-light"
             projectImg3={bhs_5}
             projectImg4={bhs_1}
