@@ -19,7 +19,6 @@ export class CircleComponent extends Component {
                 className={`${this.props.circle6} absolute z-0 left top circle shadow`} style={{width: '200px', height: '200px'}}></div>
                 <div 
                 className={`${this.props.circle5} absolute z-0 right top circle shadow`} style={{width: '150px', height: '150px'}}></div>
-                
             </Slide>
         )
     }

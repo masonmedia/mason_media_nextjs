@@ -60,11 +60,12 @@ export function Menu(props) {
                     <Link href="/writing" scroll={false}>
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Writing</a>
                     </Link>
-                    <Link href="/blog" scroll={false}>
+                    {/* <Link href="/blog" scroll={false}>
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Blog</a>
+                    </Link> */}
+                    <Link href="/contact" scroll={false}>
+                        <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Contact</a>
                     </Link>
-                    <Nav.Link href="mailto:doug@atherapy.ca">Contact
-                    </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
