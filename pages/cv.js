@@ -39,11 +39,11 @@ export class cv extends Component {
                             />
                             <motion.div variants={Constants.textVariants}>
                             <h1 className="site-title text-light drop-shadow">
-                                Resume
+                                cv
                             </h1>
                             </motion.div>
                             <motion.div variants={Constants.backVariants}>
-                                <h5 className="text-uppercase font-weight-bold drop-shadow">
+                                <h5 className="text-uppercase font-weight-bold text-light drop-shadow">
                                 Background.</h5>
                             </motion.div>
                         </Col>
@@ -82,7 +82,7 @@ export class cv extends Component {
                                 <h1 className="page_title font-weight-bold text-uppercase">WEB DEVELOPER</h1>
                                 <p className="h5">Decentral Inc. | June 2018 - July 2019</p>
                                 {/* read more */}
-                                <div className="h5 font-weight-light pb-4 text-muted">read more.</div>
+                                <div className="h5 font-weight-light pb-3 text-muted">read more.</div>
                                 </Accordion.Toggle>
                                 <Accordion.Collapse eventKey="0">
                                 <Card.Body className="pl-0 pt-1 pb-5">
@@ -97,7 +97,7 @@ export class cv extends Component {
                                 <h1 className="page_title font-weight-bold text-uppercase">Designer & Developer</h1>
                                 <p className="h5">Mason Media | 2015 - Present</p>
                                 {/* read more */}
-                                <div className="h5 font-weight-light pb-4 text-muted">read more.</div>
+                                <div className="h5 font-weight-light pb-3 text-muted">read more.</div>
                                 </Accordion.Toggle>
                                 <Accordion.Collapse eventKey="1">
                                 <Card.Body className="pl-0 pt-1 pb-5">
@@ -112,7 +112,7 @@ export class cv extends Component {
                                 <h1 className="page_title font-weight-bold text-uppercase">Copywriter</h1>
                                 <p className="h5">Neighbourhood Buzz | 2017-2019 Foliovison.com | 2015-2017 Wikidee.org | 2014-2015</p>
                                 {/* read more */}
-                                <div className="h5 font-weight-light pb-4 text-muted">read more.</div>
+                                <div className="h5 font-weight-light pb-3 text-muted">read more.</div>
                                 </Accordion.Toggle>
                                 <Accordion.Collapse eventKey="2">
                                 <Card.Body className="pl-0 pt-1 pb-5">
@@ -129,22 +129,36 @@ export class cv extends Component {
                     <Row>
                         <Col xl={12} className="bg-black text-light align-left min-100 p-5">
                             <h6 className="text-uppercase">Professional Skills</h6>
-                            <h1 className="page_title font-weight-bold">HTML5, CSS3, SASS, Bootstrap 4, Semantic UI, Atomic CSS, Javascript/jQuery, React, Angular, Node, npm, parcel bundler, Webflow, Wordpress, VS Code, Brackets, Github, Bitbucket.</h1>
+                            <h1 className="page_title font-weight-bold">HTML5, CSS3, SASS, Bootstrap 4, Semantic UI, Atomic CSS, Javascript/jQuery, React, Angular, Node, npm, Parcel bundler, Webflow, Wordpress, VS Code, Brackets, Github, Bitbucket.</h1>
                             <div className="display-3 font-weight-light">↓</div>
                         </Col>
                     </Row>
 
                     <Row>
                         <Col xl={12} className="bg-smoke align-left min-100 p-5">
+                            <h6 className="text-uppercase">Animation</h6>
+                            <h1 className="page_title font-weight-bold">GSAP, AOS (animate on scroll), Scroll Magic, Lax.js, SWUP, animate.css, Rellax.js, React-reveal, Framer.</h1>
+                        </Col>
+                    </Row>
+                    
+                    <Row>
+                        <Col xl={12} className="bg-black text-light align-left min-100 p-5">
                             <h6 className="text-uppercase">Design</h6>
                             <h1 className="page_title font-weight-bold">Photoshop, Canva, Crello, Lunapic, Wireframe.cc, HTML email design & coding, Sendgrid, Mailchimp.</h1>
                         </Col>
                     </Row>
 
                     <Row>
-                        <Col xl={12} className="bg-black text-light align-left min-100 p-5">
+                        <Col xl={12} className="bg-smoke align-left min-100 p-5">
                             <h6 className="text-uppercase">SEO, Writing, Communication</h6>
-                            <h1 className="page_title font-weight-bold">SEO, Schema data, JSON-LD, google structured data, copy & content writing, copy editing, Slack, Zoom, Skype, Gmail/G-suite, Wrike, Agile.</h1>
+                            <h1 className="page_title font-weight-bold">SEO, Schema data, JSON-LD, google structured data, copy & content writing, copy editing, Slack, Zoom, Skype, Gmail, Google Drive, Wrike, Agile.</h1>
+                        </Col>
+                    </Row>
+
+                    <Row>
+                        <Col xl={12} className="bg-black text-light align-left min-100 p-5">
+                            <h6 className="text-uppercase">Contact</h6>
+                            <h1 className="page_title font-weight-bold">Drop me a line on social or an email below to discuss your next project.</h1>
                         </Col>
                     </Row>
                     <Footer />
