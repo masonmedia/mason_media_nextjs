@@ -63,8 +63,8 @@ export function Menu(props) {
                     {/* <Link href="/blog" scroll={false}>
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Blog</a>
                     </Link> */}
-                    <Link href="/contact" scroll={false}>
-                        <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Contact</a>
+                    <Link href="/cv" scroll={false}>
+                        <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>CV</a>
                     </Link>
                 </Nav>
             </Navbar.Collapse>

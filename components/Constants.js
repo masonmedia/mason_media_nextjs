@@ -6,7 +6,10 @@ export const aboutVariants = {
         opacity: 0,
         transition: {
           duration: 0.5,
-          ease: easing
+          ease: easing,
+          type: "spring", 
+          stiffness: 300, 
+          damping: 200
         }
       },
     exit: {
@@ -22,8 +25,11 @@ export const aboutVariants = {
         opacity: 1,
         transition: {
           delay: 0,
-          duration: 1,
-          ease: easing
+          duration: 0.5,
+          ease: easing,
+          type: "spring", 
+          stiffness: 300, 
+          damping: 200
         }
       }
 }
