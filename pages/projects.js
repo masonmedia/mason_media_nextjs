@@ -56,7 +56,7 @@ export class projects extends Component {
                   </h1>
                   </motion.div>
                   <motion.div variants={Constants.backVariants}>
-                    <h5 className="relative text-uppercase">
+                    <h5 className="relative text-uppercase mt-2">
                     Check out some of my work below.</h5>
                   </motion.div>
               </Col>

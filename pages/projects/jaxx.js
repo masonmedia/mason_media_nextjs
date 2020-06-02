@@ -4,7 +4,7 @@ import ProjectLinks from '../../components/ProjectLinks';
 import jaxx_2 from '../../images/jaxx/jaxx_laptop_coffee.jpg';
 import jaxx_3 from '../../images/jaxx/jaxx_multi.jpg';
 import jaxx_4 from '../../images/jaxx/jaxx_ipad.jpg';
-import jaxx_5 from '../../images/jaxx/jaxx_2phones.jpg';
+import jaxx_5 from '../../images/jaxx/jaxx_3phones.jpg';
 import jaxx_6 from '../../images/jaxx/jaxx_grafitti.jpg';
 
 export class jaxx extends Component {
@@ -27,7 +27,7 @@ export class jaxx extends Component {
             projectTitle2="Tech Stack"
             projectDesc2="I built the main product website using HTML5, PHP, CSS3, Bootstrap, SWUP, GSAP, and included a Zendesk help widget for support functionality and a Cookie Consent/GDPR plugin by Insites. I also duplicated the site as a single page application using Angular 7/8, and incorporated market data, blockchain news, Zendesk support, and Jaxx blog APIs to reproduce the functionality of the Jaxx Liberty mobile app. 
             *I do not maintain the current jaxx.io website. For confidentiality, the codebase link below is to an earlier version of jaxx.io, still designed and built by me."
-            projectDescCol="bg-yellow"
+            projectDescCol="bg-navy text-light"
             projectImg3={jaxx_6}
             imgClass3="bg-purple"
             projectImg4={jaxx_3}

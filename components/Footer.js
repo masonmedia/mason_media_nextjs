@@ -41,13 +41,13 @@ export class Footer extends Component {
                                 <Link href="/projects/warrenyen">
                                     <a><li>Warren Yen</li></a>
                                 </Link>
-                                <Link href="projects/">
+                                <Link href="/projects/jaxx">
                                     <a><li>Jaxx Liberty</li></a>
                                 </Link>
-                                <Link href="/">
+                                <Link href="/projects/at">
                                     <a><li>Advance Therapy</li></a>
                                 </Link>
-                                <Link href="/">
+                                <Link href="/projects/bhs">
                                     <a><li>Big Horn Sheep</li></a>
                                 </Link>
                             </ul>

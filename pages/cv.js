@@ -10,6 +10,7 @@ import Card from 'react-bootstrap/Card';
 import Footer from '../components/Footer';
 import * as Constants from '../components/Constants';
 import CircleComponent from '../components/CircleComponent';
+import Button from 'react-bootstrap/Button';
 
 export class cv extends Component {
     componentDidMount() {
@@ -38,7 +39,7 @@ export class cv extends Component {
                             circle6="bg-pink" 
                             />
                             <motion.div variants={Constants.textVariants}>
-                            <h1 className="site-title text-light drop-shadow">
+                            <h1 className="site-title text-light drop-shadow mr-3">
                                 cv
                             </h1>
                             </motion.div>
@@ -159,6 +160,13 @@ export class cv extends Component {
                         <Col xl={12} className="bg-black text-light align-left min-100 p-5">
                             <h6 className="text-uppercase">Contact</h6>
                             <h1 className="page_title font-weight-bold">Drop me a line on social or an email below to discuss your next project.</h1>
+                            <a href="mailto:andrewmasonmedia@gmail.com">
+                                <Button 
+                                className="mt-2"
+                                variant="outline-light">
+                                    Get in touch
+                                </Button>
+                            </a>
                         </Col>
                     </Row>
                     <Footer />

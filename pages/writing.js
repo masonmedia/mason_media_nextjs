@@ -62,7 +62,7 @@ export class writing extends Component {
                         <Col xl={12} className="bg-black text-light align-left min-100 p-5">
                             <h6 className="text-uppercase">Copywriting</h6>
                             <h1 className="page_title font-weight-bold ">I have broad experience with short and long form writing on a range of topics from music, to fashion, fitness, food/cooking, lifestyle, design, real estate, and business.</h1>
-                            <div className="display-3 font-weight-light">↓</div>
+                            <div className="page_title font-weight-light">↓</div>
                         </Col>
                     </Row>
 
@@ -70,7 +70,7 @@ export class writing extends Component {
                         <Col xl={12} className="bg-smoke align-left min-100 p-5">
                             <h6 className="text-uppercase">Content Creation</h6>
                             <h1 className="page_title font-weight-bold ">I create a range of different content types, from articles, to reviews, blog and social media posts, poster/flyer copy, bios, and album/track descriptions all written with a fast, fluid style.</h1>
-                            <div className="display-3 font-weight-light">↓</div>
+                            <div className="page_title font-weight-light">↓</div>
                         </Col>
                     </Row>
 
@@ -78,7 +78,7 @@ export class writing extends Component {
                         <Col xl={12} className="bg-turq text-light align-left min-100 p-5">
                             <h6 className="text-uppercase">Editing</h6>
                             <h1 className="page_title font-weight-bold">From grammar and spelling corrections, to improved style, UX, and SEO, I specialize in editing, parsing, and revitalizing existing written content for web presentation.</h1>
-                            <div className="display-3 font-weight-light">↓</div>
+                            <div className="page_title font-weight-light">↓</div>
                         </Col>
                     </Row>
 
