@@ -23,7 +23,7 @@ export class writing extends Component {
                 <Head>
                     <title>Mason Media | Copywriting</title>
                 </Head>
-                <Menu bg="turq" variant="dark" />
+                <Menu bg="success" variant="dark" />
                 <Container fluid>
                     <Row className="bg-success">
                         <Col className="align-center min-100 p-5">

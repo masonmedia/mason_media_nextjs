@@ -37,17 +37,6 @@ export class about extends Component {
                             circle5="bg-pink" 
                             circle6="bg-pink" 
                             />
-                            {/* <div 
-                            className="absolute z-0 bg-turq right circle shadow"
-                            style={{width: '700px', height: '700px'}}></div>
-                            <div 
-                            className="absolute z-0 left bg-turq circle shadow"
-                            style={{width: '400px', height: '400px'}}></div>
-                            <div className="absolute z-0 left bottom bg-yellow circle shadow" style={{width: '300px', height: '300px'}}></div>
-                            <div className="absolute z-0 right bg-pink circle shadow" style={{width: '450px', height: '450px'}}></div>
-                            <div className="absolute z-0 right top bg-pink circle shadow" style={{width: '150px', height: '150px'}}></div>
-                            <div className="absolute z-0 left top bg-pink circle shadow" style={{width: '200px', height: '200px'}}></div> */}
-
                             <motion.div variants={Constants.textVariants}>
                             <h1 className="site-title text-light drop-shadow">
                                 about
