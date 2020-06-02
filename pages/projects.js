@@ -31,10 +31,10 @@ export class projects extends Component {
     render() {
         return (
           <motion.div 
-          initial="initial"
+          initial="exit"
           animate="enter" 
           exit="exit"
-          variants={Constants.aboutVariants}>
+          variants={Constants.imageVariants}>
             <Head>
                 <title>Andrew Mason | Projects</title>
             </Head>
@@ -56,7 +56,7 @@ export class projects extends Component {
                   </h1>
                   </motion.div>
                   <motion.div variants={Constants.backVariants}>
-                    <h5 className="relative text-uppercase mt-2">
+                    <h5 className="relative font-weight-bold text-uppercase mt-2">
                     Check out some of my work below.</h5>
                   </motion.div>
               </Col>

@@ -12,7 +12,7 @@ import * as Constants from '../components/Constants';
 import CircleComponent from '../components/CircleComponent';
 import Button from 'react-bootstrap/Button';
 
-export class cv extends Component {
+export class resume extends Component {
     componentDidMount() {
         window.scrollTo(0, 0);
       }
@@ -24,7 +24,7 @@ export class cv extends Component {
             exit="exit"
             variants={Constants.imageVariants}>
                 <Head>
-                    <title>Andrew Mason | CV</title>
+                    <title>Andrew Mason | Resume</title>
                 </Head>
                 <Menu bg="black" variant="dark" />
                 <Container fluid>
@@ -40,12 +40,12 @@ export class cv extends Component {
                             />
                             <motion.div variants={Constants.textVariants}>
                             <h1 className="site-title text-light drop-shadow mr-3">
-                                cv
+                                Resume
                             </h1>
                             </motion.div>
                             <motion.div variants={Constants.backVariants}>
                                 <h5 className="text-uppercase font-weight-bold text-light drop-shadow">
-                                Background.</h5>
+                                Background</h5>
                             </motion.div>
                         </Col>
                     </Row>
@@ -179,4 +179,4 @@ export class cv extends Component {
     }
 }
 
-export default cv;
+export default resume;
