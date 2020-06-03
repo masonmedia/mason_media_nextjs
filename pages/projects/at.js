@@ -21,11 +21,11 @@ export class at extends Component {
             projectImg1={at_1}
             imgClass1="bg-green p-2"
             projectImg2={at_2}
-            imgClass2="bg-turq"
+            imgColClass2="bg-squares"
             projecSubTitle2="Advance Therapy"
             projectTitle2="tech stack"
             projectDesc2="I redesigned the site again recently to modernize and expant the layout as well as add new content. Having worked with React on numerous recent projects I was tired of the tooling and setup, so built a similar component-based architecture using PHP. The site employs reusable HTML components with PHP variables that allow for SPA-style data binding customization. The site also uses SWUP, SASS, Bootstrap, AOS, Undraw illustations, and an expanded gradient color palette. Advance also required UX copywriting and editing."
-            projectDescCol="bg-yellow"
+            projectDescCol="bg-black text-light"
             imgClass3="d-none"
             imgClass4="d-none"
             projectImg5={at_3}

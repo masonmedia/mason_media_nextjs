@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 import Menu from '../components/Menu';
-import MegaMenu from '../components/MegaMenu';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";

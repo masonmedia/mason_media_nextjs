@@ -8,32 +8,7 @@ import Circle from '../components/Circle';
 export class ProjectLinks extends Component {
     render() {
         return (
-            <Row className="texture-geometric">
-                
-                {/* <Circle 
-                circleClass="bg-lime left"
-                style={{width: '600px', height: '600px'}} 
-                />
-                <Circle 
-                circleClass="bg-turq left"
-                style={{width: '300px', height: '300px'}} 
-                />
-                <Circle 
-                circleClass="bg-turq right"
-                style={{width: '400px', height: '400px'}} 
-                />
-                <Circle 
-                circleClass="bg-yellow center"
-                style={{width: '700px', height: '700px'}} 
-                />
-                <Circle 
-                circleClass="bg-pink left"
-                style={{width: '150px', height: '150px'}} 
-                />
-                <Circle 
-                circleClass="bg-red right"
-                style={{width: '150px', height: '150px'}} 
-                /> */}
+            <Row className="bg-diamonds">
                 <Col xl={12} className="text-center min-50 p-5 my-5">
                     {/* project links */}
                     <h6 className="text-uppercase">

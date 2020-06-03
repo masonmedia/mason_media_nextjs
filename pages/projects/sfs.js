@@ -23,7 +23,8 @@ export class sfs extends Component {
             projectDesc="Toronto world-jazz band Surefire Sweat required a website, UI, and graphic design workup for booking, promotion, fan engagement and marketing. Requirements included the incorporation of an existing logo and photography, color palette development, typography, and media presentation including audio, video, photos, press kit, a concert dates calendar, and social media links. The design solution consisted of a one-page magazine style layout to showcase the band's bold imagery, and features animated dropdown sections that reveal band audio tracks, video, downloadable image gallery, and an electronic press kit."
             projectImg1={sfs_1}
             projectImg2={sfs_5}
-            imgClass2="bg-turq p-2 drop-shadow"
+            imgColClass2="bg-squares"
+            imgClass2="p-2 drop-shadow"
             projecSubTitle2="Surefire Sweat"
             projectTitle2="Tech Stack"
             projectDesc2="The site was coded from scratch using HTML5, CSS3, Bootstrap 4, jQuery and Javascript, and included UI/UX design, copy editing, color palette development, and hosting/editing support. Other features include a calendar plugin by Timely allowing the client to add and edit concert dates, a smooth anchor scroll menu, and bold social media integration.

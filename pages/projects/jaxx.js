@@ -18,7 +18,7 @@ export class jaxx extends Component {
             metaD="Website coding, graphic/UI design, SEO and user engagement for Jaxx Liberty, a cryptocurrency app made by Decentral Inc."
             projectNumber="02."
             numberClass="bg-orange"
-            projectLetter="JX"
+            projectLetter="JAXX"
             projectTitle="Jaxx Liberty"
             projectDesc="Jaxx Liberty is a cryptocurrency wallet app made by Decentral Inc. In my role as Decentral's lead website designer/developer, I completely redesigned the Jaxx Liberty public facing website, modernized its branding, layout, and color palette, significantly improved SEO and engagement, and created hundreds of image assets. I added fluid timeline and scroll animations to enhance the user experience, improved app marketing by creating a broad portfolio of device imagery, and was instrumental in expanding the brand by inspiring and implementing a modern design aesthetic across the company's social properties. In this process, I revitalized the Jaxx brand and helped increase user base and web presence."
             projectImg1={jaxx_5}
