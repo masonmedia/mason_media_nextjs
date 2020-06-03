@@ -36,7 +36,7 @@ export class projects extends Component {
           exit="exit"
           variants={Constants.imageVariants}>
             <Head>
-                <title>Andrew Mason | Projects</title>
+                <title>Mason Media | Projects</title>
             </Head>
             <Menu bg="turq" variant="dark" />
             <Container id="projects" fluid className="bg-smoke pb-4">

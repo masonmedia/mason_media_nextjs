@@ -23,7 +23,7 @@ export class about extends Component {
             exit="exit"
             variants={Constants.imageVariants}>
                 <Head>
-                    <title>About Me</title>
+                    <title>Mason Media | About</title>
                 </Head>
                 <Menu bg="turq" variant="dark" />
                 <Container fluid>

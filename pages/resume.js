@@ -24,7 +24,7 @@ export class resume extends Component {
             exit="exit"
             variants={Constants.imageVariants}>
                 <Head>
-                    <title>Andrew Mason | Resume</title>
+                    <title>Mason Media | Resume</title>
                 </Head>
                 <Menu bg="black" variant="dark" />
                 <Container fluid>
