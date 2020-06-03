@@ -18,7 +18,7 @@ export class bhs extends Component {
             metaD="Website coding, graphic/UI design, SEO and user engagement for Jaxx Liberty, a cryptocurrency app made by Decentral Inc."
             projectNumber="06."
             numberClass="bg-success text-light"
-            projectLetter="bhs"
+            projectLetter="BHS"
             projectTitle="Big Horn Sheep"
             projectDesc="A website for Toronto instrumental trio Big Horn Sheep, this project required UI/UX design, logo and graphic design, branding, photo sourcing, showcasing of band audio tracks, photos, and posters, as well as performance dates and contact information. The design solution consisted of a single page application using Angular and Bootstrap 4 featuring soundcloud audio tracks, a pinterest-style photo gallery, and unique typography. The project also required the creation of Vimeo and Soundcloud pages to host band video and audio content."
             projectImg1={bhs_2}

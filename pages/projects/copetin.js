@@ -18,7 +18,7 @@ export class copetin extends Component {
             metaD="Website coding, graphic/UI design."
             projectNumber="06."
             numberClass="bg-navy text-light"
-            projectLetter="copetin"
+            projectLetter="CT"
             projectTitle="Copetín"
             projectDesc="This project was a website mockup-makeover for Copetín, the now defunct gourmet restaurant of Toronto celebrity Chef Claudio Aprile. The project redesigned Copetín's minimal landing-page website to offer a much bolder, more modern layout, while expanding on the restaurant's existing branding, logo, and color themes. Goals were to take their existing content and elevate it into an elegant, stylish, one-page website that matched the restaurant's cachet and haute cuisine."
             projectImg1={copetin_2}

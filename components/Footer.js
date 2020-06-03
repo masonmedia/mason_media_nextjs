@@ -60,8 +60,8 @@ export class Footer extends Component {
                                 <a href="https://github.com/masonmedia" target="_blank"><li>Github</li></a>
                                 <a href="https://www.behance.net/andrewmasonmedia" target="_blank"><li>Behance</li></a>
                                 <a href="http://copy.andrewmasonmedia.com/" target="_blank"><li>Writing/Editing</li></a>
-                                <Link href="/cv">
-                                    <a><li>CV</li></a>
+                                <Link href="/resume">
+                                    <a><li>Resume</li></a>
                                 </Link>
                             </ul>
                         </Col>

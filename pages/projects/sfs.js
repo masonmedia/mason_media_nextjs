@@ -18,7 +18,7 @@ export class sfs extends Component {
             metaD="Website coding, graphic/UI design, SEO and user engagement for Jaxx Liberty, a cryptocurrency app made by Decentral Inc."
             projectNumber="07."
             numberClass="bg-black text-light"
-            projectLetter="sfs"
+            projectLetter="SFS"
             projectTitle="Surefire Sweat"
             projectDesc="Toronto world-jazz band Surefire Sweat required a website, UI, and graphic design workup for booking, promotion, fan engagement and marketing. Requirements included the incorporation of an existing logo and photography, color palette development, typography, and media presentation including audio, video, photos, press kit, a concert dates calendar, and social media links. The design solution consisted of a one-page magazine style layout to showcase the band's bold imagery, and features animated dropdown sections that reveal band audio tracks, video, downloadable image gallery, and an electronic press kit."
             projectImg1={sfs_1}

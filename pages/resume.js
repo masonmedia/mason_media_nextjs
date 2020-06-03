@@ -162,10 +162,10 @@ export class resume extends Component {
                     <Row>
                         <Col xl={12} className="bg-black text-light align-left min-100 p-5">
                             <h6 className="text-uppercase">Contact</h6>
-                            <h1 className="page_title font-weight-bold">Drop me a line on social or an email below to discuss your next project.</h1>
+                            <h1 className="page_title font-weight-bold">Drop me an email to discuss your next project or say hello.</h1>
                             <a href="mailto:andrewmasonmedia@gmail.com">
                                 <Button 
-                                className="mt-2"
+                                className="mt-3"
                                 variant="outline-light">
                                     Get in touch
                                 </Button>
