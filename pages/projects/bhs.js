@@ -32,7 +32,7 @@ export class bhs extends Component {
             projectImg5={bhs_4}
             >
                 <ProjectLinks 
-                projectTitle="Decentral Inc."
+                projectTitle="Big Horn Sheep"
                 githubUrl="https://github.com/masonmedia/big-horn-sheep"
                 behanceUrl="https://www.behance.net/gallery/97962231/Big-Horn-Sheep"
                 designCircle="•"

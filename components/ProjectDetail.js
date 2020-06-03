@@ -41,13 +41,13 @@ render() {
                         </p>
                     </Col>
 
-                    <Col xl={6} className={`${this.props.imgClass1} p-0`}>
+                    <Col xl={6} className={`${this.props.imgColClass1} p-0`}>
                         <img 
                         className={this.props.imgClass1} 
                         src={this.props.projectImg1} />
                     </Col>
 
-                    <Col xl={6} className={`${this.props.imgClass2} p-0`}>
+                    <Col xl={6} className={`${this.props.imgColClass2} p-0`}>
                         <img 
                         className={this.props.imgClass2} 
                         src={this.props.projectImg2} />
@@ -66,19 +66,19 @@ render() {
                         </p>
                     </Col>
 
-                    <Col xl={6} className={`${this.props.imgClass3} p-0`}>
+                    <Col xl={6} className={`${this.props.imgColClass3} p-0`}>
                         <img 
                         className={this.props.imgClass3} 
                         src={this.props.projectImg3} />
                     </Col>
 
-                    <Col xl={6} className={`${this.props.imgClass4} p-0`}>
+                    <Col xl={6} className={`${this.props.imgColClass4} p-0`}>
                         <img 
                         className={this.props.imgClass4} 
                         src={this.props.projectImg4} />
                     </Col>
 
-                    <Col xl={12} className={`${this.props.imgClass5} p-0`}>
+                    <Col xl={12} className={`${this.props.imgColClass5} p-0`}>
                         <img 
                         className={this.props.imgClass5} 
                         src={this.props.projectImg5} />
