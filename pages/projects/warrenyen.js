@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import ProjectDetail from '../../components/ProjectDetail';
 import ProjectLinks from '../../components/ProjectLinks';
-import wy_thumb from '../../images/wy/wy_macbookgold.png';
-import wy_2 from '../../images/wy/wy_about.png';
-import wy_3 from '../../images/wy/wy_iphone5.png';
-import wy_4 from '../../images/wy/wy_project.png';
+import wy_thumb from '../../public/images/wy/wy_macbookgold.png';
+import wy_2 from '../../public/images/wy/wy_about.png';
+import wy_3 from '../../public/images/wy/wy_iphone5.png';
+import wy_4 from '../../public/images/wy/wy_project.png';
 
 export class warrenyen extends Component {
     componentDidMount() {

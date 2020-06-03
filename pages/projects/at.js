@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import at_1 from '../../images/at/at_laptop.png';
-import at_2 from '../../images/at/at_iphones_black.png';
-import at_3 from '../../images/at/at_iphone.jpg';
 import ProjectDetail from '../../components/ProjectDetail';
 import ProjectLinks from '../../components/ProjectLinks';
+import at_1 from '../../public/images/at/at_laptop.png';
+import at_2 from '../../public/images/at/at_iphones_black.png';
+import at_3 from '../../public/images/at/at_iphone.jpg';
 
 export class at extends Component {
     componentDidMount() {

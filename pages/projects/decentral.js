@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import ProjectDetail from '../../components/ProjectDetail';
 import ProjectLinks from '../../components/ProjectLinks';
-import dc_1 from '../../images/dc/dc_laptop.png';
-import dc_2 from '../../images/dc/jaxx_imac.jpg';
-import dc_3 from '../../images/dc/decentral_flatiron.jpeg';
-import dc_4 from '../../images/dc/jaxx_hand_phone.jpg';
-import dc_5 from '../../images/dc/jaxx_ipad_iphone.jpg';
+import dc_1 from '../../public/images/dc/dc_laptop.png';
+import dc_2 from '../../public/images/dc/jaxx_imac.jpg';
+import dc_3 from '../../public/images/dc/decentral_flatiron.jpeg';
+import dc_4 from '../../public/images/dc/jaxx_hand_phone.jpg';
+import dc_5 from '../../public/images/dc/jaxx_ipad_iphone.jpg';
 
 export class decentral extends Component {
     componentDidMount() {

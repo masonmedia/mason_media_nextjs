@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import ProjectDetail from '../../components/ProjectDetail';
 import ProjectLinks from '../../components/ProjectLinks';
-import copetin_1 from '../../images/copetin/copetin_iphone.jpg';
-import copetin_2 from '../../images/copetin/copetin_ipad.jpg';
-import copetin_3 from '../../images/copetin/copetin_macbook_black.jpg';
-import copetin_4 from '../../images/copetin/copetin_desktop.jpg';
-import copetin_5 from '../../images/copetin/copetin_pc.jpg';
+import copetin_1 from '../../public/images/copetin/copetin_iphone.jpg';
+import copetin_2 from '../../public/images/copetin/copetin_ipad.jpg';
+import copetin_3 from '../../public/images/copetin/copetin_macbook_black.jpg';
+import copetin_4 from '../../public/images/copetin/copetin_desktop.jpg';
+import copetin_5 from '../../public/images/copetin/copetin_pc.jpg';
 
 export class copetin extends Component {
     componentDidMount() {

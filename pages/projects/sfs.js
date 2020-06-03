@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import ProjectDetail from '../../components/ProjectDetail';
 import ProjectLinks from '../../components/ProjectLinks';
-import sfs_1 from '../../images/sfs/sfs_black_iphone.jpg';
-import sfs_2 from '../../images/sfs/sfs_multi_device.jpg';
-import sfs_3 from '../../images/sfs/sfs_iphones_black.jpg';
-import sfs_4 from '../../images/sfs/sfs_screens_mockup.jpg';
-import sfs_5 from '../../images/sfs/sfs_macbook.png';
+import sfs_1 from '../../public/images/sfs/sfs_black_iphone.jpg';
+import sfs_2 from '../../public/images/sfs/sfs_multi_device.jpg';
+import sfs_3 from '../../public/images/sfs/sfs_iphones_black.jpg';
+import sfs_4 from '../../public/images/sfs/sfs_screens_mockup.jpg';
+import sfs_5 from '../../public/images/sfs/sfs_macbook.png';
 
 export class sfs extends Component {
     componentDidMount() {

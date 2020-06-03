@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import n2_1 from '../../images/n2/n2_tablet.jpg';
-import n2_2 from '../../images/n2/n2_macbook_black.jpg';
-import n2_3 from '../../images/n2/n2_imac.jpg';
-import n2_4 from '../../images/n2/n2_iphone.jpg';
 import ProjectDetail from '../../components/ProjectDetail';
 import ProjectLinks from '../../components/ProjectLinks';
+import n2_1 from '../../public/images/n2/n2_tablet.jpg';
+// import n2_2 from '../../public/images/n2/n2_macbook_black.jpg';
+import n2_3 from '../../public/images/n2/n2_imac.jpg';
+import n2_4 from '../../public/images/n2/n2_iphone.jpg';
 
 export class n2 extends Component {
     componentDidMount() {

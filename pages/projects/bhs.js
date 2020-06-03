@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import ProjectDetail from '../../components/ProjectDetail';
 import ProjectLinks from '../../components/ProjectLinks';
-import bhs_1 from '../../images/bhs/bhs_vinyl.jpg';
-import bhs_2 from '../../images/bhs/bhs_logo_green.jpg';
-import bhs_3 from '../../images/bhs/bhs_street_billboard-1.jpg';
-import bhs_4 from '../../images/bhs/bhs_lights.jpg';
-import bhs_5 from '../../images/bhs/bhs_iphones.jpg';
+import bhs_1 from '../../public/images/bhs/bhs_vinyl.jpg';
+import bhs_2 from '../../public/images/bhs/bhs_logo_green.jpg';
+import bhs_3 from '../../public/images/bhs/bhs_street_billboard-1.jpg';
+import bhs_4 from '../../public/images/bhs/bhs_lights.jpg';
+import bhs_5 from '../../public/images/bhs/bhs_iphones.jpg';
 
 export class bhs extends Component {
     componentDidMount() {
