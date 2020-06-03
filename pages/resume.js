@@ -31,10 +31,10 @@ export class resume extends Component {
                     <Row className="bg-black">
                         <Col className="align-center min-100 p-5">
                             <CircleComponent
-                            circle1="bg-turq right"
+                            circle1="bg-lime right"
                             circle2="bg-turq" 
                             circle3="bg-yellow" 
-                            circle4="bg-pink" 
+                            circle4="bg-red" 
                             circle5="bg-pink" 
                             circle6="bg-pink" 
                             />
@@ -111,7 +111,7 @@ export class resume extends Component {
                             <Card className="border-0 bg-trans">
                                 <Accordion.Toggle as={Card.Header} eventKey="2" className="p-0 bg-trans">
                                 <h1 className="page_title font-weight-bold text-uppercase">Copywriter</h1>
-                                <p className="h5">Neighbourhood Buzz | 2017-2019 Foliovison.com | 2015-2017 Wikidee.org | 2014-2015</p>
+                                <p className="h5">Neighbourhood Buzz | 2017-2019 • Foliovison.com | 2015-2017 • Wikidee.org | 2014-2015</p>
                                 {/* read more */}
                                 <div className="h5 font-weight-light pb-3 text-primary">read more.</div>
                                 </Accordion.Toggle>
@@ -130,7 +130,7 @@ export class resume extends Component {
                     <Row>
                         <Col xl={12} className="bg-black text-light align-left min-100 p-5">
                             <h6 className="text-uppercase">Professional Skills</h6>
-                            <h1 className="page_title font-weight-bold">HTML5, CSS3, SASS, Bootstrap 4, Semantic UI, Atomic CSS, Javascript/jQuery, React, Angular, Node, npm, Parcel bundler, Webflow, Wordpress, VS Code, Brackets, Github, Bitbucket.</h1>
+                            <h1 className="page_title font-weight-bold">HTML5, CSS3, SASS, Bootstrap 4, Semantic UI, Atomic CSS, Javascript/jQuery, React, Next.js, Angular, Node, npm, Parcel bundler, Webflow, Wordpress, VS Code, Brackets, Github, Bitbucket.</h1>
                             <div className="display-3 font-weight-light">↓</div>
                         </Col>
                     </Row>
@@ -138,7 +138,7 @@ export class resume extends Component {
                     <Row>
                         <Col xl={12} className="bg-smoke align-left min-100 p-5">
                             <h6 className="text-uppercase">Animation</h6>
-                            <h1 className="page_title font-weight-bold">GSAP, AOS (animate on scroll), Scroll Magic, Lax.js, SWUP, animate.css, Rellax.js, React-reveal, Framer.</h1>
+                            <h1 className="page_title font-weight-bold">GSAP, Animate On Scroll, Scroll Magic, Lax.js, SWUP, Animate.css, Animista, Rellax.js, React-reveal, Framer Motion.</h1>
                             <div className="page_title font-weight-light">↓</div>
                         </Col>
                     </Row>
@@ -153,7 +153,7 @@ export class resume extends Component {
 
                     <Row>
                         <Col xl={12} className="bg-smoke align-left min-100 p-5">
-                            <h6 className="text-uppercase">SEO, Writing, Communication</h6>
+                            <h6 className="text-uppercase">Writing & Communication</h6>
                             <h1 className="page_title font-weight-bold">SEO, Schema data, JSON-LD, google structured data, copy & content writing, copy editing, Slack, Zoom, Skype, Gmail, Google Drive, Wrike, Agile.</h1>
                             <div className="page_title font-weight-light">↓</div>
                         </Col>

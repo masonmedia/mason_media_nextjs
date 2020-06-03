@@ -38,16 +38,16 @@ export class projects extends Component {
             <Head>
                 <title>Andrew Mason | Projects</title>
             </Head>
-            <Menu bg="rainbow" variant="dark" />
+            <Menu bg="turq" variant="dark" />
             <Container id="projects" fluid className="bg-smoke pb-4">
-            <Row className="bg-rainbow">
+            <Row className="bg-turq">
               <Col className="align-center min-100 p-5">
                 <CircleComponent
-                  circle1="bg-turq right"
-                  circle2="bg-turq" 
+                  circle1="bg-lime right"
+                  circle2="bg-primary" 
                   circle3="bg-yellow" 
                   circle4="bg-pink" 
-                  circle5="bg-pink" 
+                  circle5="bg-red" 
                   circle6="bg-pink" 
                   />
                 <motion.div variants={Constants.textVariants}>
