@@ -11,6 +11,14 @@ import * as Constants from '../components/Constants';
 // this is the individual project detail page template
 
 export class ProjectDetail extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+        const toggler = document.querySelectorAll(".icon-bar");
+        let i;
+        for (i = 0; i < toggler.length; i++) {
+          toggler[i].style.backgroundColor = "#000";
+        }
+      }
 render() {
     return (
         <motion.div 

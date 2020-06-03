@@ -12,11 +12,6 @@ import * as Constants from '../components/Constants';
 export class Home extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    const toggler = document.querySelectorAll(".icon-bar");
-    let i;
-    for (i = 0; i < toggler.length; i++) {
-      toggler[i].style.backgroundColor = "#fff";
-    }
   }
   render() {
   return (
