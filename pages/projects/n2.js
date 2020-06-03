@@ -13,7 +13,7 @@ export class n2 extends Component {
     render() {
         return (
             <ProjectDetail 
-            metaTitle="Andrew Mason | N2 Speech Therapy"
+            metaTitle="N2"
             projectNumber="05."
             numberClass="bg-turq"
             projectLetter="N2"

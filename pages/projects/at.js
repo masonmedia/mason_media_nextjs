@@ -12,7 +12,7 @@ export class at extends Component {
     render() {
         return (
             <ProjectDetail 
-            metaTitle="Andrew Mason | Advance Therapy"
+            metaTitle="Advance Therapy"
             projectNumber="04."
             numberClass="bg-green"
             projectLetter="AT"
