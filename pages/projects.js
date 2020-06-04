@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 import ProjectItem from '../components/ProjectItem';
 import Menu from '../components/Menu';
 import CircleComponent from '../components/CircleComponent';
@@ -62,19 +64,6 @@ export class projects extends Component {
               </Col>
             </Row>
 
-              {/* <Row className="">
-                <Col className="align-left min-100 p-5 ">
-                  <motion.div variants={Constants.textVariants}>
-                    <h1 className="site-title rainbow-text-2">
-                      Projects
-                    </h1>
-                    </motion.div>
-                    <motion.div variants={Constants.backVariants}>
-                      <h2 className="site-subtitle">Check out the projects below for more info.</h2>
-                    </motion.div>
-                </Col>
-              </Row> */}
-
               <ProjectItem 
               rowClass="mt-4"
               col2Class="p-5"
@@ -85,6 +74,14 @@ export class projects extends Component {
               cardSubTitle="HTML5, CSS3/SASS, PHP, Javascript, UX, Parcel Bundler"
               cardText="Portfolio website build for Toronto Designer Warren Yen."
               >
+                {/* <Link href="/about" scroll={false}>
+                    <a>
+                      <Button 
+                      className="relative font-weight-bold mt-2 drop-shadow"
+                      variant="outline-light">Read more
+                      </Button>
+                      </a>
+                  </Link> */}
                 <LinkComponent 
                 linkHref="/projects/warrenyen"
                 />

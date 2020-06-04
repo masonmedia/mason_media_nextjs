@@ -4,7 +4,8 @@ import ProjectLinks from '../../components/ProjectLinks';
 import jaxx_2 from '../../public/images/jaxx/jaxx_laptop_coffee.jpg';
 import jaxx_3 from '../../public/images/jaxx/jaxx_multi.jpg';
 import jaxx_4 from '../../public/images/jaxx/jaxx_ipad.jpg';
-import jaxx_5 from '../../public/images/jaxx/jaxx_3phones.jpg';
+// import jaxx_5 from '../../public/images/jaxx/jaxx_macbook_left.jpg';
+import jaxx_5 from '../../public/images/jaxx/jaxx_3phones_min.jpg';
 import jaxx_6 from '../../public/images/jaxx/jaxx_grafitti.jpg';
 
 export class jaxx extends Component {

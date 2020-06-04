@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Footer from '../components/Footer';
+import Fade from 'react-reveal/Fade';
 import * as Constants from '../components/Constants';
 
 // this is the individual project detail page template
@@ -49,18 +50,23 @@ render() {
                     </Col>
 
                     <Col xl={6} className={`${this.props.imgColClass1} p-0`}>
-                        <img 
-                        className={this.props.imgClass1} 
-                        src={this.props.projectImg1} />
+                        <Fade>
+                            <img 
+                            className={this.props.imgClass1} 
+                            src={this.props.projectImg1} 
+                            />
+                        </Fade>
                     </Col>
 
                     <Col xl={6} className={`${this.props.imgColClass2} p-0`}>
                         <img 
                         className={this.props.imgClass2} 
-                        src={this.props.projectImg2} />
+                        src={this.props.projectImg2} 
+                        />
                     </Col>
 
                     {/* description column 2 if applicable */}
+                    
                     <Col xl={6} className={`${this.props.projectDescCol} align-left min-100 p-5`}>
                         <h6 className="text-uppercase">
                             {this.props.projecSubTitle2}
@@ -72,23 +78,27 @@ render() {
                             {this.props.projectDesc2}
                         </p>
                     </Col>
+                    
 
                     <Col xl={6} className={`${this.props.imgColClass3} p-0`}>
                         <img 
                         className={this.props.imgClass3} 
-                        src={this.props.projectImg3} />
+                        src={this.props.projectImg3} 
+                        />
                     </Col>
 
                     <Col xl={6} className={`${this.props.imgColClass4} p-0`}>
                         <img 
                         className={this.props.imgClass4} 
-                        src={this.props.projectImg4} />
+                        src={this.props.projectImg4} 
+                        />
                     </Col>
 
                     <Col xl={12} className={`${this.props.imgColClass5} p-0`}>
                         <img 
                         className={this.props.imgClass5} 
-                        src={this.props.projectImg5} />
+                        src={this.props.projectImg5} 
+                        />
                     </Col>
                 </Row>
                 {/* Project Links component */}
