@@ -12,6 +12,7 @@ import { motion } from 'framer-motion';
 import * as Constants from '../components/Constants';
 import Circle from '../components/Circle';
 import LinkComponent from '../components/LinkComponent';
+import Text from '../components/Text';
 
 export class Home extends Component {
   componentDidMount() {
@@ -169,7 +170,36 @@ export class Home extends Component {
               </Col>
             </Row> */}
 
-            <Row>
+            <Text
+            textSectionClass="align-left"
+            circle1Class="bg-turq left"
+            circle2Class="bg-pink left"
+            circle3Class="bg-lime"
+            microTitle="About Me"
+            title="I specialize in visual design, building websites, and UX copywriting. I help build successful brands and create engaging digital experiences."
+            href="/about"
+            />
+
+            <Text
+            textSectionClass="align-right"
+            circle1Class="bg-primary right"
+            circle2Class="bg-red right"
+            circle3Class="bg-success right"
+            microTitle="Projects"
+            title="I design UIs & imagery, build websites with HTML5, CSS3/SASS, PHP, Javascript, Bootstrap & Wordpress, and create single page applications with React, Next.js, and Angular."
+            href="/projects"
+            />
+            
+            <Text
+            textSectionClass="align-left"
+            circle1Class="bg-turq left"
+            circle2Class="bg-yellow left"
+            circle3Class="bg-pink left"
+            microTitle="Copywriting"
+            title="I create content for a wide variety of contexts from websites, to articles and reviews, blog posts and social media content. I specialize in UX, SEO, and editing."
+            href="/writing"
+            />
+            {/* <Row>
                 <Col xl={12} className="align-left min-100 p-5">
                   <Circle 
                   circleClass="bg-turq left shadow"
@@ -183,13 +213,10 @@ export class Home extends Component {
                   circleClass="bg-pink left top shadow"
                   style={{height: '200px', width: '200px'}}
                   />
-                  <h6 className="relative text-uppercase text-light drop-shadow">About me</h6>
+                  <h5 className="relative text-uppercase text-light drop-shadow">About me</h5>
                   <h1 className="page_title relative text-light pb-3 mb-0 drop-shadow">
                     I specialize in visual design, building websites, and UX copywriting. I help build successful brands and create engaging digital experiences.
                   </h1>
-                  {/* <LinkComponent 
-                  linkHref="/about"
-                  /> */}
                   <Link href="/about" scroll={false}>
                     <a>
                       <Button 
@@ -199,9 +226,9 @@ export class Home extends Component {
                       </a>
                   </Link>
                 </Col>
-            </Row>
+            </Row> */}
 
-            <Row>
+            {/* <Row>
                 <Col xl={12} className="align-right min-100 p-5">
                   <Circle 
                   circleClass="bg-primary right shadow"
@@ -215,7 +242,7 @@ export class Home extends Component {
                   circleClass="bg-lime right top shadow"
                   style={{height: '200px', width: '200px'}}
                   />
-                  <h6 className="relative text-uppercase text-light drop-shadow">Projects</h6>
+                  <h5 className="relative text-uppercase text-light drop-shadow">Projects</h5>
                   <h1 className="page_title relative text-light pb-3 mb-0 drop-shadow">
                   I design UIs & imagery, build websites with HTML5, CSS3/SASS, PHP, Javascript, Bootstrap & Wordpress, and create single page applications with React, Next.js, and Angular.
                   </h1>
@@ -228,9 +255,9 @@ export class Home extends Component {
                       </a>
                   </Link>
                 </Col>
-            </Row>
+            </Row> */}
 
-            <Row>
+            {/* <Row>
                 <Col xl={12} className="align-left min-100 p-5">
                   <Circle 
                   circleClass="bg-turq left shadow"
@@ -244,7 +271,7 @@ export class Home extends Component {
                   circleClass="bg-pink left top shadow"
                   style={{height: '200px', width: '200px'}}
                   />
-                  <h6 className="relative text-uppercase text-light drop-shadow">Copywriting</h6>
+                  <h5 className="relative text-uppercase text-light drop-shadow">Copywriting</h5>
                   <h1 className="page_title relative text-light pb-3 mb-0 drop-shadow">
                     I create content for a wide variety of contexts from websites, to articles and reviews, blog posts and social media content. I specialize in UX, SEO, and editing.
                   </h1>
@@ -257,7 +284,7 @@ export class Home extends Component {
                       </a>
                   </Link>
                 </Col>
-            </Row>         
+            </Row>          */}
       </Container>
       <Footer />
     </motion.div>
