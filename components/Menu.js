@@ -2,14 +2,16 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Dropdown from 'react-bootstrap/Dropdown';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
+// import Dropdown from 'react-bootstrap/Dropdown';
+import Fade from 'react-reveal/Fade';
 
 export function Menu(props) {
 
     const [expanded, setExpanded] = useState(false);
 
     return (
+        <Fade down cascade>
         <Navbar 
         id="nav" 
         expanded={expanded} 
@@ -69,6 +71,7 @@ export function Menu(props) {
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
+        </Fade>
     )
 }
 

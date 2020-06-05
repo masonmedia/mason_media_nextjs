@@ -28,7 +28,7 @@ export class Home extends Component {
         <Head>
               <title>Mason Media | Home</title>
         </Head>
-        <Menu bg="black" variant="dark" />
+        <Menu bg="squares" variant="dark" />
         <Container id="home" fluid className="bg-squares">
           <Row>
               <Col className="align-center min-100 p-5">
