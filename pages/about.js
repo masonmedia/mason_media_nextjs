@@ -43,8 +43,10 @@ export class about extends Component {
                             </h1>
                             </motion.div>
                             <motion.div variants={Constants.backVariants}>
-                                <h5 className="text-uppercase font-weight-bold drop-shadow">
-                                What I do.</h5>
+                                <h3 
+                                className="site-subtitle relative text-light font-weight-bold text-lowercase">
+                                What I do.
+                                </h3>
                             </motion.div>
                         </Col>
                     </Row>

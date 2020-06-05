@@ -41,8 +41,10 @@ export class writing extends Component {
                             </h1>
                             </motion.div>
                             <motion.div variants={Constants.backVariants}>
-                                <h5 className="text-uppercase font-weight-bold drop-shadow">
-                                Copy. Content. Editing.</h5>
+                                <h3 
+                                className="site-subtitle relative text-light font-weight-bold text-lowercase">
+                                Copy. Content. Editing.
+                                </h3>
                             </motion.div>
                         </Col>
                     </Row>

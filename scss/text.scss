@@ -40,7 +40,9 @@ p {
 }
 
 .site-subtitle {
-    letter-spacing: -3px;
+    letter-spacing: -2px;
+    word-break: keep-all;
+    text-shadow: 0 0 7px #000;
 }
 
 .page_title {

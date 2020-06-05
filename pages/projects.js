@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 import ProjectItem from '../components/ProjectItem';
 import Menu from '../components/Menu';
 import CircleComponent from '../components/CircleComponent';
@@ -58,8 +57,10 @@ export class projects extends Component {
                   </h1>
                   </motion.div>
                   <motion.div variants={Constants.backVariants}>
-                    <h5 className="relative font-weight-bold text-uppercase mt-2">
-                    Check out some of my work below.</h5>
+                    <h3 
+                    className="site-subtitle relative text-light font-weight-bold text-lowercase">
+                    Check out some of my work below.
+                    </h3>
                   </motion.div>
               </Col>
             </Row>

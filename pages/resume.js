@@ -44,8 +44,10 @@ export class resume extends Component {
                             </h1>
                             </motion.div>
                             <motion.div variants={Constants.backVariants}>
-                                <h5 className="text-uppercase font-weight-bold text-light drop-shadow">
-                                Background</h5>
+                                <h3 
+                                className="site-subtitle relative text-light font-weight-bold text-lowercase">
+                                Background.
+                                </h3>
                             </motion.div>
                         </Col>
                     </Row>
@@ -88,7 +90,7 @@ export class resume extends Component {
                                 <Accordion.Collapse eventKey="0">
                                 <Card.Body className="pl-0 pt-1 pb-5">
                                     <span className="font-weight-bold h2">―</span>
-                                    <span className="d-table">Lead website developer responsible for all company web properties [60-70k+ monthly views], UI/UX Design, coding, and maintenance of HTML/PHP/CSS/JS/Wordpress/Zendesk sites; Graphic design, social media asset creation; HTML email design/coding.</span>
+                                    <span className="d-table">Lead website developer responsible for all company web properties [60-70k+ monthly views]; Redesigned the product website, company website, product support website, and two company Wordpress blogs; UI/UX Design; Coding and daily maintenance of HTML/PHP/CSS/JS/Wordpress/Zendesk sites; Google analytics; Graphic design & social media asset creation; HTML email design/coding.</span>
                                     </Card.Body>
                                 </Accordion.Collapse>
                             </Card>
@@ -103,7 +105,7 @@ export class resume extends Component {
                                 <Accordion.Collapse eventKey="1">
                                 <Card.Body className="pl-0 pt-1 pb-5">
                                     <span className="font-weight-bold h2">―</span>
-                                    <span className="d-table">Founder, designer, developer, and writer creating custom websites, graphic designs, and copywriting; Project art direction and branding; SEO; Project management; Client support/services.</span>
+                                    <span className="d-table">Founder, UI/UX/Graphic designer, developer, and writer creating custom websites, graphic designs, and copywriting; Project art direction and branding; SEO; Project management; Client support/services.</span>
                                 </Card.Body>
                                 </Accordion.Collapse>
                             </Card>
@@ -119,7 +121,7 @@ export class resume extends Component {
                                 <Card.Body className="pl-0 pt-1 pb-5">
                                     <span className="font-weight-bold h2">―</span>
                                     <span className="d-table">
-                                    Wrote highly engaging copy and blog content creation; Experience writing on a wide variety of subjects; Edit existing copy for syntax and SEO; UX Copywriting.</span>
+                                    Wrote highly engaging short form copy, blog content, and restaurant reviews; Experience writing about and researching a wide variety of subjects (food/cuisine, fitness, sustainability, tech, best-of compilations, interior design, fashion); Edited existing copy for syntax and SEO; UX Copywriting.</span>
                                 </Card.Body>
                                 </Accordion.Collapse>
                             </Card>

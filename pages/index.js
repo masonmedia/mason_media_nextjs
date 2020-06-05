@@ -47,9 +47,10 @@ export class Home extends Component {
                   </h1>
                   </motion.div>
                   <motion.div variants={Constants.backVariants}>
-                    <h5 className="relative text-light text-uppercase drop-shadow">
+                    <h3 
+                    className="site-subtitle relative text-light font-weight-bold text-lowercase">
                     web design. graphic design. copywriting.
-                    </h5>
+                    </h3>
                   </motion.div>  
               </Col>
             </Row>
@@ -196,7 +197,7 @@ export class Home extends Component {
             circle2Class="bg-yellow left"
             circle3Class="bg-pink left"
             microTitle="Copywriting"
-            title="I create content for a wide variety of contexts from websites, to articles and reviews, blog posts and social media content. I specialize in UX, SEO, and editing."
+            title="I create content for a wide variety of contexts from websites to articles, reviews, blog posts, email marketing, and social media. I specialize in UX, SEO, and editing."
             href="/writing"
             />
             {/* <Row>

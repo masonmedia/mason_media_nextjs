@@ -1,7 +1,7 @@
 .btn,
 .btn-lg {
   font-family: Inter;
-  font-weight: 900;
+  font-weight: bold !important;
   font-style: italic;
   text-transform: lowercase;
   border-radius: 30px;

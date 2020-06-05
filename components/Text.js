@@ -24,16 +24,16 @@ export class Text extends Component {
                   style={{width: '200px', height: '200px'}}></div>
                   </Slide>
                   <Fade>
-                    <h5 className="relative text-uppercase text-light drop-shadow">
+                    <h4 className="site-subtitle relative text-lowercase font-weight-bold text-light">
                         {this.props.microTitle}
-                    </h5>
+                    </h4>
                     <h1 className="page_title relative text-light pb-3 mb-0 drop-shadow">
                       {this.props.title}   
                     </h1>
                     <Link href={this.props.href} scroll={false}>
                       <a>
                         <Button 
-                        className="relative drop-shadow font-weight-bold mt-2"
+                        className="relative drop-shadow mt-2"
                         variant="light">Read more
                         </Button>
                       </a>
