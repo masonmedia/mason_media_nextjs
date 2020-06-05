@@ -14,18 +14,19 @@ p {
 .site-title {
   font-family: 'Inter', sans-serif;
   font-size: 20vw;
+  font-style: italic;
   font-weight: 900;
   line-height: 82%;
   letter-spacing: -15px;
-  padding: 0 20px 0 20px;
   padding: 0 20px 0 0;
-  text-transform: lowercase;
-  font-style: italic;
   margin-bottom: 0;
+  text-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+  text-transform: lowercase;
 }
 
 .site-subtitle {
   letter-spacing: -2px;
+  line-height: 90%;
   word-break: keep-all;
   text-shadow: 0 0 7px #000;
 }
@@ -72,6 +73,12 @@ p {
 
 .text-shadow, #home .page_title {
   text-shadow: 0 0 7px #000;
+  text-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+.drop-shadow {
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(3px 3px 12px rgba(0, 0, 0, 0.5));
 }
 
 @media (max-width: 768px) {
