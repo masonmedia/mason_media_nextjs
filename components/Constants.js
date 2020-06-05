@@ -1,3 +1,5 @@
+import { easeInOut } from "@popmotion/easing";
+
 let easing = "backInOut";
 
 export const aboutVariants = {
@@ -62,7 +64,7 @@ export const textVariants = {
     transition: { 
       duration: 0.5, 
       staggerChildren: 0.5,
-      ease: easing 
+      ease: easeInOut 
         }
      },
   enter: {
@@ -71,7 +73,7 @@ export const textVariants = {
     transition: { 
         delay: 0.1, 
         duration: 0.5, 
-        ease: easing 
+        ease: easeInOut 
     }
   }
 };
