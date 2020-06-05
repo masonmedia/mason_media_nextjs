@@ -62,3 +62,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: fixed;
 background-size: cover;
 }
+
+@media (max-width: 601px) {
+    .bg-cubes,
+    .bg-diamonds,
+    .bg-squares,
+    .bg-triangles {
+        background-size: contain;
+    }
+}

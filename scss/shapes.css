@@ -56,3 +56,12 @@
   background-attachment: fixed;
   background-size: cover;
 }
+
+@media (max-width: 601px) {
+  .bg-cubes,
+  .bg-diamonds,
+  .bg-squares,
+  .bg-triangles {
+    background-size: contain;
+  }
+}

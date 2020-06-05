@@ -12,18 +12,6 @@ p {
 }
 
 .site-title {
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 20vw;
-  font-weight: 100;
-  line-height: 82%;
-  letter-spacing: -15px;
-  padding: 0 20px 0 20px;
-  text-transform: lowercase;
-  font-style: italic;
-  margin-bottom: 0;
-}
-
-.site-title {
   font-family: 'Inter', sans-serif;
   font-size: 20vw;
   font-weight: 900;
@@ -82,8 +70,8 @@ p {
   margin-bottom: 15px;
 }
 
-.text-shadow {
-  text-shadow: 5px 5px 2px #000;
+.text-shadow, #home .page_title {
+  text-shadow: 0 0 7px #000;
 }
 
 @media (max-width: 768px) {
