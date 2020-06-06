@@ -41,7 +41,7 @@ export class Home extends Component {
                 circle6="bg-pink" 
                 />
                 <motion.div 
-                variants={Constants.textVariants}>
+                variants={Constants.imageVariants}>
                   <h1 className="site-title mt-0 pt-0 text-light drop-shadow m-0"
                   >
                   mason

@@ -37,10 +37,10 @@ export class about extends Component {
                             circle5="bg-pink" 
                             circle6="bg-pink" 
                             />
-                            <motion.div variants={Constants.textVariants}>
-                            <h1 className="site-title text-light drop-shadow">
-                                about
-                            </h1>
+                            <motion.div variants={Constants.imageVariants}>
+                                <h1 className="site-title text-light drop-shadow">
+                                    about
+                                </h1>
                             </motion.div>
                             <motion.div variants={Constants.backVariants}>
                                 <h3 

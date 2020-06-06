@@ -51,17 +51,17 @@ export class projects extends Component {
                   circle5="bg-red" 
                   circle6="bg-pink" 
                   />
-                <motion.div variants={Constants.textVariants}>
+                <motion.div variants={Constants.imageVariants}>
                   <h1 className="site-title text-light drop-shadow">
                     projects
                   </h1>
-                  </motion.div>
-                  <motion.div variants={Constants.backVariants}>
-                    <h3 
-                    className="site-subtitle relative text-light font-weight-bold text-lowercase">
-                    Check out some of my work below.
-                    </h3>
-                  </motion.div>
+                </motion.div>
+                <motion.div variants={Constants.backVariants}>
+                  <h3 
+                  className="site-subtitle relative text-light font-weight-bold text-lowercase">
+                  Check out some of my work below.
+                  </h3>
+                </motion.div>
               </Col>
             </Row>
 

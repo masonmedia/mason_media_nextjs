@@ -24,9 +24,9 @@ export class Text extends Component {
                   style={{width: '200px', height: '200px'}}></div>
                   </Slide>
                   <Fade>
-                    <h4 className="site-subtitle relative text-lowercase font-weight-bold text-light">
+                    <h5 className="relative text-shadow text-uppercase text-light">
                         {this.props.microTitle}
-                    </h4>
+                    </h5>
                     <h1 className="page_title relative text-light pb-3 mb-0 drop-shadow">
                       {this.props.title}   
                     </h1>

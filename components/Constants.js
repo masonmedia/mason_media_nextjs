@@ -40,7 +40,7 @@ export const imageVariants = {
       opacity: 0, 
       transition: { 
         duration: 0.5, 
-        ease: easing 
+        ease: "easeInOut" 
         } 
     },
   enter: {
@@ -48,9 +48,7 @@ export const imageVariants = {
     opacity: 1,
     transition: {
       duration: 0.5,
-      // staggerChildren: 0.5,
-      // when: "beforeChildren",
-      ease: easing
+      ease: "easeInOut"
     }
   }
 };
@@ -61,7 +59,6 @@ export const textVariants = {
     opacity: 0, 
     transition: { 
       duration: 0.5, 
-      staggerChildren: 0.5,
       ease: easing 
         }
      },
@@ -69,12 +66,34 @@ export const textVariants = {
     y: 0,
     opacity: 1,
     transition: { 
-        // delay: 0.1, 
         duration: 0.5, 
         ease: easing 
     }
   }
 };
+
+export const fadeVariants = {
+  exit: {
+    opacity: 0,
+    transition: {
+      duration: 0.5,
+      ease: easing,
+      type: "spring", 
+      stiffness: 300, 
+      damping: 200
+    }
+  },
+  enter: {
+    opacity: 1,
+      transition: {
+        duration: 1,
+        ease: easing,
+        type: "spring", 
+        stiffness: 300, 
+        damping: 200
+      }
+  }
+}
 
 export const menuVariants = {
   exit: { 

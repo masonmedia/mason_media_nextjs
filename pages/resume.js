@@ -38,7 +38,7 @@ export class resume extends Component {
                             circle5="bg-pink" 
                             circle6="bg-pink" 
                             />
-                            <motion.div variants={Constants.textVariants}>
+                            <motion.div variants={Constants.imageVariants}>
                             <h1 className="site-title text-light drop-shadow mr-3">
                                 Resume
                             </h1>
