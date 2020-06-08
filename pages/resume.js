@@ -90,7 +90,7 @@ export class resume extends Component {
                                 <Accordion.Collapse eventKey="0">
                                 <Card.Body className="pl-0 pt-1 pb-5">
                                     <span className="font-weight-bold h2">―</span>
-                                    <span className="d-table">Lead website developer responsible for all company web properties [60-70k+ monthly views]; Redesigned the product website, company website, product user support website, and two company Wordpress blogs; UI/UX Design; Coding and daily maintenance of HTML, PHP, CSS, JS, Wordpress, and Zendesk sites; Google analytics; Graphic design & social media asset creation; HTML email design/coding.</span>
+                                    <span className="d-table">Lead website developer responsible for all company web properties [60-70k+ monthly views]; Redesigned the product and company websites from scratch (HTML, PHP, CSS, Bootstrap, Javascript, jQuery), redesigned the product customer support website (Zendesk, HTML, CSS, Curlybars), and redesigned two company Wordpress blogs; UI/UX Design; Daily maintenance and updating of all sites; Google analytics; Graphic design & social media asset creation; HTML email design/coding (Sendgrid).</span>
                                     </Card.Body>
                                 </Accordion.Collapse>
                             </Card>
