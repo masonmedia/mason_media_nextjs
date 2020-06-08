@@ -19,16 +19,16 @@ export class Footer extends Component {
                             <h3>Menu.</h3>
                             <div className="h3 m-0">―</div>
                             <ul className="list-unstyled blockquote">
-                                <Link href="/">
+                                <Link href="/" scroll={false}>
                                     <a><li>Home</li></a>
                                 </Link>
-                                <Link href="/about">
+                                <Link href="/about" scroll={false}>
                                     <a><li>About</li></a>
                                 </Link>
-                                <Link href="projects/">
+                                <Link href="projects/" scroll={false}>
                                     <a><li>Projects</li></a>
                                 </Link>
-                                <Link href="/">
+                                <Link href="/writing" scroll={false}>
                                     <a><li>Writing</li></a>
                                 </Link>
                             </ul>
@@ -38,16 +38,16 @@ export class Footer extends Component {
                             <h3>Work.</h3>
                             <div className="h3 m-0">―</div>
                             <ul className="list-unstyled blockquote">
-                                <Link href="/projects/warrenyen">
+                                <Link href="/projects/warrenyen" scroll={false}>
                                     <a><li>Warren Yen</li></a>
                                 </Link>
-                                <Link href="/projects/jaxx">
+                                <Link href="/projects/jaxx" scroll={false}>
                                     <a><li>Jaxx Liberty</li></a>
                                 </Link>
-                                <Link href="/projects/at">
+                                <Link href="/projects/at" scroll={false}>
                                     <a><li>Advance Therapy</li></a>
                                 </Link>
-                                <Link href="/projects/bhs">
+                                <Link href="/projects/bhs" scroll={false}>
                                     <a><li>Big Horn Sheep</li></a>
                                 </Link>
                             </ul>
