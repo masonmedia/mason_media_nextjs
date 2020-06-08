@@ -16,7 +16,7 @@ export class copetin extends Component {
             <ProjectDetail 
             metaTitle="Copetín"
             metaD="Website coding, graphic/UI design."
-            projectNumber="06."
+            projectNumber="08."
             numberClass="bg-navy text-light"
             projectLetter="CT"
             projectTitle="Copetín"

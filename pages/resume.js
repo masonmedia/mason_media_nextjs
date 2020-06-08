@@ -90,7 +90,7 @@ export class resume extends Component {
                                 <Accordion.Collapse eventKey="0">
                                 <Card.Body className="pl-0 pt-1 pb-5">
                                     <span className="font-weight-bold h2">―</span>
-                                    <span className="d-table">Lead website developer responsible for all company web properties [60-70k+ monthly views]; Redesigned the product website, company website, product support website, and two company Wordpress blogs; UI/UX Design; Coding and daily maintenance of HTML/PHP/CSS/JS/Wordpress/Zendesk sites; Google analytics; Graphic design & social media asset creation; HTML email design/coding.</span>
+                                    <span className="d-table">Lead website developer responsible for all company web properties [60-70k+ monthly views]; Redesigned the product website, company website, product user support website, and two company Wordpress blogs; UI/UX Design; Coding and daily maintenance of HTML, PHP, CSS, JS, Wordpress, and Zendesk sites; Google analytics; Graphic design & social media asset creation; HTML email design/coding.</span>
                                     </Card.Body>
                                 </Accordion.Collapse>
                             </Card>
@@ -132,7 +132,7 @@ export class resume extends Component {
                     <Row>
                         <Col xl={12} className="bg-black text-light align-left min-100 p-5">
                             <h6 className="text-uppercase">Professional Skills</h6>
-                            <h1 className="page_title font-weight-bold">HTML5, CSS3, SASS, Bootstrap 4, Semantic UI, Atomic CSS, Javascript/jQuery, React, Next.js, Angular, Node, npm, Parcel bundler, Webflow, Wordpress, VS Code, Brackets, Github, Bitbucket.</h1>
+                            <h1 className="page_title font-weight-bold">HTML5, CSS3, SASS, Bootstrap 4, Semantic UI, Atomic CSS, Javascript, jQuery, React, Next.js, Angular, Node, npm, Parcel bundler, Webflow, Wordpress, VS Code, Brackets, Github, Bitbucket.</h1>
                             <div className="display-3 font-weight-light">↓</div>
                         </Col>
                     </Row>
