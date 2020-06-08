@@ -1,8 +1,20 @@
 .circle {
-    // clip-path: circle(46.8% at 50% 50%);
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     border-radius: 100%;
+}
+
+#projects .circle {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+}
+
+@media (max-width: 601px) {
+    #projects .circle {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 // diamond

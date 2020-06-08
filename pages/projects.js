@@ -191,7 +191,7 @@ export class projects extends Component {
               <ProjectItem
               col2Class="p-5"
               cardImgSrc={wake}
-              imgClass="p-0 my-4 circle"
+              imgClass="img-design p-0 my-4 circle"
               microTitle="Design: Toronto Coffee Company"
               cardTitle1="Wake 'n Bake"
               cardSubTitle="Graphic Design, Logo creation, Packaging design"
@@ -205,7 +205,7 @@ export class projects extends Component {
               <ProjectItem
               col2Class="p-5"
               cardImgSrc={bhs}
-              imgClass="p-0 my-4 circle"
+              imgClass="img-design p-0 my-4 circle"
               microTitle="Design: Toronto Funk Band"
               cardTitle1="Big Horn"
               cardTitle2="Sheep"
@@ -220,7 +220,7 @@ export class projects extends Component {
               <ProjectItem
               col2Class="p-5"
               cardImgSrc={emo}
-              imgClass="p-0 my-4 circle"
+              imgClass="img-design p-0 my-4 circle"
               microTitle="Design: Ed Mortenson"
               cardTitle1="EMO"
               cardTitle2="Productions"
@@ -235,7 +235,7 @@ export class projects extends Component {
               <ProjectItem
               col2Class="p-5"
               cardImgSrc={aimee}
-              imgClass="p-0 my-4 circle"
+              imgClass="circle img-design p-0 my-4"
               microTitle="Design: Toronto Jazz Vocalist"
               cardTitle1="Aimee"
               cardTitle2="Claxton"
