@@ -17,7 +17,7 @@ export function Menu(props) {
         fixed="top" 
         variant={props.variant}
         bg={props.bg}
-        className={props.navClass}>
+        className="shadow">
             <Link href="/" scroll={false}>
                 <a className="navbar-brand" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>
                     mason

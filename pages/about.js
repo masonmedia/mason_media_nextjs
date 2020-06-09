@@ -25,7 +25,9 @@ export class about extends Component {
                 <Head>
                     <title>Mason Media | About</title>
                 </Head>
-                <Menu bg="turq" variant="dark" />
+                <Menu 
+                bg="yellow" 
+                variant="light" />
                 <Container fluid>
                     <Row className="bg-yellow">
                         <Col className="align-center min-100 p-5">
