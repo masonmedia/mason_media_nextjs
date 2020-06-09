@@ -133,7 +133,7 @@ export class resume extends Component {
                         <Col xl={12} className="bg-black text-light align-left min-100 p-5">
                             <h6 className="text-uppercase">Professional Skills</h6>
                             <h1 className="page_title font-weight-bold">HTML5, CSS3, SASS, Bootstrap 4, Semantic UI, Atomic CSS, Javascript, jQuery, React, Next.js, Angular, Node, npm, Parcel bundler, Webflow, Wordpress, VS Code, Brackets, Github, Bitbucket.</h1>
-                            <div className="display-3 font-weight-light">↓</div>
+                            <div className="page_title font-weight-light">↓</div>
                         </Col>
                     </Row>
 
