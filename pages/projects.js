@@ -14,6 +14,7 @@ import * as Constants from '../components/Constants';
 import Footer from '../components/Footer';
 import wy_thumb from '../public/images/wy/wy_macbookgold.png';
 import at_thumb from '../public/images/at/at_laptop.png';
+import nw_thumb from '../public/images/nw/nw_macbook.png';
 import jaxx_thumb from '../public/images/jaxx/jaxx_laptop.png';
 import dc_thumb from '../public/images/dc/dc_laptop.png';
 import n2_thumb from '../public/images/n2/n2_laptop.png';
@@ -75,14 +76,6 @@ export class projects extends Component {
               cardSubTitle="HTML5, CSS3/SASS, PHP, Javascript, UX, Parcel Bundler"
               cardText="Portfolio website build for Toronto Designer Warren Yen."
               >
-                {/* <Link href="/about" scroll={false}>
-                    <a>
-                      <Button 
-                      className="relative font-weight-bold mt-2 drop-shadow"
-                      variant="outline-light">Read more
-                      </Button>
-                      </a>
-                  </Link> */}
                 <LinkComponent 
                 linkHref="/projects/warrenyen"
                 />
@@ -113,6 +106,20 @@ export class projects extends Component {
               >
                 <LinkComponent 
                 linkHref="/projects/decentral"
+                />
+              </ProjectItem>
+
+              <ProjectItem 
+              col2Class="p-5"
+              cardImgSrc={nw_thumb}
+              microTitle="Toronto musician & producer"
+              cardTitle1="Neil"
+              cardTitle2="Whitford"
+              cardSubTitle="HTML5, CSS3/SASS, PHP, Javascript, UI/UX/Graphic design"
+              cardText="Website for Toronto musician, guitarist, producer and music educator Neil Whitford."
+              >
+                <LinkComponent 
+                linkHref="/projects/nw"
                 />
               </ProjectItem>
 

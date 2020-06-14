@@ -78,7 +78,6 @@ render() {
                             {this.props.projectDesc2}
                         </p>
                     </Col>
-                    
 
                     <Col xl={6} className={`${this.props.imgColClass3} p-0`}>
                         <img 

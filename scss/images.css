@@ -4,3 +4,8 @@ img {
   width: 100%;
   object-fit: cover;
 }
+
+.bg-texture-1 {
+  background: url(/public/images/Taieri.svg) center;
+  background-size: cover;
+}

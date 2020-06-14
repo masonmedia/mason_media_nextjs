@@ -39,7 +39,7 @@ export class copetin extends Component {
                 // designCircle="•"
                 siteUrl="https://copetin.andrewmasonmedia.com/"
                 prevHref="/projects/sfs"
-                nextHref="/projects"
+                nextHref="/projects/nw"
                 />
             </ProjectDetail>
         )
