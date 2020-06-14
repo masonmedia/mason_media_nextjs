@@ -13,18 +13,6 @@ p {
     font-weight: 400;
 }
 
-// .site-title {
-//     // font-size: 21vmin;
-//     font-family: 'Helvetica Neue', sans-serif;
-//     font-size: 20vw;
-//     font-weight: 100;
-//     line-height: 82%;
-//     letter-spacing: -15px;
-//     padding: 0 20px 0 20px;
-//     text-transform: lowercase;
-//     font-style: italic;
-//     margin-bottom: 0;
-// }
 .site-title {
     font-family: 'Inter', sans-serif;
     font-size: 20vw;
@@ -93,6 +81,9 @@ p {
     margin-bottom: 15px;
 }
 
+
+// text effects
+
 .text-shadow {
     text-shadow: 0 0 7px #000;
     text-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
@@ -101,6 +92,11 @@ p {
 .drop-shadow {
     filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
     filter: drop-shadow(3px 3px 12px rgba(0, 0, 0, 0.5));
+}
+
+.stroke-white {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
 }
 
 // media queries
