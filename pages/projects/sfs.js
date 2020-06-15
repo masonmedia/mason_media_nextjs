@@ -40,7 +40,7 @@ export class sfs extends Component {
                 behanceUrl="https://www.behance.net/gallery/93333839/Surefire-Sweat"
                 designCircle="•"
                 siteUrl="http://surefiresweat.com/"
-                // prevHref="/projects/bhs"
+                prevHref="/projects/bhs"
                 nextHref="/projects/copetin"
                 />
             </ProjectDetail>

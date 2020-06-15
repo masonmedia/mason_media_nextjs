@@ -35,7 +35,7 @@ export class at extends Component {
                 behanceUrl="https://www.behance.net/gallery/94105429/Advance-Therapy"
                 designCircle="•"
                 siteUrl="http://atherapy.ca"
-                // prevHref="/projects/jaxx"
+                prevHref="/projects/decentral"
                 nextHref="/projects/n2"
                 />
              </ProjectDetail>

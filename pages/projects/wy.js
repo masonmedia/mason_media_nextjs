@@ -6,7 +6,7 @@ import wy_2 from '../../public/images/wy/wy_about.png';
 import wy_3 from '../../public/images/wy/wy_iphone5.png';
 import wy_4 from '../../public/images/wy/wy_project.png';
 
-export class warrenyen extends Component {
+export class wy extends Component {
     componentDidMount() {
         window.scrollTo(0, 0);  
     }
@@ -41,8 +41,7 @@ export class warrenyen extends Component {
                 behanceUrl="https://www.behance.net/gallery/97181347/Warren-Yen-Website-Device-Mockups"
                 designCircle="•"
                 siteUrl="https://warrenyen.com"
-                prevHref="/projects"
-                // prevClass="d-none"
+                prevHref="/projects/nw"
                 nextHref="/projects/jaxx"
                 />
             </ProjectDetail>
@@ -50,4 +49,4 @@ export class warrenyen extends Component {
     }
 }
 
-export default warrenyen;
+export default wy;

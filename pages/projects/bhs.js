@@ -36,7 +36,7 @@ export class bhs extends Component {
                 behanceUrl="https://www.behance.net/gallery/97962231/Big-Horn-Sheep"
                 designCircle="•"
                 siteUrl="http://bighornsheepband.com/"
-                // prevHref="/projects/n2"
+                prevHref="/projects/n2"
                 nextHref="/projects/sfs"
                 />
             </ProjectDetail>

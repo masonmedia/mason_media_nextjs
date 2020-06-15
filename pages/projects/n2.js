@@ -34,7 +34,7 @@ export class n2 extends Component {
                 behanceUrl="https://www.behance.net/gallery/97853315/N2-Speech-Therapy"
                 designCircle="•"
                 siteUrl="http://www.n2speechtherapy.com/"
-                // prevHref="/projects/at"
+                prevHref="/projects/at"
                 nextHref="/projects/bhs"
                 />
              </ProjectDetail>

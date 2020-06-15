@@ -41,7 +41,7 @@ export class jaxx extends Component {
                 githubUrl="https://github.com/masonmedia/jaxx_revolutions_1"
                 behanceUrl="https://www.behance.net/gallery/93329099/Jaxx-Liberty"
                 siteClass="d-none"
-                // prevHref="/projects/warrenyen"
+                prevHref="/projects/wy"
                 nextHref="/projects/decentral"
                 />
             </ProjectDetail>

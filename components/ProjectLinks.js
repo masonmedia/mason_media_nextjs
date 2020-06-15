@@ -3,7 +3,8 @@ import Link from 'next/link';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import Circle from '../components/Circle';
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 
 export class ProjectLinks extends Component {
     render() {
@@ -25,13 +26,14 @@ export class ProjectLinks extends Component {
                     </a>
                     {/* pagination */}
                     <div className="d-flex justify-content-center mt-4">
-                        {/* <Link href={this.props.prevHref} scroll={false}>
+                        <Link href={this.props.prevHref} scroll={false}>
                             <a><Button 
                             className={`${this.props.prevClass} mr-2`}
                             variant="outline-dark">Previous</Button></a>
-                        </Link> */}
+                        </Link>
                         <Link href={this.props.nextHref} scroll={false}>
-                            <a><Button 
+                            <a><Button
+                            className="mr-2" 
                             variant="dark">Next</Button></a>
                         </Link>
                     </div>
