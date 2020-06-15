@@ -26,7 +26,7 @@ export class nw extends Component {
             imgColClass2="bg-squares"
             projecSubTitle2="Advance Therapy"
             projectTitle2="tech stack"
-            projectDesc2="I built the site using HTML5, PHP, CSS3, Bootstrap 4, SWUP, AOS, and the parallax animation  library rellax.js. It also includes audio player embeds from Souncloud and hearthis.at platforms."
+            projectDesc2="I built the site using HTML5, PHP, CSS3, Bootstrap 4, SWUP, AOS, and the parallax animation  library rellax.js. It also includes audio player embeds from Souncloud and hearthis.at platforms. This project is awaiting deployment and is visible live below temporarily on one of my dev urls."
             projectDescCol="bg-black text-light"
             projectImg3={nw_3}
             imgColClass3="bg-neil"

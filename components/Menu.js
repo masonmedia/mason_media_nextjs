@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-// import Dropdown from 'react-bootstrap/Dropdown';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 export function Menu(props) {
 
@@ -37,26 +37,6 @@ export function Menu(props) {
                     <Link href="/projects" scroll={false}>
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Projects</a>
                     </Link>
-                    {/* <NavDropdown title="Projects" id="collasible-nav-dropdown">
-                        <Dropdown.Header>Dropdown header</Dropdown.Header>
-                        <NavDropdown.Item>
-                            <Link href="/projects/warrenyen" scroll={false}>
-                                <a onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Warren Yen</a>
-                            </Link>
-                        </NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item>
-                            <Link href="/projects/jaxx" scroll={false}>
-                                <a>Jaxx Liberty</a>
-                            </Link>
-                        </NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item>
-                            <Link href="/projects/at" scroll={false}>
-                                <a>Advance Therapy</a>
-                            </Link>
-                        </NavDropdown.Item>
-                    </NavDropdown> */}
                     <Link href="/writing" scroll={false}>
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Writing</a>
                     </Link>

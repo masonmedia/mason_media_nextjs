@@ -71,7 +71,7 @@ render() {
 
                     {/* description column 2 if applicable */}
                     
-                    <Col xl={6} className={`${this.props.projectDescCol} align-left min-100 p-5`}>
+                    <Col xl={6} className={`${this.props.projectDescCol} align-left min-50 p-5`}>
                         <h6 className="text-uppercase">
                             {this.props.projecSubTitle2}
                         </h6>

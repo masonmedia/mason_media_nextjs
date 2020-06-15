@@ -1,5 +1,5 @@
 .nav-link {
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -12,6 +12,7 @@
 
 .navbar {
   transition: all .3s ease-in-out;
+  font-family: 'Inter', Helvetica Neue, Arial, Helvetica, sans-serif;
 }
 
 .navbar-brand > img {
