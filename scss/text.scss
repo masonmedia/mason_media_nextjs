@@ -64,6 +64,11 @@ p {
     color: transparent;
     -webkit-text-stroke: 6px #000;
     -webkit-text-stroke: 2px #000;
+    text-transform: lowercase;
+    font-style: italic;
+
+    // transform: scale(1.1);
+    // margin-left: 18px;
 }
 
 .project_letter {

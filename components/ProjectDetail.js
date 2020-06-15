@@ -38,7 +38,7 @@ render() {
                         {/* <h6 className={`${this.props.numberClass} project_number display-1 font-weight-bold mt-4 rounded-circle p-3 shadow`}>
                             {this.props.projectNumber}
                         </h6> */}
-                        <h6 className={`${this.props.numberClass} project_number display-1 x-bold mt-4 mb-0`}>
+                        <h6 className={`${this.props.numberClass} project_number display-2 x-bold mt-4 mb-0`}>
                             {this.props.projectNumber}
                         </h6>
                         <hr className="w-25 bg-black m-0 mb-3" style={{height: '12px'}} />
