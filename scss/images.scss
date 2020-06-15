@@ -6,6 +6,14 @@ img {
 }
 
 .bg-texture-1 {
-    background: url(/public/images/Taieri.svg) center;
+    background: url(../public/images/Taieri.svg) center;
+    background-size: contain;
+}
+.bg-texture-2 {
+    background: url(../public/images/Waimakariri.svg) center;
+    background-size: cover;
+}
+.bg-texture-3 {
+    background: url(../public/images/Doubs.svg) center;
     background-size: cover;
 }

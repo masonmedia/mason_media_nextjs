@@ -13,6 +13,8 @@ import * as Constants from '../components/Constants';
 import Circle from '../components/Circle';
 import LinkComponent from '../components/LinkComponent';
 import Text from '../components/Text';
+// import img_1 from '../public/images/Doubs.svg'
+import img_1 from '../public/images/Taieri.svg'
 
 export class Home extends Component {
   componentDidMount() {
@@ -28,8 +30,8 @@ export class Home extends Component {
         <Head>
               <title>Mason Media | Home</title>
         </Head>
-        <Menu bg="squares" variant="dark" />
-        <Container id="home" fluid className="bg-squares">
+        <Menu bg="black" variant="dark" />
+        <Container id="home" fluid className="bg-black">
           <Row>
               <Col className="align-center min-100 p-5">
                 <CircleComponent
@@ -55,122 +57,6 @@ export class Home extends Component {
                   </motion.div>  
               </Col>
             </Row>
-
-            {/* <Row className="bg-yellow">
-              <Col className="align-center min-100 p-5">
-                  <CircleComponent
-                  circle1="bg-turq right"
-                  circle2="bg-turq" 
-                  circle3="bg-yellow" 
-                  circle4="bg-pink" 
-                  circle5="bg-pink" 
-                  circle6="bg-pink" 
-                  />
-                  <motion.div variants={Constants.textVariants}>
-                  <h1 className="site-title text-light drop-shadow">
-                      about
-                  </h1>
-                  </motion.div>
-                  <motion.div variants={Constants.backVariants}>
-                    <Link href="/about">
-                      <a>
-                        <Button
-                        className="relative btn-lg mt-3 shadow"
-                        variant="dark">
-                          Read More
-                        </Button>
-                      </a>
-                    </Link>
-                  </motion.div>
-              </Col>
-          </Row> */}
-
-          {/* <Row className="bg-turq">
-            <Col className="align-center min-100 p-5">
-              <CircleComponent
-                circle1="bg-lime right"
-                circle2="bg-primary" 
-                circle3="bg-yellow" 
-                circle4="bg-pink" 
-                circle5="bg-red" 
-                circle6="bg-pink" 
-                />
-              <motion.div variants={Constants.textVariants}>
-                <h1 className="site-title text-light drop-shadow">
-                  Projects
-                </h1>
-                </motion.div>
-                <motion.div variants={Constants.backVariants}>
-                  <Link href="/projects">
-                    <a>
-                      <Button
-                      className="relative btn-lg mt-3 shadow"
-                      variant="dark">
-                        Read More
-                      </Button>
-                    </a>
-                  </Link>
-                </motion.div>
-              </Col>
-            </Row>
-
-            <Row className="bg-success">
-              <Col className="align-center min-100 p-5">
-                <CircleComponent
-                circle1="bg-turq right"
-                circle2="bg-turq" 
-                circle3="bg-yellow" 
-                circle4="bg-pink" 
-                circle5="bg-pink" 
-                circle6="bg-pink" 
-                />
-                <motion.div variants={Constants.textVariants}>
-                <h1 className="site-title text-light drop-shadow">
-                    Writing
-                </h1>
-                </motion.div>
-                <motion.div variants={Constants.backVariants}>
-                <Link href="/writing">
-                      <a>
-                        <Button
-                        className="relative btn-lg mt-3 shadow"
-                        variant="dark">
-                          Read More
-                        </Button>
-                      </a>
-                    </Link>
-                </motion.div>
-              </Col>
-            </Row>
-
-            <Row className="bg-black">
-              <Col className="align-center min-100 p-5">
-                <CircleComponent
-                circle1="bg-lime right"
-                circle2="bg-turq" 
-                circle3="bg-yellow" 
-                circle4="bg-red" 
-                circle5="bg-pink" 
-                circle6="bg-pink" 
-                />
-                <motion.div variants={Constants.textVariants}>
-                <h1 className="site-title text-light drop-shadow mr-3">
-                    Resume
-                </h1>
-                </motion.div>
-                <motion.div variants={Constants.backVariants}>
-                    <Link href="/resume">
-                      <a>
-                        <Button
-                        className="relative btn-lg mt-3 shadow"
-                        variant="dark">
-                          Read More
-                        </Button>
-                      </a>
-                    </Link>
-                </motion.div>
-              </Col>
-            </Row> */}
 
             <Text
             textSectionClass="align-left"
