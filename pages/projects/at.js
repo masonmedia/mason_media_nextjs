@@ -13,8 +13,7 @@ export class at extends Component {
         return (
             <ProjectDetail 
             metaTitle="Advance Therapy"
-            projectNumber="04."
-            numberClass="bg-green"
+            projectNumber="AT"
             projectLetter="AT"
             projectTitle="Advance Therapy"
             projectDesc="Advance Therapy's public facing website required a complete overhaul and redesign. Requirements included a simple, intuitive user interface, a low amount of scrolling while still presenting a large amount of content, a specific typeface, and the firm's existing logo/color palette. I went with a simple one-page layout centering on jQuery clickable dropdown panels which revealed text for each subsection, with futher features including flexbox construction, a side-canvas menu, smooth anchor scrolling, and image sourcing."
@@ -36,7 +35,7 @@ export class at extends Component {
                 behanceUrl="https://www.behance.net/gallery/94105429/Advance-Therapy"
                 designCircle="•"
                 siteUrl="http://atherapy.ca"
-                prevHref="/projects/jaxx"
+                // prevHref="/projects/jaxx"
                 nextHref="/projects/n2"
                 />
              </ProjectDetail>

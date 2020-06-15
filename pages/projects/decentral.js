@@ -16,8 +16,8 @@ export class decentral extends Component {
             <ProjectDetail 
             metaTitle="Decentral"
             metaD="Website coding, graphic/UI design, SEO and user engagement for Jaxx Liberty, a cryptocurrency app made by Decentral Inc."
-            projectNumber="03."
-            numberClass="bg-black text-light"
+            projectNumber="DC"
+            // numberClass="bg-black text-light"
             projectLetter="DC"
             projectTitle="Decentral Inc."
             projectDesc="One of Toronto's earliest blockchain startups, Decentral is the maker of two industry-leading digital wallet apps. In my role as Decentral's lead website designer and developer, I redesigned and rebuilt all the company's customer facing web properties including: the company website, app/product website, the customer support website, and the company and product blogs. I also supported marketing with image design and sourcing, and was a creative voice in the development and editing of new copy across platforms."
@@ -42,7 +42,7 @@ export class decentral extends Component {
                 behanceUrl="https://www.behance.net/gallery/93329099/Jaxx-Liberty"
                 designCircle="•"
                 siteUrl="https://decentral.ca"
-                prevHref="/projects/jaxx"
+                // prevHref="/projects/jaxx"
                 nextHref="/projects/at"
                 />
             </ProjectDetail>

@@ -14,8 +14,7 @@ export class n2 extends Component {
         return (
             <ProjectDetail 
             metaTitle="N2"
-            projectNumber="05."
-            numberClass="bg-turq"
+            projectNumber="N2"
             projectLetter="N2"
             projectTitle="N2 Speech Therapy"
             projectDesc="N2 Speech Therapy is a Toronto Speech-Language Pathology services provider offering a broad range of one-on-one treatment options. N2 required a complete brand design including website, logo, custom imagery, photo sourcing, and copywriting. Requirements included a bold, professional layout, clean presentation of company information, and a blog for updatable content and SEO."
@@ -35,7 +34,7 @@ export class n2 extends Component {
                 behanceUrl="https://www.behance.net/gallery/97853315/N2-Speech-Therapy"
                 designCircle="•"
                 siteUrl="http://www.n2speechtherapy.com/"
-                prevHref="/projects/at"
+                // prevHref="/projects/at"
                 nextHref="/projects/bhs"
                 />
              </ProjectDetail>

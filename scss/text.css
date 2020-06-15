@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800;900&display=swap");
 h1, h2, h3, h4, h5, h6, p {
   font-family: Helvetica Neue, 'Montserrat', Futura, Arial, sans-serif;
@@ -51,6 +50,9 @@ p {
 
 .project_number {
   letter-spacing: -11px;
+  color: transparent;
+  -webkit-text-stroke: 6px #000;
+  -webkit-text-stroke: 2px #000;
 }
 
 .project_letter {
@@ -69,6 +71,10 @@ p {
   font-size: 60px;
   line-height: 100%;
   margin-bottom: 15px;
+}
+
+.x-bold, .project_number {
+  font-weight: 900 !important;
 }
 
 .text-shadow, #home .page_title {

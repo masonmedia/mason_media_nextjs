@@ -67,6 +67,20 @@ export class projects extends Component {
             </Row>
 
               <ProjectItem 
+              col2Class="p-5"
+              cardImgSrc={nw_thumb}
+              microTitle="Toronto musician & producer"
+              cardTitle1="Neil"
+              cardTitle2="Whitford"
+              cardSubTitle="HTML5, CSS3/SASS, PHP, Javascript, UI/UX/Graphic design"
+              cardText="Website for Toronto musician, guitarist, producer and music educator Neil Whitford."
+              >
+                <LinkComponent 
+                linkHref="/projects/nw"
+                />
+              </ProjectItem>
+
+              <ProjectItem 
               rowClass="mt-4"
               col2Class="p-5"
               cardImgSrc={wy_thumb}
@@ -178,21 +192,6 @@ export class projects extends Component {
                 linkHref="/projects/copetin"
                 />
               </ProjectItem>
-
-              <ProjectItem 
-              col2Class="p-5"
-              cardImgSrc={nw_thumb}
-              microTitle="Toronto musician & producer"
-              cardTitle1="Neil"
-              cardTitle2="Whitford"
-              cardSubTitle="HTML5, CSS3/SASS, PHP, Javascript, UI/UX/Graphic design"
-              cardText="Website for Toronto musician, guitarist, producer and music educator Neil Whitford."
-              >
-                <LinkComponent 
-                linkHref="/projects/nw"
-                />
-              </ProjectItem>
-
 
               {/* graphic design */}
               
