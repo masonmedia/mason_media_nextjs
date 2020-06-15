@@ -5,16 +5,13 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import CircleComponent from '../components/CircleComponent';
-import Button from 'react-bootstrap/Button';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import * as Constants from '../components/Constants';
-import Circle from '../components/Circle';
-import LinkComponent from '../components/LinkComponent';
 import Text from '../components/Text';
 // import img_1 from '../public/images/Doubs.svg'
-import img_1 from '../public/images/Taieri.svg'
+// import img_1 from '../public/images/Taieri.svg'
 
 export class Home extends Component {
   componentDidMount() {
