@@ -24,7 +24,6 @@ export class about extends Component {
             bg="yellow"
             variant="light"
             >
-           
                 <Row className="bg-yellow">
                     <Col className="align-center min-100 p-5">
                         <CircleComponent

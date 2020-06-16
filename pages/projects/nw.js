@@ -18,7 +18,7 @@ export class nw extends Component {
             projectNumber="NW"
             projectLetter="NW"
             projectTitle="Neil Whitford"
-            projectDesc="Neil Whitford is a Toronto musician, composer, producer and educator. He required a public facing website for his personal brand as well as production and teaching businesses. The project required UI/UX and graphic design, branding, as well as copy editing. The end result included a bold palette of neon colors on a stark black background, a simple but modern Helvetica typeface, animations, and presentation of his library of audio tracks and a complete discography."
+            projectDesc="Neil Whitford is a Toronto musician, composer, producer and educator. He required a public facing website for his personal brand as well as production and teaching businesses. The project required UI/UX and graphic design, coding and architecture, branding, as well as copy editing. The end result centered on a bold palette of neon colors paired with a minimal black background, a simple but modern Helvetica typeface, scroll and page transition animations, the presentation of his diverse array of audio tracks, and a complete discography."
             projectImg1={nw_1}
             imgColClass1="bg-pink"
             imgClass1="drop-shadow p-2"
@@ -26,7 +26,7 @@ export class nw extends Component {
             imgColClass2="bg-squares"
             projecSubTitle2="Neil Whitford"
             projectTitle2="tech stack"
-            projectDesc2="I built the site using HTML5, PHP, CSS3, Bootstrap 4, SWUP, AOS, and the parallax animation  library rellax.js. It also includes audio player embeds from Soundcloud and hearthis.at platforms. This project is awaiting deployment and is visible live below temporarily on one of my dev urls."
+            projectDesc2="I built the site using HTML5, PHP, CSS3, Bootstrap 4, the SWUP library for animated AJAX page transitions, AOS (animate on scroll) for scroll animations, and the parallax animation library rellax.js. It also includes audio player embeds from Soundcloud and hearthis.at platforms. This project is awaiting deployment and is visible live below temporarily on a staging url."
             projectDescCol="bg-black text-light"
             projectImg3={nw_3}
             imgColClass3="bg-neil"
