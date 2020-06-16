@@ -91,7 +91,7 @@ export class projects extends Component {
               cardText="Portfolio website build for Toronto Designer Warren Yen."
               >
                 <LinkComponent 
-                linkHref="/projects/warrenyen"
+                linkHref="/projects/wy"
                 />
               </ProjectItem>
 
