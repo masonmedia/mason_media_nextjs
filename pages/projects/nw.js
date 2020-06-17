@@ -26,7 +26,7 @@ export class nw extends Component {
             imgColClass2="bg-squares"
             projecSubTitle2="Neil Whitford"
             projectTitle2="tech stack"
-            projectDesc2="I built the site using HTML5, PHP, CSS3, Bootstrap 4, the SWUP library for animated AJAX page transitions, AOS (animate on scroll) for scroll animations, and the parallax animation library rellax.js. It also includes audio player embeds from Soundcloud and hearthis.at platforms. This project is awaiting deployment and is visible live below on a staging url."
+            projectDesc2="I built the site using HTML5, PHP, CSS3, Bootstrap 4, the SWUP library for animated AJAX page transitions, AOS (animate on scroll) for scroll animations, and the parallax animation library rellax.js. It also includes audio player embeds from Soundcloud and hearthis.at platforms."
             projectDescCol="bg-black text-light"
             projectImg3={nw_3}
             imgColClass3="bg-neil"
@@ -43,7 +43,7 @@ export class nw extends Component {
                 // behanceUrl="https://www.behance.net/gallery/94105429/Advance-Therapy"
                 behanceClass="d-none"
                 designCircle="•"
-                siteUrl="http://landingpage.andrewmasonmedia.com"
+                siteUrl="https://neilwhitford.com"
                 prevHref="/projects"
                 nextHref="/projects/wy"
                 />
