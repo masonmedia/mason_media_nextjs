@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
-import Head from 'next/head';
 import { motion } from 'framer-motion';
-import Container from 'react-bootstrap/Container';
+import Layout from '../components/Layout';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProjectItem from '../components/ProjectItem';
-import Menu from '../components/Menu';
 import CircleComponent from '../components/CircleComponent';
 import LinkComponent from '../components/LinkComponent';
 import ExtLinkComponent from '../components/ExtLinkComponent';
 import * as Constants from '../components/Constants';
-import Footer from '../components/Footer';
 import wy_thumb from '../public/images/wy/wy_macbookgold.png';
 import at_thumb from '../public/images/at/at_laptop.png';
 import nw_thumb from '../public/images/nw/nw_macbook.png';
@@ -32,16 +28,14 @@ export class projects extends Component {
   }
     render() {
         return (
-          <motion.div 
-          initial="exit"
-          animate="enter" 
-          exit="exit"
-          variants={Constants.imageVariants}>
-            <Head>
-                <title>Mason Media | Projects</title>
-            </Head>
-            <Menu bg="turq" variant="dark" />
-            <Container id="projects" fluid className="bg-smoke pb-4">
+          <Layout
+          metaTitle="Projects"
+          metaD="I've designed & built web projects for clients including software companies, the health services industry, musicians, artists, real estate agents, & designers."
+          bg="turq"
+          variant="dark"
+          id="projects"
+          containerClass="bg-smoke pb-4"
+          >
             <Row className="bg-turq">
               <Col className="align-center min-100 p-5">
                 <CircleComponent
@@ -253,9 +247,7 @@ export class projects extends Component {
                 linkHref="https://www.behance.net/gallery/93330057/Aimee-Claxton-Business-Cards-Concert-Posters"
                 />
               </ProjectItem>
-            </Container>
-            <Footer />
-        </motion.div>
+            </Layout>
         )
     }
 }

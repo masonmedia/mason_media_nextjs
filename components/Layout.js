@@ -15,7 +15,10 @@ export class Layout extends Component {
             exit="exit"
             variants={Constants.imageVariants}>
                 <Head>
-                    <title>Mason Media | {this.props.metaTitle}</title>
+                    <title>Mason Media | {this.props.metaTitle}
+                    </title>
+                    {this.props.description ? <meta name="description" content={this.props.metaD} /> : ''}
+                    I am a Toronto based designer, front-end developer and copywriter. I build websites and web applications, design UIs and imagery, and write and edit copy for a range of formats.  
                 </Head>
                 <Menu 
                 bg={this.props.bg} 
@@ -23,7 +26,7 @@ export class Layout extends Component {
                 />
                 <Container 
                 id={this.props.id}
-                className={this.props.containerBg}
+                className={this.props.containerClass}
                 fluid>
                     {this.props.children}
                 </Container>

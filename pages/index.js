@@ -20,7 +20,7 @@ export class Home extends Component {
         bg="black"
         variant="dark"
         id="home"
-        containerBg="bg-gradient-red"
+        containerClass="bg-gradient-red"
         >
           <Row>
               <Col className="align-center min-100 p-5">

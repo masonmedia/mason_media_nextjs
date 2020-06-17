@@ -21,6 +21,7 @@ export class about extends Component {
         return (
             <Layout
             metaTitle="About"
+            metaD="I specialize in visual design, building websites, and UX copywriting. I help clients to build successful brands and engaging digital experiences."
             bg="yellow"
             variant="light"
             >
