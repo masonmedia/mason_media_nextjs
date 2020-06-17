@@ -18,7 +18,7 @@ export class nw extends Component {
             projectNumber="NW"
             projectLetter="NW"
             projectTitle="Neil Whitford"
-            projectDesc="Neil Whitford is a Toronto musician, composer, producer and educator. He required a public facing website for his personal brand as well as production and teaching businesses. The project required UI/UX and graphic design, coding and architecture, branding, as well as copy editing. The end result centered on a bold palette of neon colors paired with a minimal black background, a simple but modern Helvetica typeface, scroll and page transition animations, the presentation of his diverse array of audio tracks, and a complete discography."
+            projectDesc="Neil Whitford is a Toronto guitarist, composer, producer and educator. He required a public facing website for his personal brand as well as production and teaching businesses. The project required UI/UX and graphic design, coding and architecture, branding, as well as copy editing. The end result centered on a bold palette of neon colors paired with a minimal black background, a simple but modern Helvetica typeface, scroll and page transition animations, the presentation of his diverse array of audio tracks, and a complete discography."
             projectImg1={nw_1}
             imgColClass1="bg-pink"
             imgClass1="drop-shadow p-2"
