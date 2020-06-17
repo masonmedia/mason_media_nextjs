@@ -17,6 +17,7 @@ export class Home extends Component {
   return (
         <Layout
         metaTitle="Home"
+        metaD="I'm a Toronto designer, frontend developer and copywriter. I build websites, design UIs and imagery, and write copy for a wide range of formats."
         bg="black"
         variant="dark"
         id="home"

@@ -17,8 +17,7 @@ export class Layout extends Component {
                 <Head>
                     <title>Mason Media | {this.props.metaTitle}
                     </title>
-                    {this.props.description ? <meta name="description" content={this.props.metaD} /> : ''}
-                    I am a Toronto based designer, front-end developer and copywriter. I build websites and web applications, design UIs and imagery, and write and edit copy for a range of formats.  
+                    <meta name="description" content={this.props.metaD} />  
                 </Head>
                 <Menu 
                 bg={this.props.bg} 
