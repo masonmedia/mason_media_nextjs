@@ -25,16 +25,16 @@ export class about extends Component {
             bg="yellow"
             variant="light"
             >
-                <Row className="bg-yellow">
+                <Row className="bg-about">
                     <Col className="align-center min-100 p-5">
-                        <CircleComponent
+                        {/* <CircleComponent
                         circle1="bg-turq right"
                         circle2="bg-turq" 
                         circle3="bg-yellow" 
                         circle4="bg-pink" 
                         circle5="bg-pink" 
                         circle6="bg-pink" 
-                        />
+                        /> */}
                         <motion.div variants={Constants.imageVariants}>
                             <h1 className="site-title text-light drop-shadow">
                                 about

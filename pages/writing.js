@@ -19,16 +19,16 @@ export class writing extends Component {
             variant="dark"
             id="writing"
             >
-                <Row className="bg-success">
+                <Row className="bg-writing">
                     <Col className="align-center min-100 p-5">
-                        <CircleComponent
+                        {/* <CircleComponent
                         circle1="bg-turq right"
                         circle2="bg-turq" 
                         circle3="bg-yellow" 
                         circle4="bg-pink" 
                         circle5="bg-pink" 
                         circle6="bg-pink" 
-                        />
+                        /> */}
                         <motion.div variants={Constants.imageVariants}>
                         <h1 className="site-title text-light drop-shadow">
                             Writing

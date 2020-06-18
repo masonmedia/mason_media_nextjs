@@ -36,16 +36,16 @@ export class projects extends Component {
           id="projects"
           containerClass="bg-smoke pb-4"
           >
-            <Row className="bg-turq">
+            <Row className="bg-projects">
               <Col className="align-center min-100 p-5">
-                <CircleComponent
+                {/* <CircleComponent
                   circle1="bg-lime right"
                   circle2="bg-primary" 
                   circle3="bg-yellow" 
                   circle4="bg-pink" 
                   circle5="bg-red" 
                   circle6="bg-pink" 
-                  />
+                  /> */}
                 <motion.div variants={Constants.imageVariants}>
                   <h1 className="site-title text-light drop-shadow">
                     projects

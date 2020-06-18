@@ -6,8 +6,6 @@ import CircleComponent from '../components/CircleComponent';
 import { motion } from 'framer-motion';
 import * as Constants from '../components/Constants';
 import Text from '../components/Text';
-// import img_1 from '../public/images/Doubs.svg'
-// import img_1 from '../public/images/Taieri.svg'
 
 export class Home extends Component {
   componentDidMount() {
@@ -23,16 +21,16 @@ export class Home extends Component {
         id="home"
         containerClass="bg-gradient-red"
         >
-          <Row>
+          <Row className="bg-home">
               <Col className="align-center min-100 p-5">
-                <CircleComponent
+                {/* <CircleComponent
                 circle1="bg-lime right"
                 circle2="bg-primary" 
                 circle3="bg-yellow" 
                 circle4="bg-turq" 
                 circle5="bg-red" 
                 circle6="bg-pink" 
-                />
+                /> */}
                 <motion.div 
                 variants={Constants.imageVariants}>
                   <h1 className="site-title mt-0 pt-0 text-light drop-shadow m-0"

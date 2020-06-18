@@ -7,7 +7,7 @@ export class CircleComponent extends Component {
             <Slide bottom cascade>
                 <div 
                 className={`${this.props.circle1} absolute z-0 circle shadow`}
-                style={{width: '700px', height: '100%'}}></div>
+                style={{width: '800px', height: '800px'}}></div>
                 <div 
                 className={`${this.props.circle2} absolute z-0 left circle shadow`}
                 style={{width: '400px', height: '400px'}}></div>

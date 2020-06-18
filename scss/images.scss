@@ -5,6 +5,30 @@ img {
     object-fit: cover;  
 }
 
+.bg-home {
+    background: url(../public/images/mm_img_home.png) center;
+}
+.bg-about {
+    background: url(../public/images/mm_img_about.png) center;
+}
+.bg-projects {
+    background: url(../public/images/mm_img_projects.png) center;
+}
+.bg-writing {
+    background: url(../public/images/mm_img_writing.png) center;
+}
+.bg-resume {
+    background: url(../public/images/mm_img_resume.png) center;
+}
+
+.bg-home,
+.bg-about,
+.bg-projects,
+.bg-writing,
+.bg-resume {
+    background-size: contain;
+}
+
 .bg-texture-1 {
     background: url(../public/images/Taieri.svg) center;
     background-size: contain;
@@ -16,4 +40,24 @@ img {
 .bg-texture-3 {
     background: url(../public/images/Doubs.svg) center;
     background-size: cover;
+}
+.bg-texture-4 {
+    background: url(../public/images/Mataura.svg) center;
+    background-size: cover;
+}
+.bg-texture-5 {
+    background: url(../public/images/Oreti.svg) center;
+    background-size: cover;
+}
+
+@media (max-width: 601px) {
+    .bg-home,
+    .bg-about,
+    .bg-projects,
+    .bg-writing,
+    .bg-resume
+     {
+        background-size: cover;
+        background-position: center left;
+    }
 }

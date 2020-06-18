@@ -21,16 +21,16 @@ export class resume extends Component {
             bg="black"
             variant="dark"
             >
-                <Row className="bg-black">
+                <Row className="bg-resume">
                     <Col className="align-center min-100 p-5">
-                        <CircleComponent
+                        {/* <CircleComponent
                         circle1="bg-lime right"
                         circle2="bg-turq" 
                         circle3="bg-yellow" 
                         circle4="bg-red" 
                         circle5="bg-pink" 
                         circle6="bg-pink" 
-                        />
+                        /> */}
                         <motion.div variants={Constants.imageVariants}>
                         <h1 className="site-title text-light drop-shadow mr-3">
                             Resume
@@ -98,7 +98,7 @@ export class resume extends Component {
                             <Accordion.Collapse eventKey="1">
                             <Card.Body className="pl-0 pt-1 pb-5">
                                 <span className="font-weight-bold h2">―</span>
-                                <span className="d-table">Founder, UI/UX/Graphic designer, developer, and writer creating custom websites, graphic designs, and copywriting; Project art direction and branding; SEO; Project management; Client support/services.</span>
+                                <span className="d-table">Founder, UI/UX/Graphic designer, front-end developer, and writer creating custom websites, graphic designs, and copywriting; Project art direction and branding; SEO; Project management; Client support/services; Hosting/server support and tutorials.</span>
                             </Card.Body>
                             </Accordion.Collapse>
                         </Card>
