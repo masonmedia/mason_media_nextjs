@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import * as Constants from '../components/Constants';
-import CircleComponent from '../components/CircleComponent';
+// import CircleComponent from '../components/CircleComponent';
 
 export class writing extends Component {
     componentDidMount() {
@@ -15,20 +15,13 @@ export class writing extends Component {
             <Layout
             metaTitle="Copywriting"
             metaD="I have broad experience with short and long form writing on a range of topics, SEO, and optimizing user experience."
-            bg="success"
+            bg="dark"
             variant="dark"
             id="writing"
             >
-                <Row className="bg-writing">
-                    <Col className="align-center min-100 p-5">
-                        {/* <CircleComponent
-                        circle1="bg-turq right"
-                        circle2="bg-turq" 
-                        circle3="bg-yellow" 
-                        circle4="bg-pink" 
-                        circle5="bg-pink" 
-                        circle6="bg-pink" 
-                        /> */}
+                <Row className="bg-black">
+                    <Col className="bg-texture-6-og align-center min-100 p-5"
+                    style={{backgroundSize: '900%', backgroundPosition: '50% 60%'}}>
                         <motion.div variants={Constants.imageVariants}>
                         <h1 className="site-title text-light drop-shadow">
                             Writing
@@ -44,7 +37,8 @@ export class writing extends Component {
                 </Row>
 
                 <Row className="bg-smoke">
-                    <Col xl={12} className="align-left min-100 p-5">
+                    <Col xl={12} className="bg-texture-6-og align-left min-100 p-5"
+                    style={{backgroundSize: '3000%', backgroundPosition: '100% 10%'}}>
                     <motion.div variants={Constants.textVariants}>
                         <h6 className="text-uppercase rainbow-text-2 mt-5 pt-2">Overview</h6>
                         <h1 className="page_title relative rainbow-text-2 pb-3 mb-0">I write and edit copy for a wide variety of contexts. I strive for fast moving, easy-to-read content with humour and originality, while specializing in UX, SEO, and editing for web presentation.
@@ -54,8 +48,10 @@ export class writing extends Component {
                     </Col>
                 </Row>
                 
-                <Row>
-                    <Col xl={12} className="bg-black text-light align-left min-100 p-5">
+                <Row className="bg-black">
+                    <Col xl={12} className="bg-texture-6-og text-light align-left min-100 p-5"
+                    style={{backgroundSize: '50%', backgroundPosition: '100% 0%', backgroundRepeat: 'repeat-y'}}
+                        >
                         <h6 className="text-uppercase">Copywriting</h6>
                         <h1 className="page_title font-weight-bold ">I have broad experience with short and long form writing on a range of topics from music, to fashion, fitness, food/cooking, lifestyle, design, real estate, and business.</h1>
                         <div className="page_title font-weight-light">↓</div>
@@ -70,8 +66,9 @@ export class writing extends Component {
                     </Col>
                 </Row>
 
-                <Row>
-                    <Col xl={12} className="bg-turq text-light align-left min-100 p-5">
+                <Row className="bg-black">
+                    <Col xl={12} className="bg-texture-6-og text-light align-left min-100 p-5"
+                    style={{backgroundSize: '40%', backgroundPosition: '0% 100%', backgroundRepeat: 'repeat-y'}}>
                         <h6 className="text-uppercase">Editing</h6>
                         <h1 className="page_title font-weight-bold">From grammar and spelling corrections, to improved style, UX, and SEO, I specialize in editing, parsing, and revitalizing existing written content for web presentation.</h1>
                         <div className="page_title font-weight-light">↓</div>

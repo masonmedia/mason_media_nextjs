@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProjectItem from '../components/ProjectItem';
-import CircleComponent from '../components/CircleComponent';
+// import CircleComponent from '../components/CircleComponent';
 import LinkComponent from '../components/LinkComponent';
 import ExtLinkComponent from '../components/ExtLinkComponent';
 import * as Constants from '../components/Constants';
@@ -31,13 +31,15 @@ export class projects extends Component {
           <Layout
           metaTitle="Projects"
           metaD="I've designed & built web projects for clients including software companies, the health services industry, musicians, artists, real estate agents, & designers."
-          bg="turq"
+          bg="black"
           variant="dark"
           id="projects"
           containerClass="bg-smoke pb-4"
           >
-            <Row className="bg-projects">
-              <Col className="align-center min-100 p-5">
+            <Row className="bg-black">
+              <Col className="bg-texture-6-og align-center min-100 p-5"
+              style={{backgroundSize: '300%', backgroundPosition: '100% 10%'}}>
+                
                 {/* <CircleComponent
                   circle1="bg-lime right"
                   circle2="bg-primary" 

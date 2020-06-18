@@ -10,7 +10,7 @@ import Fade from 'react-reveal/Fade';
 export class Text extends Component {
     render() {
         return (
-            <Row>
+            <Row className={this.props.rowClass}>
                 <Col xl={12} className={`${this.props.textSectionClass} min-100 p-5`}>
                   <Slide bottom cascade>
                   <div 

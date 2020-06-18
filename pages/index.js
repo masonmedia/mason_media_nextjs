@@ -19,9 +19,9 @@ export class Home extends Component {
         bg="black"
         variant="dark"
         id="home"
-        containerClass="bg-gradient-red"
+        containerClass="bg-black"
         >
-          <Row className="bg-home">
+          <Row className="bg-texture-6">
               <Col className="align-center min-100 p-5">
                 {/* <CircleComponent
                 circle1="bg-lime right"
@@ -48,30 +48,32 @@ export class Home extends Component {
             </Row>
 
             <Text
+            rowClass="bg-black"
             textSectionClass="align-left"
-            circle1Class="bg-turq left"
-            circle2Class="bg-pink left"
-            circle3Class="bg-lime"
+            circle1Class="bg-texture-6 left"
+            circle2Class="bg-pink left d-none"
+            circle3Class="bg-lime right d-none"
             microTitle="About Me"
             title="I specialize in visual design, building websites, and UX copywriting. I help build successful brands and create engaging digital experiences."
             href="/about"
             />
 
             <Text
-            textSectionClass="align-right"
-            circle1Class="bg-primary right"
-            circle2Class="bg-red right"
-            circle3Class="bg-success right"
+            rowClass="bg-black"
+            textSectionClass="align-right bg-texture-6b"
+            circle1Class="bg-texture-6 right d-none"
+            circle2Class="bg-texture-6 right d-none"
+            circle3Class="bg-texture-6 right d-none"
             microTitle="Projects"
             title="I design UIs & imagery, build websites with HTML5, CSS3/SASS, PHP, Javascript, Bootstrap & Wordpress, and create single page applications with React, Next.js, and Angular."
             href="/projects"
             />
             
             <Text
-            textSectionClass="align-left"
-            circle1Class="bg-turq left"
-            circle2Class="bg-yellow left"
-            circle3Class="bg-pink left"
+            textSectionClass="align-left bg-black"
+            circle1Class="bg-texture-6c left"
+            circle2Class="bg-yellow left d-none"
+            circle3Class="bg-pink left d-none"
             microTitle="Copywriting"
             title="I create content for a wide variety of contexts from websites to articles, reviews, blog posts, email marketing, and social media. I specialize in UX, SEO, and editing."
             href="/writing"

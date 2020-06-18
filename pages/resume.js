@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import * as Constants from '../components/Constants';
-import CircleComponent from '../components/CircleComponent';
+// import CircleComponent from '../components/CircleComponent';
 import Button from 'react-bootstrap/Button';
 
 export class resume extends Component {
@@ -21,8 +21,9 @@ export class resume extends Component {
             bg="black"
             variant="dark"
             >
-                <Row className="bg-resume">
-                    <Col className="align-center min-100 p-5">
+                <Row className="bg-black">
+                    <Col className="bg-texture-6-og align-center min-100 p-5"
+                    style={{backgroundSize: '60%', backgroundPosition: '50% 50%'}}>
                         {/* <CircleComponent
                         circle1="bg-lime right"
                         circle2="bg-turq" 
@@ -56,8 +57,9 @@ export class resume extends Component {
                     </Col>
                 </Row>
                 
-                <Row>
-                    <Col xl={12} className="bg-black text-light align-left min-100 p-5">
+                <Row className="bg-black">
+                    <Col xl={12} className="bg-texture-6-og text-light align-left min-100 p-5"
+                    style={{backgroundSize: '5000%', backgroundPosition: '50% 100%'}}>
                         <h6 className="text-uppercase">Education</h6>
                         <h1 className="page_title font-weight-bold ">MA, ENVIRONMENTAL STUDIES</h1>
                         <p className="">York University | 2005 - 2007</p>
@@ -122,8 +124,9 @@ export class resume extends Component {
                     </Col>
                 </Row>
 
-                <Row>
-                    <Col xl={12} className="bg-black text-light align-left min-100 p-5">
+                <Row className="bg-black">
+                    <Col xl={12} className="bg-texture-6-og text-light align-left min-100 p-5"
+                    style={{backgroundSize: '5000%', backgroundPosition: '50% 0%'}}>
                         <h6 className="text-uppercase">Professional Skills</h6>
                         <h1 className="page_title font-weight-bold">HTML5, CSS3, SASS, Bootstrap 4, Semantic UI, Atomic CSS, Javascript, jQuery, React, Next.js, Angular, Node, npm, Parcel bundler, Webflow, Wordpress, VS Code, Brackets, Github, Bitbucket.</h1>
                         <div className="page_title font-weight-light">↓</div>
@@ -138,8 +141,9 @@ export class resume extends Component {
                     </Col>
                 </Row>
                 
-                <Row>
-                    <Col xl={12} className="bg-black text-light align-left min-100 p-5">
+                <Row className="bg-black">
+                    <Col xl={12} className="bg-texture-6-og text-light align-left min-100 p-5"
+                    style={{backgroundSize: '1000%', backgroundPosition: '50% 0%'}}>
                         <h6 className="text-uppercase">Design</h6>
                         <h1 className="page_title font-weight-bold">Photoshop, Canva, Crello, Lunapic, Wireframe.cc, HTML email design & coding, Sendgrid, Mailchimp.</h1>
                         <div className="page_title font-weight-light">↓</div>
