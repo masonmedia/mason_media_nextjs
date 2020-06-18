@@ -38,14 +38,14 @@ export class Footer extends Component {
                             <h3>Work.</h3>
                             <div className="h3 m-0">―</div>
                             <ul className="list-unstyled blockquote">
-                                <Link href="/projects/warrenyen" scroll={false}>
+                                <Link href="/projects/wy" scroll={false}>
                                     <a><li>Warren Yen</li></a>
                                 </Link>
                                 <Link href="/projects/jaxx" scroll={false}>
                                     <a><li>Jaxx Liberty</li></a>
                                 </Link>
-                                <Link href="/projects/at" scroll={false}>
-                                    <a><li>Advance Therapy</li></a>
+                                <Link href="/projects/nw" scroll={false}>
+                                    <a><li>Neil Whitford</li></a>
                                 </Link>
                                 <Link href="/projects/bhs" scroll={false}>
                                     <a><li>Big Horn Sheep</li></a>
