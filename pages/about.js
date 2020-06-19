@@ -49,7 +49,7 @@ export class about extends Component {
                 </Row>
 
                 <Row className="bg-black">
-                    <Col xl={12} className="align-left min-100 p-5 rainbow-text-3">
+                    <Col xl={12} className="align-left min-100 p-5 rainbow-text-2">
                         <h6 className="text-uppercase mt-5 pt-2">About me</h6>
                         <h1 className="page_title pb-3 mb-0">
                         Hi, I'm Andrew. I'm a passionate, multidisciplinary designer, developer, and writer. I specialize in visual design, building websites, and UX copywriting. I help build successful brands and create engaging digital experiences.
@@ -68,7 +68,7 @@ export class about extends Component {
                 </Row>
 
                 <Row className="bg-black">
-                    <Col xl={12} className="align-left min-100 rainbow-text-3 p-5">
+                    <Col xl={12} className="align-left min-100 rainbow-text-2 p-5">
                         <h6 className="text-uppercase">Frameworks + Animation</h6>
                         <h1 className="page_title font-weight-bold ">I also create single page applications with React, Next.js, and Angular. I love web animation and use GSAP, AOS, Scroll Magic, Rellax.js, React-reveal, Framer, SWUP and more to create elegant user experiences.</h1>
                         <div className="page_title font-weight-light">↓</div>
@@ -85,7 +85,7 @@ export class about extends Component {
                 </Row>
 
                 <Row className="bg-black">
-                    <Col xl={12} className="rainbow-text-3 text-light align-left min-100 p-5">
+                    <Col xl={12} className="rainbow-text-2 text-light align-left min-100 p-5">
                         <h6 className="text-uppercase">Copywriting + Editing</h6>
                         <h1 className="page_title font-weight-bold">I write and edit copy for a wide variety of contexts. I strive for fast moving, easy-to-read content with humour and originality, while specializing in UX, SEO, and editing for web presentation.</h1>
                         <div className="page_title font-weight-light">↓</div>
