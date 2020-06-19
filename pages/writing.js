@@ -15,7 +15,7 @@ export class writing extends Component {
             <Layout
             metaTitle="Copywriting"
             metaD="I have broad experience with short and long form writing on a range of topics, SEO, and optimizing user experience."
-            bg="dark"
+            bg="black"
             variant="dark"
             id="writing"
             >
@@ -52,9 +52,9 @@ export class writing extends Component {
                     <Col xl={12} className="bg-texture-6-og text-light align-left min-100 p-5"
                     style={{backgroundSize: '50%', backgroundPosition: '100% 0%', backgroundRepeat: 'repeat-y'}}
                         >
-                        <h6 className="text-uppercase">Copywriting</h6>
-                        <h1 className="page_title font-weight-bold ">I have broad experience with short and long form writing on a range of topics from music, to fashion, fitness, food/cooking, lifestyle, design, real estate, and business.</h1>
-                        <div className="page_title font-weight-light">↓</div>
+                        <h6 className="text-uppercase drop-shadow">Copywriting</h6>
+                        <h1 className="page_title font-weight-bold drop-shadow">I have broad experience with short and long form writing on a range of topics from music, to fashion, fitness, food/cooking, lifestyle, design, real estate, and business.</h1>
+                        <div className="page_title font-weight-light drop-shadow">↓</div>
                     </Col>
                 </Row>
 
@@ -69,9 +69,9 @@ export class writing extends Component {
                 <Row className="bg-black">
                     <Col xl={12} className="bg-texture-6-og text-light align-left min-100 p-5"
                     style={{backgroundSize: '40%', backgroundPosition: '0% 100%', backgroundRepeat: 'repeat-y'}}>
-                        <h6 className="text-uppercase">Editing</h6>
-                        <h1 className="page_title font-weight-bold">From grammar and spelling corrections, to improved style, UX, and SEO, I specialize in editing, parsing, and revitalizing existing written content for web presentation.</h1>
-                        <div className="page_title font-weight-light">↓</div>
+                        <h6 className="text-uppercase drop-shadow">Editing</h6>
+                        <h1 className="page_title font-weight-bold drop-shadow">From grammar and spelling corrections, to improved style, UX, and SEO, I specialize in editing, parsing, and revitalizing existing written content for web presentation.</h1>
+                        <div className="page_title font-weight-light drop-shadow">↓</div>
                     </Col>
                 </Row>
 

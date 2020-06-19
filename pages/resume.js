@@ -61,11 +61,11 @@ export class resume extends Component {
                     <Col xl={12} className="bg-texture-6-og text-light align-left min-100 p-5"
                     style={{backgroundSize: '5000%', backgroundPosition: '50% 100%'}}>
                         <h6 className="text-uppercase">Education</h6>
-                        <h1 className="page_title font-weight-bold ">MA, ENVIRONMENTAL STUDIES</h1>
+                        <h1 className="page_title font-weight-bold drop-shadow ">MA, ENVIRONMENTAL STUDIES</h1>
                         <p className="">York University | 2005 - 2007</p>
-                        <h1 className="page_title font-weight-bold ">BFA, MUSIC (HONS.)</h1>
+                        <h1 className="page_title font-weight-bold drop-shadow ">BFA, MUSIC (HONS.)</h1>
                         <p className="">York University | 2002 - 2004</p>
-                        <h1 className="page_title font-weight-bold ">DIPLOMA JAZZ STUDIES, (DEAN'S LIST)</h1>
+                        <h1 className="page_title font-weight-bold drop-shadow">DIPLOMA JAZZ STUDIES, (DEAN'S LIST)</h1>
                         <p className="">St. Francis Xavier University | 1996 - 1999</p>
                     </Col>
                 </Row>
@@ -127,9 +127,9 @@ export class resume extends Component {
                 <Row className="bg-black">
                     <Col xl={12} className="bg-texture-6-og text-light align-left min-100 p-5"
                     style={{backgroundSize: '5000%', backgroundPosition: '50% 0%'}}>
-                        <h6 className="text-uppercase">Professional Skills</h6>
-                        <h1 className="page_title font-weight-bold">HTML5, CSS3, SASS, Bootstrap 4, Semantic UI, Atomic CSS, Javascript, jQuery, React, Next.js, Angular, Node, npm, Parcel bundler, Webflow, Wordpress, VS Code, Brackets, Github, Bitbucket.</h1>
-                        <div className="page_title font-weight-light">↓</div>
+                        <h6 className="text-uppercase drop-shadow">Professional Skills</h6>
+                        <h1 className="page_title font-weight-bold drop-shadow">HTML5, CSS3, SASS, Bootstrap 4, Semantic UI, Atomic CSS, Javascript, jQuery, React, Next.js, Angular, Node, npm, Parcel bundler, Webflow, Wordpress, VS Code, Brackets, Github, Bitbucket.</h1>
+                        <div className="page_title font-weight-light drop-shadow">↓</div>
                     </Col>
                 </Row>
 
@@ -144,9 +144,9 @@ export class resume extends Component {
                 <Row className="bg-black">
                     <Col xl={12} className="bg-texture-6-og text-light align-left min-100 p-5"
                     style={{backgroundSize: '1000%', backgroundPosition: '50% 0%'}}>
-                        <h6 className="text-uppercase">Design</h6>
-                        <h1 className="page_title font-weight-bold">Photoshop, Canva, Crello, Lunapic, Wireframe.cc, HTML email design & coding, Sendgrid, Mailchimp.</h1>
-                        <div className="page_title font-weight-light">↓</div>
+                        <h6 className="text-uppercase drop-shadow">Design</h6>
+                        <h1 className="page_title font-weight-bold drop-shadow text-shadow">Photoshop, Canva, Crello, Lunapic, Wireframe.cc, HTML email design & coding, Sendgrid, Mailchimp.</h1>
+                        <div className="page_title font-weight-light drop-shadow">↓</div>
                     </Col>
                 </Row>
 

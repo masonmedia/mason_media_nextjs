@@ -11,7 +11,8 @@ export class Text extends Component {
     render() {
         return (
             <Row className={this.props.rowClass}>
-                <Col xl={12} className={`${this.props.textSectionClass} min-100 p-5`}>
+                <Col xl={12} className={`${this.props.textSectionClass} min-100 p-5`}
+                style={this.props.style}>
                   <Slide bottom cascade>
                   <div 
                   className={`${this.props.circle1Class} absolute z-0 circle shadow`}
@@ -24,10 +25,10 @@ export class Text extends Component {
                   style={{width: '200px', height: '200px'}}></div>
                   </Slide>
                   <Fade>
-                    <h5 className="relative text-shadow text-uppercase text-light">
+                    <h5 className="relative drop-shadow text-shadow text-uppercase text-light">
                         {this.props.microTitle}
                     </h5>
-                    <h1 className="page_title relative text-light pb-3 mb-0 drop-shadow">
+                    <h1 className="page_title relative text-light pb-3 mb-0 drop-shadow text-shadow">
                       {this.props.title}   
                     </h1>
                     <Link href={this.props.href} scroll={false}>

@@ -49,8 +49,9 @@ export class Home extends Component {
 
             <Text
             rowClass="bg-black"
-            textSectionClass="align-left"
-            circle1Class="bg-texture-6 left"
+            textSectionClass="align-left bg-texture-6-og"
+            style={{backgroundSize: '6000%', backgroundPosition: '50% 10%'}}
+            circle1Class="bg-texture-6 right d-none"
             circle2Class="bg-pink left d-none"
             circle3Class="bg-lime right d-none"
             microTitle="About Me"
@@ -70,8 +71,9 @@ export class Home extends Component {
             />
             
             <Text
-            textSectionClass="align-left bg-black"
-            circle1Class="bg-texture-6c left"
+            textSectionClass="bg-texture-6-og align-left bg-black"
+            style={{backgroundSize: '30%', backgroundPosition: '100% 0%', backgroundRepeat: 'repeat-y'}}
+            circle1Class="bg-texture-6c right d-none"
             circle2Class="bg-yellow left d-none"
             circle3Class="bg-pink left d-none"
             microTitle="Copywriting"
