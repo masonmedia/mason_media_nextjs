@@ -48,7 +48,7 @@ export class Home extends Component {
             </Row>
 
             <Text
-            rowClass="bg-black"
+            rowClass="bg-black relative"
             textSectionClass="align-left bg-texture-6-og"
             style={{backgroundSize: '6000%', backgroundPosition: '50% 10%'}}
             circle1Class="bg-texture-6 right d-none"
