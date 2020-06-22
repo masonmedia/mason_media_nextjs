@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <link rel="shortcut icon" type="image/x-icon" href="/public/favicon.png" />
+          {/* <link rel="shortcut icon" type="image/x-icon" href="/public/favicon.png" /> */}
           {/* <!-- facebook --> */}
         <meta property="fb:app_id" content="" />
         <meta property="og:url" content="https://andrewmasonmedia.com" />
