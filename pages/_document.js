@@ -33,6 +33,15 @@ export default class MyDocument extends Document {
         <meta name="twitter:image" content="https://andrewmasonmedia.now.sh/public/images/mm_home_ss.png" />
         <meta name="twitter:image:alt" content="A screenshot of the homepage of andrewmasonmedia.com showing the website title (Mason: Web design, graphic design, copywriting), and an abstract background image of colored lines over a black background." />
         <meta name="twitter:dnt" content="on" />
+        {/* statcounter*/}
+        <script type="text/javascript">
+        var sc_project=11730072; 
+        var sc_invisible=1; 
+        var sc_security="26b82af7"; 
+        </script>
+        <script type="text/javascript"
+        src="https://www.statcounter.com/counter/counter.js"
+        async></script>
         </Head>
         <body>
           <Main />
