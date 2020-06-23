@@ -13,7 +13,7 @@ export class ProjectLinks extends Component {
             style={{backgroundSize: '3000%', backgroundPosition: '50% 50%'}}>
                 <Col xl={12} className="text-center min-50 p-5 my-5">
                     {/* project links */}
-                    <h6 className="text-uppercase text-light">
+                    <h6 className="text-uppercase">
                         {this.props.projectTitle}
                     </h6>
                     <a className={this.props.githubClass} href={this.props.githubUrl} target="_blank">
@@ -30,12 +30,12 @@ export class ProjectLinks extends Component {
                         <Link href={this.props.prevHref} scroll={false}>
                             <a><Button 
                             className={`${this.props.prevClass} mr-2`}
-                            variant="outline-light">Previous</Button></a>
+                            variant="outline-dark">Previous</Button></a>
                         </Link>
                         <Link href={this.props.nextHref} scroll={false}>
                             <a><Button
                             className="mr-2" 
-                            variant="light">Next</Button></a>
+                            variant="dark">Next</Button></a>
                         </Link>
                     </div>
                 </Col>
