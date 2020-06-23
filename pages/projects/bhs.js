@@ -15,6 +15,7 @@ export class bhs extends Component {
         return (
             <ProjectDetail 
             metaTitle="Big Horn Sheep"
+            metaD="Big Horn Sheep is an original Toronto electro-funk band that blends elements of jazz, EDM, improvisation and pop-rock."
             metaD="Website coding, graphic/UI design, SEO and user engagement for Jaxx Liberty, a cryptocurrency app made by Decentral Inc."
             projectNumber="BHS"
             projectLetter="BHS"

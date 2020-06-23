@@ -3,7 +3,6 @@ import Layout from '../components/Layout';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import CircleComponent from '../components/CircleComponent';
-import { motion } from 'framer-motion';
 import * as Constants from '../components/Constants';
 import Text from '../components/Text';
 
@@ -31,19 +30,14 @@ export class Home extends Component {
                 circle5="bg-red" 
                 circle6="bg-pink" 
                 /> */}
-                <motion.div 
-                variants={Constants.imageVariants}>
                   <h1 className="site-title mt-0 pt-0 text-light drop-shadow m-0"
                   >
                   mason
                   </h1>
-                  </motion.div>
-                  <motion.div variants={Constants.backVariants}>
-                    <h3 
-                    className="site-subtitle relative text-light font-weight-bold text-lowercase">
-                    web design. graphic design. copywriting.
-                    </h3>
-                  </motion.div>  
+                  <h3 
+                  className="site-subtitle relative text-light font-weight-bold text-lowercase">
+                  web design. graphic design. copywriting.
+                  </h3>
               </Col>
             </Row>
 

@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import Layout from '../components/Layout';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import * as Constants from '../components/Constants';
 import Button from 'react-bootstrap/Button';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 export class about extends Component {
     componentDidMount() {
@@ -34,17 +35,18 @@ export class about extends Component {
                         circle5="bg-pink" 
                         circle6="bg-pink" 
                         /> */}
-                        <motion.div variants={Constants.imageVariants}>
+                        
+                        {/* <Zoom> */}
                             <h1 className="site-title text-light drop-shadow">
                                 about
                             </h1>
-                        </motion.div>
-                        <motion.div variants={Constants.backVariants}>
+                        {/* </Zoom> */}
+                        {/* <Fade> */}
                             <h3 
                             className="site-subtitle relative text-light font-weight-bold text-lowercase">
                             What I do.
                             </h3>
-                        </motion.div>
+                            {/* </Fade> */}
                     </Col>
                 </Row>
 

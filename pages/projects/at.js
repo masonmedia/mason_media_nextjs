@@ -13,6 +13,7 @@ export class at extends Component {
         return (
             <ProjectDetail 
             metaTitle="Advance Therapy"
+            metaD="Advance Therapy is a Guelph Health Services company providing rehabilitation services for people with an acquired brain injury."
             projectNumber="AT"
             projectLetter="AT"
             projectTitle="Advance Therapy"

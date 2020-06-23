@@ -10,8 +10,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          {/* <link rel="shortcut icon" type="image/x-icon" href="/public/favicon.png" /> */}
-          {/* <!-- facebook --> */}
+        {/* <!-- facebook --> */}
         <meta property="fb:app_id" content="" />
         <meta property="og:url" content="https://andrewmasonmedia.com" />
         <meta property="og:type" content="website" />
@@ -34,7 +33,7 @@ export default class MyDocument extends Document {
         <meta name="twitter:image:alt" content="A screenshot of the homepage of andrewmasonmedia.com showing the website title (Mason: Web design, graphic design, copywriting), and an abstract background image of colored lines over a black background." />
         <meta name="twitter:dnt" content="on" />
         </Head>
-        <body>
+        <body className="bg-black">
           <Main />
           <NextScript />
         </body>

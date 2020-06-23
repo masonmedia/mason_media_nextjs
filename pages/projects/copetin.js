@@ -16,6 +16,7 @@ export class copetin extends Component {
             <ProjectDetail 
             metaTitle="Copetín"
             metaD="Website coding, graphic/UI design."
+            metaD="Copetin was the high profile gourmet Toronto restaurant Toronto of renowned Canadian chef Claudio Aprile."
             projectNumber="CT"
             // numberClass="bg-navy text-light"
             projectLetter="CT"

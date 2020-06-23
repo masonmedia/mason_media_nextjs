@@ -15,6 +15,7 @@ export class nw extends Component {
         return (
             <ProjectDetail 
             metaTitle="Neil Whitford"
+            metaD="Neil Whitford is a Toronto guitarist, composer, producer and educator."
             projectNumber="NW"
             projectLetter="NW"
             projectTitle="Neil Whitford"

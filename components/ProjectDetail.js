@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
-import { motion } from 'framer-motion';
 import Menu from '../components/Menu';
+import Layout from '../components/Layout';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Footer from '../components/Footer';
-import Fade from 'react-reveal/Fade';
-import * as Constants from '../components/Constants';
 
 // this is the individual project detail page template
 
@@ -22,22 +20,15 @@ export class ProjectDetail extends Component {
       }
 render() {
     return (
-        <motion.div 
-            initial="initial"
-            animate="enter" 
-            exit="exit"
-            variants={Constants.aboutVariants}>
+        <>
             <Head>
-            <title>Mason Media | {this.props.metaTitle}</title>
+                <title>Mason Media | {this.props.metaTitle}</title>
                 <meta name="description" content={this.props.metaD} />
             </Head>
             <Menu bg="smoke" />
-            <Container id={this.props.projectID} fluid className="project_detail bg-smoke p-0">
+            <Container id={this.props.projectID} fluid className="project_detail bg-smoke p-0 fade-in-bottom">
                 <Row>
                     <Col xl={6} className="align-left min-100 p-5">
-                        {/* <h6 className={`${this.props.numberClass} project_number display-1 font-weight-bold mt-4 rounded-circle p-3 shadow`}>
-                            {this.props.projectNumber}
-                        </h6> */}
                         <h6 className={`${this.props.numberClass} project_number display-2 x-bold mt-4 mb-0`}>
                             {this.props.projectNumber}
                         </h6>
@@ -53,13 +44,11 @@ render() {
                         </p>
                     </Col>
 
-                    <Col xl={6} className={`${this.props.imgColClass1} p-0`}>
-                        <Fade>
-                            <img 
-                            className={this.props.imgClass1} 
-                            src={this.props.projectImg1} 
-                            />
-                        </Fade>
+                    <Col xl={6} className={`${this.props.imgColClass1} p-0 text-focus-in`}>
+                        <img 
+                        className={this.props.imgClass1} 
+                        src={this.props.projectImg1} 
+                        />
                     </Col>
 
                     <Col xl={6} className={`${this.props.imgColClass2} p-0`}>
@@ -108,7 +97,7 @@ render() {
                 {this.props.children}
             </Container>
             <Footer />
-        </motion.div>
+        </>
         );
     }
 }
