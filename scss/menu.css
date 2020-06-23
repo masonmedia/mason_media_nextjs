@@ -24,6 +24,21 @@ nav, .navbar {
   width: 130px;
 }
 
+.dropdown-menu.show.dropdown-menu-right {
+  border-radius: 0;
+}
+
+.dropdown-menu.show.dropdown-menu-right .dropdown-item {
+  color: #000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.dropdown-menu.show.dropdown-menu-right .dropdown-item:before {
+  content: '// ';
+}
+
 .icon-bar {
   width: 22px;
   height: 2px;

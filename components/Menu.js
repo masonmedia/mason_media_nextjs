@@ -35,18 +35,38 @@ export function Menu(props) {
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>About</a>
                     </Link>
 
-                    <NavDropdown alignRight title="Projects" id="collasible-nav-dropdown" className="text-dark">
-                        <NavDropdown.Item href="/projects">Projects Home</NavDropdown.Item>
-                        <NavDropdown.Item href="/projects/nw">Neil Whitford</NavDropdown.Item>
-                        <NavDropdown.Item href="/projects/wy">Warren Yen</NavDropdown.Item>
-                        <NavDropdown.Item href="/projects/jaxx">Jaxx Liberty</NavDropdown.Item>
-                        <NavDropdown.Item href="/projects/decentral">Decentral</NavDropdown.Item>
-                        <NavDropdown.Item href="/projects/at">Advance Therapy</NavDropdown.Item>
-                        <NavDropdown.Item href="/projects/n2">N2 Speech</NavDropdown.Item>
-                        <NavDropdown.Item href="/projects/bhs">BHS</NavDropdown.Item>
-                        <NavDropdown.Item href="/projects/sfs">SFS</NavDropdown.Item>
-                        <NavDropdown.Item href="/projects/copetin">Copetín</NavDropdown.Item>
-                    </NavDropdown>
+                    {/* <NavDropdown alignRight title="Projects" id="collasible-nav-dropdown">
+                        <Link href="/projects">
+                            <a className="dropdown-item pb-2 font-italic">Projects Home</a>
+                        </Link>
+                        <Link href="/projects/nw">
+                            <a className="dropdown-item py-2  font-italic">Neil Whitford</a>
+                        </Link>
+                        <Link href="/projects/wy">
+                            <a className="dropdown-item py-2  font-italic">Warren Yen</a>
+                        </Link>
+                        <Link href="/projects/jaxx">
+                            <a className="dropdown-item py-2  font-italic">Jaxx Liberty</a>
+                        </Link>
+                        <Link href="/projects/decentral">
+                            <a className="dropdown-item py-2  font-italic">Decentral</a>
+                        </Link>
+                        <Link href="/projects/at">
+                            <a className="dropdown-item py-2  font-italic">Advance Therapy</a>
+                        </Link>
+                        <Link href="/projects/n2">
+                            <a className="dropdown-item py-2  font-italic">N2</a>
+                        </Link>
+                        <Link href="/projects/bhs">
+                            <a className="dropdown-item py-2  font-italic">BHS</a>
+                        </Link>
+                        <Link href="/projects/sfs">
+                            <a className="dropdown-item py-2  font-italic">SFS</a>
+                        </Link>
+                        <Link href="/projects/copetin">
+                            <a className="dropdown-item py-2  font-italic">Copetín</a>
+                        </Link>
+                    </NavDropdown> */}
 
                     <Link href="/projects" scroll={false}>
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Projects</a>

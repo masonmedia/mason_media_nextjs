@@ -23,6 +23,7 @@ p {
     margin-bottom: 0;
     text-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
     text-transform: lowercase;
+    @extend .fade-in-bottom;
 }
 
 .site-subtitle {
@@ -30,6 +31,7 @@ p {
     line-height: 90%;
     word-break: keep-all;
     text-shadow: 0 0 7px #000;
+    @extend .text-focus-in;
 }
 
 .page_title {
