@@ -12,6 +12,9 @@
 }
 
 @media (max-width: 601px) {
+    .min-100 {
+        min-height: 700px;
+    }
     .min-700-lg {
         min-height: 600px;
     }
