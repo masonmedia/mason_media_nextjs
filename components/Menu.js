@@ -34,6 +34,20 @@ export function Menu(props) {
                     <Link href="/about" scroll={false}>
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>About</a>
                     </Link>
+
+                    <NavDropdown alignRight title="Projects" id="collasible-nav-dropdown" className="text-dark">
+                        <NavDropdown.Item href="/projects">Projects Home</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/nw">Neil Whitford</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/wy">Warren Yen</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/jaxx">Jaxx Liberty</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/decentral">Decentral</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/at">Advance Therapy</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/n2">N2 Speech</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/bhs">BHS</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/sfs">SFS</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects/copetin">Copetín</NavDropdown.Item>
+                    </NavDropdown>
+
                     <Link href="/projects" scroll={false}>
                         <a className="nav-link" onClick={() => setTimeout(() => {setExpanded(false)}, 30)}>Projects</a>
                     </Link>
