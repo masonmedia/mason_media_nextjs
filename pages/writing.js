@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { motion } from 'framer-motion';
 import Layout from '../components/Layout';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import * as Constants from '../components/Constants';
 // import CircleComponent from '../components/CircleComponent';
+import Parallax from 'react-rellax';
 
 export class writing extends Component {
     componentDidMount() {
@@ -22,29 +22,25 @@ export class writing extends Component {
                 <Row className="bg-black">
                     <Col className="bg-texture-6-og align-center min-100 p-5"
                     style={{backgroundSize: '900%', backgroundPosition: '50% 60%'}}>
-                        <motion.div variants={Constants.imageVariants}>
+                        <Parallax speed={-2}>
                         <h1 className="site-title text-light drop-shadow">
                             Writing
                         </h1>
-                        </motion.div>
-                        <motion.div variants={Constants.backVariants}>
-                            <h3 
-                            className="site-subtitle relative text-light font-weight-bold text-lowercase">
-                            Copy. Content. Editing.
-                            </h3>
-                        </motion.div>
+                        </Parallax>
+                        <h3 
+                        className="site-subtitle relative text-light font-weight-bold text-lowercase">
+                        Copy. Content. Editing.
+                        </h3>
                     </Col>
                 </Row>
 
                 <Row className="bg-smoke">
                     <Col xl={12} className="bg-texture-6-og align-left min-100 p-5"
                     style={{backgroundSize: '3000%', backgroundPosition: '100% 10%'}}>
-                    <motion.div variants={Constants.textVariants}>
                         <h6 className="text-uppercase rainbow-text-2 mt-5 pt-2">Overview</h6>
                         <h1 className="page_title relative rainbow-text-2 pb-3 mb-0">I write and edit copy for a wide variety of contexts. I strive for fast moving, easy-to-read content with humour and originality, while specializing in UX, SEO, and editing for web presentation.
                         </h1>
                         <div className="page_title rainbow-text-2 font-weight-light">↓</div>
-                        </motion.div>
                     </Col>
                 </Row>
                 

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-// import Circle from './Circle';
+import Circle from './Circle';
 import Slide from 'react-reveal/Slide';
 import Fade from 'react-reveal/Fade';
 
@@ -13,7 +13,8 @@ export class Text extends Component {
             <Row className={this.props.rowClass}>
                 <Col xl={12} className={`${this.props.textSectionClass} min-100 p-5`}
                 style={this.props.style}>
-                  <Slide bottom cascade>
+                  
+                  {/* <Slide bottom cascade>
                   <div 
                   className={`${this.props.circle1Class} absolute z-0 circle shadow`}
                   style={{width: '600px', height: '600px'}}></div>
@@ -23,8 +24,7 @@ export class Text extends Component {
                   <div 
                   className={`${this.props.circle3Class} absolute z-0 top circle shadow`}
                   style={{width: '200px', height: '200px'}}></div>
-                  </Slide>
-                  <Fade>
+                  </Slide> */}
                     <h5 className="relative drop-shadow text-shadow text-uppercase text-light">
                         {this.props.microTitle}
                     </h5>
@@ -39,7 +39,6 @@ export class Text extends Component {
                         </Button>
                       </a>
                     </Link>
-                  </Fade>
                 </Col>
             </Row>
         )

@@ -7,6 +7,7 @@ import * as Constants from '../components/Constants';
 import Button from 'react-bootstrap/Button';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
+import Parallax from 'react-rellax';
 
 export class about extends Component {
     componentDidMount() {
@@ -36,11 +37,11 @@ export class about extends Component {
                         circle6="bg-pink" 
                         /> */}
                         
-                        {/* <Zoom> */}
+                        <Parallax speed={-2}>
                             <h1 className="site-title text-light drop-shadow">
                                 about
                             </h1>
-                        {/* </Zoom> */}
+                        </Parallax>
                         {/* <Fade> */}
                             <h3 
                             className="site-subtitle relative text-light font-weight-bold text-lowercase">

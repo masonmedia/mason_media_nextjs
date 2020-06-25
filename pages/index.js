@@ -5,6 +5,8 @@ import Col from 'react-bootstrap/Col';
 import CircleComponent from '../components/CircleComponent';
 import * as Constants from '../components/Constants';
 import Text from '../components/Text';
+import Fade from "react-reveal/Fade";
+import Parallax from 'react-rellax';
 
 export class Home extends Component {
   componentDidMount() {
@@ -30,10 +32,10 @@ export class Home extends Component {
                 circle5="bg-red" 
                 circle6="bg-pink" 
                 /> */}
+                <Parallax speed={-2}>
                   <h1 className="site-title mt-0 pt-0 text-light drop-shadow m-0"
-                  >
-                  mason
-                  </h1>
+                  >mason</h1>
+                </Parallax>
                   <h3 
                   className="site-subtitle relative text-light font-weight-bold text-lowercase">
                   web design. graphic design. copywriting.
@@ -41,6 +43,7 @@ export class Home extends Component {
               </Col>
             </Row>
 
+            <Fade>
             <Text
             rowClass="bg-black relative"
             textSectionClass="align-left bg-texture-6-og"
@@ -52,7 +55,9 @@ export class Home extends Component {
             title="I specialize in visual design, building websites, and UX copywriting. I help build successful brands and create engaging digital experiences."
             href="/about"
             />
+            </Fade>
 
+            <Fade>
             <Text
             rowClass="bg-black"
             textSectionClass="align-right bg-texture-6b"
@@ -63,7 +68,9 @@ export class Home extends Component {
             title="I design UIs & imagery, build websites with HTML5, CSS3/SASS, PHP, Javascript, Bootstrap & Wordpress, and create single page applications with React, Next.js, and Angular."
             href="/projects"
             />
+            </Fade>
             
+            <Fade>
             <Text
             textSectionClass="bg-texture-6-og align-left bg-black"
             style={{backgroundSize: '30%', backgroundPosition: '100% 0%', backgroundRepeat: 'repeat-y'}}
@@ -74,6 +81,7 @@ export class Home extends Component {
             title="I create content for a wide variety of contexts from websites to articles, reviews, blog posts, email marketing, and social media. I specialize in UX, SEO, and editing."
             href="/writing"
             />
+            </Fade>
         </Layout>
   );
 }

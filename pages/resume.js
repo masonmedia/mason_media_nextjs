@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { motion } from 'framer-motion';
 import Layout from '../components/Layout';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -8,6 +7,7 @@ import Card from 'react-bootstrap/Card';
 import * as Constants from '../components/Constants';
 // import CircleComponent from '../components/CircleComponent';
 import Button from 'react-bootstrap/Button';
+import Parallax from 'react-rellax';
 
 export class resume extends Component {
     componentDidMount() {
@@ -32,28 +32,24 @@ export class resume extends Component {
                         circle5="bg-pink" 
                         circle6="bg-pink" 
                         /> */}
-                        <motion.div variants={Constants.imageVariants}>
+                        <Parallax speed={-2}>
                         <h1 className="site-title text-light drop-shadow mr-3">
                             Resume
                         </h1>
-                        </motion.div>
-                        <motion.div variants={Constants.backVariants}>
-                            <h3 
-                            className="site-subtitle relative text-light font-weight-bold text-lowercase">
-                            Background.
-                            </h3>
-                        </motion.div>
+                        </Parallax>
+                        <h3 
+                        className="site-subtitle relative text-light font-weight-bold text-lowercase">
+                        Background.
+                        </h3>
                     </Col>
                 </Row>
 
                 <Row className="bg-smoke">
                     <Col xl={12} className="align-left min-100 p-5">
-                    <motion.div variants={Constants.textVariants}>
                         <h6 className="text-uppercase mt-5 pt-2">Profile</h6>
                         <h1 className="page_title relative pb-3 mb-0">Creative, experienced, hard working front-end developer, web/graphic designer and copywriter. I design & build modern scalable websites, create custom imagery, and write & edit multi-purpose copy for a wide variety of contexts.
                         </h1>
                         <div className="page_title font-weight-light">↓</div>
-                        </motion.div>
                     </Col>
                 </Row>
                 

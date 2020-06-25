@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import { motion } from 'framer-motion';
 import Layout from '../components/Layout';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProjectItem from '../components/ProjectItem';
-// import CircleComponent from '../components/CircleComponent';
 import LinkComponent from '../components/LinkComponent';
 import ExtLinkComponent from '../components/ExtLinkComponent';
-import * as Constants from '../components/Constants';
+import Parallax from 'react-rellax';
 import wy_thumb from '../public/images/wy/wy_macbookgold.png';
 import at_thumb from '../public/images/at/at_laptop.png';
 import nw_thumb from '../public/images/nw/nw_macbook.png';
@@ -48,17 +46,15 @@ export class projects extends Component {
                   circle5="bg-red" 
                   circle6="bg-pink" 
                   /> */}
-                <motion.div variants={Constants.imageVariants}>
+                <Parallax speed={-2}>
                   <h1 className="site-title text-light drop-shadow">
                     projects
                   </h1>
-                </motion.div>
-                <motion.div variants={Constants.backVariants}>
+                </Parallax>
                   <h3 
                   className="site-subtitle relative text-light font-weight-bold text-lowercase">
                   Check out some of my work below.
                   </h3>
-                </motion.div>
               </Col>
             </Row>
 
