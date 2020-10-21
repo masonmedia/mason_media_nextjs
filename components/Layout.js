@@ -20,7 +20,8 @@ export class Layout extends Component {
                 />
                 <Container 
                 id={this.props.id}
-                className={`${this.props.containerClass} fade-in-bottom`}
+                className={`${this.props.containerClass}`}
+                // fade-in-bottom
                 fluid>
                     {this.props.children}
                 </Container>
