@@ -21,18 +21,15 @@ class MyApp extends App {
         <motion.div
         key={router.route}
         initial={{ 
-          x: 300, 
           opacity: 0, 
           transition: {
             duration: .1
           }
            }}
         animate={{ 
-          x: 0, 
           opacity: 1, 
           transition: {duration: 1, ease: "easeInOut", type: "spring", stiffness: 100} }}
         exit={{ 
-          x: -300, 
           opacity: 0, 
           transition: {duration: .2, ease: "easeInOut", type: "spring", stiffness: 100} }}
         // variants={{
