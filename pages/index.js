@@ -24,18 +24,8 @@ export class Home extends Component {
         >
           <Row className="bg-texture-6">
               <Col className="align-center min-100 p-5">
-                {/* <CircleComponent
-                circle1="bg-lime right"
-                circle2="bg-primary" 
-                circle3="bg-yellow" 
-                circle4="bg-turq" 
-                circle5="bg-red" 
-                circle6="bg-pink" 
-                /> */}
-                <Parallax speed={-2}>
                   <h1 className="site-title mt-0 pt-0 text-light drop-shadow m-0"
                   >mason</h1>
-                </Parallax>
                   <h3 
                   className="site-subtitle relative text-light font-weight-bold text-lowercase">
                   web design. graphic design. copywriting.

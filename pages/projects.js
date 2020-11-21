@@ -37,20 +37,9 @@ export class projects extends Component {
             <Row className="bg-black">
               <Col className="bg-texture-6-og align-center min-100 p-5"
               style={{backgroundSize: '300%', backgroundPosition: '100% 10%'}}>
-                
-                {/* <CircleComponent
-                  circle1="bg-lime right"
-                  circle2="bg-primary" 
-                  circle3="bg-yellow" 
-                  circle4="bg-pink" 
-                  circle5="bg-red" 
-                  circle6="bg-pink" 
-                  /> */}
-                <Parallax speed={-2}>
                   <h1 className="site-title text-light drop-shadow">
                     projects
                   </h1>
-                </Parallax>
                   <h3 
                   className="site-subtitle relative text-light font-weight-bold text-lowercase">
                   Check out some of my work below.

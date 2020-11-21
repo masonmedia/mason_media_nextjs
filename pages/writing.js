@@ -22,11 +22,9 @@ export class writing extends Component {
                 <Row className="bg-black">
                     <Col className="bg-texture-6-og align-center min-100 p-5"
                     style={{backgroundSize: '900%', backgroundPosition: '50% 60%'}}>
-                        <Parallax speed={-2}>
                         <h1 className="site-title text-light drop-shadow">
                             Writing
                         </h1>
-                        </Parallax>
                         <h3 
                         className="site-subtitle relative text-light font-weight-bold text-lowercase">
                         Copy. Content. Editing.

@@ -24,19 +24,9 @@ export class resume extends Component {
                 <Row className="bg-black">
                     <Col className="bg-texture-6-og align-center min-100 p-5"
                     style={{backgroundSize: '60%', backgroundPosition: '50% 50%'}}>
-                        {/* <CircleComponent
-                        circle1="bg-lime right"
-                        circle2="bg-turq" 
-                        circle3="bg-yellow" 
-                        circle4="bg-red" 
-                        circle5="bg-pink" 
-                        circle6="bg-pink" 
-                        /> */}
-                        <Parallax speed={-2}>
                         <h1 className="site-title text-light drop-shadow mr-3">
                             Resume
                         </h1>
-                        </Parallax>
                         <h3 
                         className="site-subtitle relative text-light font-weight-bold text-lowercase">
                         Background.

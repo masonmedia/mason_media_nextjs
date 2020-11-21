@@ -28,26 +28,13 @@ export class about extends Component {
             >
                 <Row className="bg-black">
                     <Col className="align-center min-100 p-5 bg-texture-6c">
-                        {/* <CircleComponent
-                        circle1="bg-turq right"
-                        circle2="bg-turq" 
-                        circle3="bg-yellow" 
-                        circle4="bg-pink" 
-                        circle5="bg-pink" 
-                        circle6="bg-pink" 
-                        /> */}
-                        
-                        <Parallax speed={-2}>
-                            <h1 className="site-title text-light drop-shadow">
-                                about
-                            </h1>
-                        </Parallax>
-                        {/* <Fade> */}
-                            <h3 
-                            className="site-subtitle relative text-light font-weight-bold text-lowercase">
-                            What I do.
-                            </h3>
-                            {/* </Fade> */}
+                        <h1 className="site-title text-light drop-shadow">
+                            about
+                        </h1>
+                        <h3 
+                        className="site-subtitle relative text-light font-weight-bold text-lowercase">
+                        What I do.
+                        </h3>
                     </Col>
                 </Row>
 
